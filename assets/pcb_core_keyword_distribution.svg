@@ -3,59 +3,59 @@
 <text x="500.0" y="38" text-anchor="middle" fill="#f0f6fc" font-family="sans-serif" font-size="22">pcb-core: keyword document frequency</text>
 <text x="228" y="90" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">routing</text>
 <rect x="240" y="75" width="710.0" height="20" rx="3" fill="#58a6ff"/>
-<text x="958.0" y="90" fill="#f0f6fc" font-family="sans-serif" font-size="14">65</text>
-<text x="228" y="124" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">optimization</text>
-<rect x="240" y="109" width="382.3" height="20" rx="3" fill="#58a6ff"/>
-<text x="630.3" y="124" fill="#f0f6fc" font-family="sans-serif" font-size="14">35</text>
-<text x="228" y="158" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">placement</text>
-<rect x="240" y="143" width="371.4" height="20" rx="3" fill="#58a6ff"/>
-<text x="619.4" y="158" fill="#f0f6fc" font-family="sans-serif" font-size="14">34</text>
+<text x="958.0" y="90" fill="#f0f6fc" font-family="sans-serif" font-size="14">66</text>
+<text x="228" y="124" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">placement</text>
+<rect x="240" y="109" width="387.3" height="20" rx="3" fill="#58a6ff"/>
+<text x="635.3" y="124" fill="#f0f6fc" font-family="sans-serif" font-size="14">36</text>
+<text x="228" y="158" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">optimization</text>
+<rect x="240" y="143" width="376.5" height="20" rx="3" fill="#58a6ff"/>
+<text x="624.5" y="158" fill="#f0f6fc" font-family="sans-serif" font-size="14">35</text>
 <text x="228" y="192" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">testing-inspection</text>
-<rect x="240" y="177" width="327.7" height="20" rx="3" fill="#58a6ff"/>
-<text x="575.7" y="192" fill="#f0f6fc" font-family="sans-serif" font-size="14">30</text>
-<text x="228" y="226" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">reliability</text>
-<rect x="240" y="211" width="273.1" height="20" rx="3" fill="#58a6ff"/>
-<text x="521.1" y="226" fill="#f0f6fc" font-family="sans-serif" font-size="14">25</text>
-<text x="228" y="260" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">manufacturing</text>
-<rect x="240" y="245" width="262.2" height="20" rx="3" fill="#58a6ff"/>
-<text x="510.2" y="260" fill="#f0f6fc" font-family="sans-serif" font-size="14">24</text>
+<rect x="240" y="177" width="344.2" height="20" rx="3" fill="#58a6ff"/>
+<text x="592.2" y="192" fill="#f0f6fc" font-family="sans-serif" font-size="14">32</text>
+<text x="228" y="226" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">manufacturing</text>
+<rect x="240" y="211" width="279.7" height="20" rx="3" fill="#58a6ff"/>
+<text x="527.7" y="226" fill="#f0f6fc" font-family="sans-serif" font-size="14">26</text>
+<text x="228" y="260" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">reliability</text>
+<rect x="240" y="245" width="268.9" height="20" rx="3" fill="#58a6ff"/>
+<text x="516.9" y="260" fill="#f0f6fc" font-family="sans-serif" font-size="14">25</text>
 <text x="228" y="294" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">thermal</text>
-<rect x="240" y="279" width="229.4" height="20" rx="3" fill="#58a6ff"/>
-<text x="477.4" y="294" fill="#f0f6fc" font-family="sans-serif" font-size="14">21</text>
+<rect x="240" y="279" width="215.2" height="20" rx="3" fill="#58a6ff"/>
+<text x="463.2" y="294" fill="#f0f6fc" font-family="sans-serif" font-size="14">20</text>
 <text x="228" y="328" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">co-design</text>
-<rect x="240" y="313" width="229.4" height="20" rx="3" fill="#58a6ff"/>
-<text x="477.4" y="328" fill="#f0f6fc" font-family="sans-serif" font-size="14">21</text>
+<rect x="240" y="313" width="193.6" height="20" rx="3" fill="#58a6ff"/>
+<text x="441.6" y="328" fill="#f0f6fc" font-family="sans-serif" font-size="14">18</text>
 <text x="228" y="362" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">signal-integrity</text>
-<rect x="240" y="347" width="196.6" height="20" rx="3" fill="#58a6ff"/>
-<text x="444.6" y="362" fill="#f0f6fc" font-family="sans-serif" font-size="14">18</text>
-<text x="228" y="396" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">emc-emi</text>
-<rect x="240" y="381" width="174.8" height="20" rx="3" fill="#58a6ff"/>
-<text x="422.8" y="396" fill="#f0f6fc" font-family="sans-serif" font-size="14">16</text>
-<text x="228" y="430" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">benchmark-dataset</text>
-<rect x="240" y="415" width="131.1" height="20" rx="3" fill="#58a6ff"/>
-<text x="379.1" y="430" fill="#f0f6fc" font-family="sans-serif" font-size="14">12</text>
+<rect x="240" y="347" width="193.6" height="20" rx="3" fill="#58a6ff"/>
+<text x="441.6" y="362" fill="#f0f6fc" font-family="sans-serif" font-size="14">18</text>
+<text x="228" y="396" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">benchmark-dataset</text>
+<rect x="240" y="381" width="129.1" height="20" rx="3" fill="#58a6ff"/>
+<text x="377.1" y="396" fill="#f0f6fc" font-family="sans-serif" font-size="14">12</text>
+<text x="228" y="430" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">emc-emi</text>
+<rect x="240" y="415" width="107.6" height="20" rx="3" fill="#58a6ff"/>
+<text x="355.6" y="430" fill="#f0f6fc" font-family="sans-serif" font-size="14">10</text>
 <text x="228" y="464" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">llm-agent</text>
-<rect x="240" y="449" width="98.3" height="20" rx="3" fill="#58a6ff"/>
-<text x="346.3" y="464" fill="#f0f6fc" font-family="sans-serif" font-size="14">9</text>
+<rect x="240" y="449" width="96.8" height="20" rx="3" fill="#58a6ff"/>
+<text x="344.8" y="464" fill="#f0f6fc" font-family="sans-serif" font-size="14">9</text>
 <text x="228" y="498" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">open-source</text>
-<rect x="240" y="483" width="76.5" height="20" rx="3" fill="#58a6ff"/>
-<text x="324.5" y="498" fill="#f0f6fc" font-family="sans-serif" font-size="14">7</text>
+<rect x="240" y="483" width="75.3" height="20" rx="3" fill="#58a6ff"/>
+<text x="323.3" y="498" fill="#f0f6fc" font-family="sans-serif" font-size="14">7</text>
 <text x="228" y="532" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">reinforcement-learning</text>
-<rect x="240" y="517" width="76.5" height="20" rx="3" fill="#58a6ff"/>
-<text x="324.5" y="532" fill="#f0f6fc" font-family="sans-serif" font-size="14">7</text>
+<rect x="240" y="517" width="75.3" height="20" rx="3" fill="#58a6ff"/>
+<text x="323.3" y="532" fill="#f0f6fc" font-family="sans-serif" font-size="14">7</text>
 <text x="228" y="566" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">machine-learning</text>
-<rect x="240" y="551" width="65.5" height="20" rx="3" fill="#58a6ff"/>
-<text x="313.5" y="566" fill="#f0f6fc" font-family="sans-serif" font-size="14">6</text>
+<rect x="240" y="551" width="75.3" height="20" rx="3" fill="#58a6ff"/>
+<text x="323.3" y="566" fill="#f0f6fc" font-family="sans-serif" font-size="14">7</text>
 <text x="228" y="600" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">deep-learning</text>
-<rect x="240" y="585" width="43.7" height="20" rx="3" fill="#58a6ff"/>
-<text x="291.7" y="600" fill="#f0f6fc" font-family="sans-serif" font-size="14">4</text>
+<rect x="240" y="585" width="43.0" height="20" rx="3" fill="#58a6ff"/>
+<text x="291.0" y="600" fill="#f0f6fc" font-family="sans-serif" font-size="14">4</text>
 <text x="228" y="634" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">power-integrity</text>
-<rect x="240" y="619" width="43.7" height="20" rx="3" fill="#58a6ff"/>
-<text x="291.7" y="634" fill="#f0f6fc" font-family="sans-serif" font-size="14">4</text>
-<text x="228" y="668" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">graph-learning</text>
-<rect x="240" y="653" width="32.8" height="20" rx="3" fill="#58a6ff"/>
-<text x="280.8" y="668" fill="#f0f6fc" font-family="sans-serif" font-size="14">3</text>
-<text x="228" y="702" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">transformer</text>
-<rect x="240" y="687" width="32.8" height="20" rx="3" fill="#58a6ff"/>
-<text x="280.8" y="702" fill="#f0f6fc" font-family="sans-serif" font-size="14">3</text>
+<rect x="240" y="619" width="43.0" height="20" rx="3" fill="#58a6ff"/>
+<text x="291.0" y="634" fill="#f0f6fc" font-family="sans-serif" font-size="14">4</text>
+<text x="228" y="668" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">transformer</text>
+<rect x="240" y="653" width="32.3" height="20" rx="3" fill="#58a6ff"/>
+<text x="280.3" y="668" fill="#f0f6fc" font-family="sans-serif" font-size="14">3</text>
+<text x="228" y="702" text-anchor="end" fill="#c9d1d9" font-family="sans-serif" font-size="14">graph-learning</text>
+<rect x="240" y="687" width="21.5" height="20" rx="3" fill="#58a6ff"/>
+<text x="269.5" y="702" fill="#f0f6fc" font-family="sans-serif" font-size="14">2</text>
 </svg>

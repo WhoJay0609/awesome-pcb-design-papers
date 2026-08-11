@@ -48,10 +48,10 @@ def latest_priority(paper: dict) -> tuple:
 def operational_coverage_text(top_counts: Counter) -> str:
     total = sum(top_counts.values())
     return (
-        "“顶会全部覆盖”采用封闭、可审计的操作性集合：**DAC, ICCAD, DATE, ASP-DAC, "
-        f"ISPD, ECTC, EPEPS**。它不是对任何排名体系的价值判断。{total} 条 admitted DOI "
-        "逐行绑定目录；这是以穷尽为目标的封闭清单，但受不可访问/限流 proceedings 影响，"
-        "不作数学完备性承诺。Related EDA 只做代表性参考。"
+        "In this repository, complete top-venue coverage means a closed, auditable set: **DAC, ICCAD, DATE, ASP-DAC, "
+        f"ISPD, ECTC, EPEPS**. This is an operational definition, not a judgment about conference rankings. Each of the {total} admitted DOIs "
+        "is bound to a catalog row. The inventory aims to account for every matching paper in that set, but inaccessible or rate-limited proceedings "
+        "prevent a mathematical completeness claim. Related EDA is included only as a representative reference set."
     )
 
 
@@ -59,7 +59,7 @@ def paper_card(paper: dict) -> str:
     dataset_names = paper["dataset"].get("names") or []
     dataset = ", ".join(dataset_names) if dataset_names else paper["dataset"]["summary"]
     baselines = ", ".join(paper["baselines"].get("names") or []) or paper["baselines"]["summary"]
-    metrics = ", ".join(paper["evaluation"].get("metrics_mentioned") or []) or "未在可访问来源中明确列出"
+    metrics = ", ".join(paper["evaluation"].get("metrics_mentioned") or []) or "not explicitly listed in the accessible sources"
     tags = ", ".join(f"`{topic}`" for topic in paper["topics"])
     authors = ", ".join(paper["authors"][:8])
     if len(paper["authors"]) > 8:
@@ -68,15 +68,15 @@ def paper_card(paper: dict) -> str:
         [
             f"### {paper['title']}",
             "",
-            f"- **元数据：** {paper['year']} · {paper['venue']} · {authors or 'authors not reported'} · [paper]({paper['primary_url']})",
-            f"- **范围/主题：** `{paper['scope']}` · {tags}",
-            f"- **代码：** {status_text(paper['code'])} — {paper['code']['summary']}",
-            f"- **数据集/数据来源：** `{paper['dataset']['status']}` — {dataset}",
-            f"- **应用场景：** {paper['application_scenario']['summary']}",
-            f"- **解决问题：** `{paper['problem_solved']['status']}` — {paper['problem_solved']['summary']}",
-            f"- **最终测试：** `{paper['evaluation']['status']}` — {paper['evaluation']['summary']} 指标：{metrics}。",
-            f"- **Baselines：** `{paper['baselines']['status']}` — {baselines}",
-            f"- **证据边界：** `{paper['evidence_level']}`；核验日期 {paper['verification']['checked_on']}。未报告不等于不存在。",
+            f"- **Metadata:** {paper['year']} · {paper['venue']} · {authors or 'authors not reported'} · [paper]({paper['primary_url']})",
+            f"- **Scope and topics:** `{paper['scope']}` · {tags}",
+            f"- **Code:** {status_text(paper['code'])}: {paper['code']['summary']}",
+            f"- **Dataset or data source:** `{paper['dataset']['status']}`: {dataset}",
+            f"- **Application scenario:** {paper['application_scenario']['summary']}",
+            f"- **Problem addressed:** `{paper['problem_solved']['status']}`: {paper['problem_solved']['summary']}",
+            f"- **Final evaluation:** `{paper['evaluation']['status']}`: {paper['evaluation']['summary']} Metrics: {metrics}.",
+            f"- **Baselines:** `{paper['baselines']['status']}`: {baselines}",
+            f"- **Evidence boundary:** `{paper['evidence_level']}`; checked on {paper['verification']['checked_on']}. Not reported does not mean absent.",
             "",
         ]
     )
@@ -85,9 +85,9 @@ def paper_card(paper: dict) -> str:
 def render_topic(topic: dict, papers: list[dict]) -> str:
     papers = sorted(papers, key=lambda paper: (-paper["year"], paper["title"].casefold()))
     lines = [
-        f"# {topic['name_zh']} / {topic['name_en']}",
+        f"# {topic['name']}",
         "",
-        f"共 {len(papers)} 篇主分类论文。详细字段均来自 `data/papers.json`；`not_reported` 表示当前可访问证据未说明。",
+        f"{len(papers)} papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.",
         "",
         "| Year | Paper | Venue | Code | Evidence |",
         "|---:|---|---|---|---|",
@@ -140,7 +140,7 @@ def main() -> int:
         nav_rows.append((topic_id, topic, len(topic_papers), path))
     related_link = relative_link(related_path, args.readme)
     if related:
-        related_topic = {"name_zh": "相关 EDA 自动化参考", "name_en": "Related EDA References"}
+        related_topic = {"name": "Related EDA references"}
         related_path.write_text(render_topic(related_topic, related), encoding="utf-8")
 
     pcb_analysis = analysis["scopes"]["pcb-core"]
@@ -160,38 +160,38 @@ def main() -> int:
         "",
         "> A source-checked, evidence-card catalog for PCB design automation and transferable EDA research.",
         "",
-        f"**检索截止：{payload['cutoff_date']}** · **PCB core：{len(core)} 篇** · **Related EDA：{len(related)} 篇** · **主题：{len(nav_rows)} 个**",
+        f"**Cutoff date:** {payload['cutoff_date']} · **PCB core:** {len(core)} papers · **Related EDA:** {len(related)} papers · **Topics:** {len(nav_rows)}",
         "",
-        "本仓库模仿 Awesome 列表的可浏览性，但不只保存链接：每篇论文都明确记录代码状态、数据集/数据来源、应用场景、解决的问题、最终测试和 baselines，并给出证据边界。",
+        "The repository follows the familiar Awesome-list layout. Each paper also has fields for code status, datasets or data sources, application scenario, problem addressed, final evaluation, baselines, and the evidence boundary.",
         "",
         "## Scope",
         "",
-        "- **PCB core**：PCB/PWB/PCBA 是论文的设计、布局、布线、SI/PI/EMC、可靠性、DFX 或测试对象。",
-        "- **Related EDA References**：芯片、封装、Chiplet、LLM/agentic EDA 等可迁移方法；单独统计，不冒充 PCB 论文。",
-        "- **排除**：PCB 仅作为实验载板的应用论文、电子垃圾/污染物研究、专利、书籍章节、勘误，以及缺乏独立任务/数据贡献的重复模型变体。",
+        "- **PCB core:** PCB, PWB, or PCBA is the object of design, placement, routing, SI/PI/EMC, reliability, DFX, or testing.",
+        "- **Related EDA references:** Transferable methods for chips, packages, chiplets, and LLM or agentic EDA are counted separately and are not presented as PCB papers.",
+        "- **Excluded:** Application papers that use a PCB only as an experimental carrier, electronic-waste or pollution studies, patents, book chapters, errata, and repeated model variants without an independent task or data contribution.",
         "",
         "## Browse by topic",
         "",
-        "| Topic | Papers | Description |",
-        "|---|---:|---|",
+        "| Topic | Papers |",
+        "|---|---:|",
     ]
     for topic_id, topic, count, topic_path in nav_rows:
         readme.append(
-            f"| [{topic['name_zh']}]({relative_link(topic_path, args.readme)}) | {count} | {topic['name_en']} |"
+            f"| [{topic['name']}]({relative_link(topic_path, args.readme)}) | {count} |"
         )
     if related:
-        readme.append(f"| [相关 EDA 自动化参考]({related_link}) | {len(related)} | Transferable non-PCB methods |")
+        readme.append(f"| [Related EDA references]({related_link}) | {len(related)} |")
     readme.extend(
         [
             "",
-            "## Latest PCB-core papers (2024–2026)",
+            "## Latest PCB-core papers (2024-2026)",
             "",
         ]
     )
     for paper in latest:
         venue = f" · **{paper['top_venue']}**" if paper.get("top_venue") else ""
         readme.append(
-            f"- **{paper['year']}** · [{paper['title']}]({paper['primary_url']}) — {paper['venue']}{venue}"
+            f"- **{paper['year']}** · [{paper['title']}]({paper['primary_url']}): {paper['venue']}{venue}"
         )
     readme.extend(
         [
@@ -211,7 +211,7 @@ def main() -> int:
             "",
             "## Keyword and trend analysis",
             "",
-            "关键词采用受控正则词表，对每篇题名与本仓库原创摘要做 **document frequency**：一个关键词在同一论文中最多计一次。PCB core 与 Related EDA 分开统计。",
+            "Keyword counts use a controlled regular-expression vocabulary over every title. Scenario and problem summaries are included only for records supported by an abstract, full text, or project page. **Document frequency** counts a keyword at most once per paper. PCB core and Related EDA are analyzed separately.",
             "",
             f"![PCB keyword distribution]({relative_link(Path('assets/pcb_core_keyword_distribution.svg'), args.readme)})",
             "",
@@ -247,7 +247,7 @@ def main() -> int:
             "",
             "## Coverage boundary",
             "",
-            "This is a structured, cutoff-dated catalog—not a claim of absolute global exhaustiveness. Publisher indexing delays, title changes, inaccessible proceedings, and papers that never use board-specific terms can still create gaps. Please open an issue or PR with a primary source and the required evidence fields.",
+            "This is a structured, cutoff-dated catalog: it is not a claim of absolute global exhaustiveness. Publisher indexing delays, title changes, inaccessible proceedings, and papers that never use board-specific terms can still create gaps. Please open an issue or PR with a primary source and the required evidence fields.",
             "",
             "## Contributing",
             "",

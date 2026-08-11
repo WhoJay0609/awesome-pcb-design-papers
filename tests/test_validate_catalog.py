@@ -53,15 +53,22 @@ class CatalogValidatorTests(unittest.TestCase):
         del catalog["schema_version"]
         result = self.validate(catalog, self.audit)
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("schema_version must be present and a string", result.stdout)
+        self.assertIn("schema_version must be 2.0.0", result.stdout)
+
+    def test_old_schema_version_fails(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["schema_version"] = "1.0.0"
+        result = self.validate(catalog, self.audit)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("schema_version must be 2.0.0", result.stdout)
 
     def test_missing_schema_required_fields_fail(self) -> None:
         catalog = copy.deepcopy(self.catalog)
-        del catalog["topics"][0]["name_en"]
+        del catalog["topics"][0]["name"]
         del catalog["papers"][0]["top_venue"]
         result = self.validate(catalog, self.audit)
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("topic 0 name_en must be a non-empty string", result.stdout)
+        self.assertIn("topic 0 name must be a non-empty string", result.stdout)
         self.assertIn("missing required fields top_venue", result.stdout)
 
     def test_missing_nested_evidence_fails(self) -> None:
@@ -248,6 +255,35 @@ class CatalogValidatorTests(unittest.TestCase):
         result = self.validate(catalog, self.audit)
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("title contains an HTML entity", result.stdout)
+
+    def test_non_english_catalog_prose_fails(self) -> None:
+        for prose in (
+            "\u672a\u62a5\u544a\u3002",
+            "\u03a4\u03b1 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1 \u03b4\u03b5\u03bd \u03b1\u03bd\u03b1\u03c6\u03ad\u03c1\u03bf\u03bd\u03c4\u03b1\u03b9.",
+            "\u30c7\u30fc\u30bf\u306f\u672a\u5831\u544a\u3067\u3059\u3002",
+            "\ub370\uc774\ud130\uac00 \ubcf4\uace0\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4.",
+            "\u1100",
+            "\uff76",
+            "\ufa11",
+            "\u0414",
+            "\U00017000",
+            "\U00018d00",
+            "\U00030000",
+            "\U00031350",
+        ):
+            with self.subTest(prose=prose):
+                catalog = copy.deepcopy(self.catalog)
+                catalog["papers"][0]["code"]["summary"] = prose
+                result = self.validate(catalog, self.audit)
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn("code summary must be English", result.stdout)
+
+    def test_humanizer_punctuation_fails(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["papers"][0]["evaluation"]["summary"] = "Measured on two boards \u2014 both passed."
+        result = self.validate(catalog, self.audit)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("evaluation summary contains disallowed punctuation", result.stdout)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
-# 信号/电源完整性与电磁兼容 / SI, PI, and EMC
+# SI, PI, and EMC
 
-共 70 篇主分类论文。详细字段均来自 `data/papers.json`；`not_reported` 表示当前可访问证据未说明。
+70 papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
@@ -79,840 +79,840 @@
 
 ### Complete Flow for PCB Design Consideration and Power/Signal Integrity Analysis Based on Broadband Model of Parasitic Elements
 
-- **元数据：** 2026 · International Journal of Circuit Theory and Applications 54(2) · Silvia Simone, Fabio Pareschi, Davide Lena, Gianluca Setti · [paper](https://doi.org/10.1002/cta.70260)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_found — 使用 IdEM，但未核验到本文代码发布。
-- **数据集/数据来源：** `measurement_testbench` — Bode 100/Rigol VNA PCB structures, DC/DC buck converter
-- **应用场景：** 把 frequency-domain EM parasitics 转换为 broadband time-domain PCB SI/PI model。
-- **解决问题：** `reported` — 选择参考阻抗并保持 fitted model 的准确性与 passivity。
-- **最终测试：** `reported` — 与测量比较 S-parameters/inductance，并评估 transient overshoot/ringing。 指标：S-parameters, parasitic inductance, overshoot, ringing。
-- **Baselines：** `named` — 50-ohm reference impedance, optimized reference impedance
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · International Journal of Circuit Theory and Applications 54(2) · Silvia Simone, Fabio Pareschi, Davide Lena, Gianluca Setti · [paper](https://doi.org/10.1002/cta.70260)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_found: Uses IdEM, but no code release for this paper was verified.
+- **Dataset or data source:** `measurement_testbench`: Bode 100/Rigol VNA PCB structures, DC/DC buck converter
+- **Application scenario:** Converts frequency-domain EM parasitics into a broadband time-domain PCB SI/PI model.
+- **Problem addressed:** `reported`: Selects the reference impedance while preserving fitted-model accuracy and passivity.
+- **Final evaluation:** `reported`: Compares S-parameters and inductance with measurements and evaluates transient overshoot and ringing. Metrics: S-parameters, parasitic inductance, overshoot, ringing.
+- **Baselines:** `named`: 50-ohm reference impedance, optimized reference impedance
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Introduction to High-Speed LVDS Twisted Pair Transmission Across PCB and Chiplet RDL Interfaces
 
-- **元数据：** 2026 · 2026 IEEE 76th Electronic Components and Technology Conference (ECTC) · Mayukh Nandy, James Doyle, Simon Mayberry, Siyang Liu, Anuj Sarode, Hongbin Yu · [paper](https://doi.org/10.1109/ectc51846.2026.00359)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Introduction to High-Speed LVDS Twisted Pair Transmission Across PCB and Chiplet RDL Interfaces；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · 2026 IEEE 76th Electronic Components and Technology Conference (ECTC) · Mayukh Nandy, James Doyle, Simon Mayberry, Siyang Liu, Anuj Sarode, Hongbin Yu · [paper](https://doi.org/10.1109/ectc51846.2026.00359)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Measurement-Calibrated PCB Material Modeling for Millimeter-Wave Signal Integrity
 
-- **元数据：** 2026 · IEEE SPI 2026 · Kaisheng Hu · [paper](https://doi.org/10.1109/SPI68887.2026.11594790)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开元数据未报告具体 measurement dataset。
-- **应用场景：** 毫米波 PCB material 的 measurement-calibrated SI modeling。
-- **解决问题：** `inferred_from_title` — 校准介质/导体参数，使高频板级仿真贴近测量。
-- **最终测试：** `not_reported_in_accessible_source` — 截止日仅有会议元数据。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 未报告。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE SPI 2026 · Kaisheng Hu · [paper](https://doi.org/10.1109/SPI68887.2026.11594790)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No public code was verified.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a specific measurement dataset.
+- **Application scenario:** Measurement-calibrated SI modeling for millimeter-wave PCB materials.
+- **Problem addressed:** `inferred_from_title`: Calibrates dielectric and conductor parameters so high-frequency board simulation matches measurements.
+- **Final evaluation:** `not_reported_in_accessible_source`: Only conference metadata were available at the cutoff; those metadata do not report the final evaluation. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not report a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### ML-Based Surrogate Modeling of Capacitance Matrices in Multiconductor PCB Interconnects
 
-- **元数据：** 2026 · IEEE SPI 2026 · Mohamed Kheir, Henning Mextorf · [paper](https://doi.org/10.1109/SPI68887.2026.11594744)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开元数据未报告数据规模。
-- **应用场景：** 多导体 PCB interconnect capacitance matrix 的 ML surrogate。
-- **解决问题：** `inferred_from_title` — 降低几何变化下反复电磁求解 capacitance matrix 的成本。
-- **最终测试：** `not_reported_in_accessible_source` — 截止日仅有会议元数据。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 未报告。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE SPI 2026 · Mohamed Kheir, Henning Mextorf · [paper](https://doi.org/10.1109/SPI68887.2026.11594744)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No public code was verified.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report the data scale.
+- **Application scenario:** ML surrogate modeling for capacitance matrices in multiconductor PCB interconnects.
+- **Problem addressed:** `inferred_from_title`: Reduces the cost of repeated electromagnetic solves for capacitance matrices under geometry changes.
+- **Final evaluation:** `not_reported_in_accessible_source`: Only conference metadata were available at the cutoff; those metadata do not report the final evaluation. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not report a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Optimization of high-speed link PCB design based on signal integrity simulation
 
-- **元数据：** 2026 · International Conference on Electronic Devices and Intelligent Control · Sicheng Chen, Guangshun Wang, Yisong Yan · [paper](https://doi.org/10.1117/12.3117159)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Optimization of high-speed link PCB design based on signal integrity simulation
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · International Conference on Electronic Devices and Intelligent Control · Sicheng Chen, Guangshun Wang, Yisong Yan · [paper](https://doi.org/10.1117/12.3117159)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A Comprehensive Study of Signal Integrity Challenges and Solutions in High-Speed PCB Design
 
-- **元数据：** 2025 · TechRxiv · Kunal Kumar · [paper](https://doi.org/10.36227/techrxiv.175825866.66964328/v1)
-- **范围/主题：** `pcb-core` · `routing`, `si-pi-emc`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：A Comprehensive Study of Signal Integrity Challenges and Solutions in High-Speed PCB Design
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：power。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · TechRxiv · Kunal Kumar · [paper](https://doi.org/10.36227/techrxiv.175825866.66964328/v1)
+- **Scope and topics:** `pcb-core` · `routing`, `si-pi-emc`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: power.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Design Strategies for Skew Compensation in Highspeed PCB Strip Line Interconnects
 
-- **元数据：** 2025 · IEEE EMC+SIPI 2025 · Sathvika Bandi, Reza Asadi, Zhekun Peng, Srinivas Venkataraman, DongHyun Kim · [paper](https://doi.org/10.1109/EMCSIPI52291.2025.11169776)
-- **范围/主题：** `pcb-core` · `routing`, `si-pi-emc`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `measurement_testbench` — 224-Gbps PCB stripline
-- **应用场景：** 高速 differential PCB stripline 的 skew compensation placement。
-- **解决问题：** `reported` — 研究 compensation section 与 via discontinuity 的相对位置如何影响 SI/common-mode conversion。
-- **最终测试：** `reported` — 系统测量/仿真五类高速 SI 指标。 指标：TDR, input impedance, return loss, insertion loss, common-mode S-parameters。
-- **Baselines：** `named` — stripline without via discontinuity
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · IEEE EMC+SIPI 2025 · Sathvika Bandi, Reza Asadi, Zhekun Peng, Srinivas Venkataraman, DongHyun Kim · [paper](https://doi.org/10.1109/EMCSIPI52291.2025.11169776)
+- **Scope and topics:** `pcb-core` · `routing`, `si-pi-emc`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `measurement_testbench`: 224-Gbps PCB stripline
+- **Application scenario:** Skew-compensation placement for high-speed differential PCB striplines.
+- **Problem addressed:** `reported`: Studies how the relative position of the compensation section and via discontinuity affects SI and common-mode conversion.
+- **Final evaluation:** `reported`: Systematically measures and simulates five classes of high-speed SI metrics. Metrics: TDR, input impedance, return loss, insertion loss, common-mode S-parameters.
+- **Baselines:** `named`: stripline without via discontinuity
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Manufacturing Challenges and Signal Integrity Considerations in High-Speed Rigid-Flex PCB Design
 
-- **元数据：** 2025 · International Conference on Advances in Cybersecurity · Kaisheng Hu, L. Salman, Shuhui Deng · [paper](https://doi.org/10.23919/aces66556.2025.11052593)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `dfm-manufacturing`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · International Conference on Advances in Cybersecurity · Kaisheng Hu, L. Salman, Shuhui Deng · [paper](https://doi.org/10.23919/aces66556.2025.11052593)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `dfm-manufacturing`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Multi-layer PCB design for mixed-signal systems using altium designer and signal integrity analysis
 
-- **元数据：** 2025 · International Journal of Electronics and Microcircuits · Smriti Adhikari, Ramesh Bhandari · [paper](https://doi.org/10.22271/27084493.2025.v5.i1a.62)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · International Journal of Electronics and Microcircuits · Smriti Adhikari, Ramesh Bhandari · [paper](https://doi.org/10.22271/27084493.2025.v5.i1a.62)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Separate-Cavity Optimization Method for PCIe Gen6.0 PCB-Connector Pad Design Using Particle Swarm Optimization (PSO) Algorithm
 
-- **元数据：** 2025 · 2025 IEEE 34th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Youngjae Lee, Chulhee Cho, Sungjin Yoon, Hyeongi Lee, Jinwook Song, Kyungsuk Kim, Sunghoon Chun · [paper](https://doi.org/10.1109/epeps63858.2025.11346668)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Separate-Cavity Optimization Method for PCIe Gen6.0 PCB-Connector Pad Design Using Particle Swarm Optimization (PSO) Algorithm；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · 2025 IEEE 34th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Youngjae Lee, Chulhee Cho, Sungjin Yoon, Hyeongi Lee, Jinwook Song, Kyungsuk Kim, Sunghoon Chun · [paper](https://doi.org/10.1109/epeps63858.2025.11346668)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Warpage-Induced Signal Integrity Degradation in High-Speed PCB: A Multi-Domain Analysis and Design Framework
 
-- **元数据：** 2025 · Impact · John Lin, Alan Sun, Yang Yang, Meidan Liu, Jimmy Hsu, Ryan Chang · [paper](https://doi.org/10.1109/impact67645.2025.11281664)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `thermal-reliability`, `dfm-manufacturing`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Impact · John Lin, Alan Sun, Yang Yang, Meidan Liu, Jimmy Hsu, Ryan Chang · [paper](https://doi.org/10.1109/impact67645.2025.11281664)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `thermal-reliability`, `dfm-manufacturing`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An Efficient SPICE-compatible Model for Fast Co-simulation of Signal and Power Integrity on Multilayer PCB with Arbitrary Shape
 
-- **元数据：** 2024 · 2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Hyunwoo Kim, Dongryul Park, Seunghun Ryu, Seonghi Lee, Sanguk Lee, Jinwook Lee, Dongkyun Kim, Seungyoung Ahn · [paper](https://doi.org/10.1109/epeps61853.2024.10754366)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `schematic-design`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：An Efficient SPICE-compatible Model for Fast Co-simulation of Signal and Power Integrity on Multilayer PCB with Arbitrary Shape；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · 2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Hyunwoo Kim, Dongryul Park, Seunghun Ryu, Seonghi Lee, Sanguk Lee, Jinwook Lee, Dongkyun Kim, Seungyoung Ahn · [paper](https://doi.org/10.1109/epeps61853.2024.10754366)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `schematic-design`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Application of Gaussian Process Regression for Data Efficient Prediction of PCB-Based Power Delivery Network Impedance Features
 
-- **元数据：** 2024 · IEEE SPI 2024 · Youcef Hassab, Morten Schierholz, Christian Schuster · [paper](https://doi.org/10.1109/SPI60975.2024.10539189)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `simulation_data_unreleased` — four-layer PCB EM simulations
-- **应用场景：** 数据高效预测 PCB PDN impedance features。
-- **解决问题：** `reported` — 降低为新 board/geometry 训练 surrogate 所需仿真数量。
-- **最终测试：** `reported` — selected features（含 resonance frequency）normalized RMSE 为 3%；transfer learning 提升收敛效率。 指标：normalized RMSE。
-- **Baselines：** `named` — GPR without transfer
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE SPI 2024 · Youcef Hassab, Morten Schierholz, Christian Schuster · [paper](https://doi.org/10.1109/SPI60975.2024.10539189)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `simulation_data_unreleased`: four-layer PCB EM simulations
+- **Application scenario:** Data-efficient prediction of PCB PDN impedance features.
+- **Problem addressed:** `reported`: Reduces the number of simulations needed to train a surrogate for a new board or geometry.
+- **Final evaluation:** `reported`: The normalized RMSE for selected features, including resonance frequency, is 3%; transfer learning improves convergence efficiency. Metrics: normalized RMSE.
+- **Baselines:** `named`: GPR without transfer
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Impact of Geometrical and Surface Defects on Signal Integrity of Pcb Copper Traces
 
-- **元数据：** 2024 · SSRN · Zhiying Tan, Zhaokai Yang, Hongwei Bao, Fei Ma · [paper](https://doi.org/10.2139/ssrn.4907861)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `testing-inspection`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · SSRN · Zhiying Tan, Zhaokai Yang, Hongwei Bao, Fei Ma · [paper](https://doi.org/10.2139/ssrn.4907861)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `testing-inspection`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Iterative Placement of Decoupling Capacitors using Optimization Algorithms and Machine Learning
 
-- **元数据：** 2024 · Advances in Radio Science · Zouhair Nezhi, Nima Ghafarian Shoaee, Marcus Stiemer · [paper](https://doi.org/10.5194/ars-21-123-2024)
-- **范围/主题：** `pcb-core` · `placement`, `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `simulation_data_unreleased` — 52 decap positions, 3 decap types
-- **应用场景：** 在 PCB PDN 中用尽量少的 decaps 满足 target impedance。
-- **解决问题：** `reported` — 用 ANN surrogate 加速 GA 的电容位置与类型选择。
-- **最终测试：** `reported` — 迭代增加 decap count，优化 frequency-domain input-impedance distance。 指标：impedance distance, decap count。
-- **Baselines：** `component_ablation` — GA, ANN surrogate
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Advances in Radio Science · Zouhair Nezhi, Nima Ghafarian Shoaee, Marcus Stiemer · [paper](https://doi.org/10.5194/ars-21-123-2024)
+- **Scope and topics:** `pcb-core` · `placement`, `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `simulation_data_unreleased`: 52 decap positions, 3 decap types
+- **Application scenario:** Selecting the fewest possible decoupling capacitors to meet target impedance in a PCB PDN.
+- **Problem addressed:** `reported`: Uses an ANN surrogate to accelerate GA-based selection of capacitor locations and types.
+- **Final evaluation:** `reported`: Iteratively increases the decoupling-capacitor count while optimizing frequency-domain input-impedance distance. Metrics: impedance distance, decap count.
+- **Baselines:** `component_ablation`: GA, ANN surrogate
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Models and Methods for the Analysis of PCB Crosstalk in Switch-Mode Power Supplies
 
-- **元数据：** 2024 · IEEE SPI 2024 · Andrea Gaetano Chiariello, Giulia Di Capua, Antonio Maffucci, Nicola Femia · [paper](https://doi.org/10.1109/SPI60975.2024.10539215)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `simulation_testbench` — SMPS PCB traces
-- **应用场景：** 开关电源 PCB 的 power/control trace crosstalk analysis。
-- **解决问题：** `reported` — 根据 geometry/physics 选择合适的 mutual-capacitance/crosstalk model。
-- **最终测试：** `reported` — 比较 static 2-D、transmission-line 与 full-wave 3-D approaches。 指标：model agreement。
-- **Baselines：** `named` — static 2-D, transmission-line, full-wave 3-D
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE SPI 2024 · Andrea Gaetano Chiariello, Giulia Di Capua, Antonio Maffucci, Nicola Femia · [paper](https://doi.org/10.1109/SPI60975.2024.10539215)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `simulation_testbench`: SMPS PCB traces
+- **Application scenario:** Crosstalk analysis of power and control traces in switch-mode power-supply PCBs.
+- **Problem addressed:** `reported`: Selects a suitable mutual-capacitance or crosstalk model based on geometry and physics.
+- **Final evaluation:** `reported`: Compares static 2-D, transmission-line, and full-wave 3-D approaches. Metrics: model agreement.
+- **Baselines:** `named`: static 2-D, transmission-line, full-wave 3-D
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Operator Inference for Rigid-Flex Printed Circuit Boards Subject to Large Deformations
 
-- **元数据：** 2024 · 2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Pascal den Boef, Diana Manvelyan, Wil Schilders, Joseph Maubach, Nathan van de Wouw · [paper](https://doi.org/10.1109/epeps61853.2024.10754092)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Operator Inference for Rigid-Flex Printed Circuit Boards Subject to Large Deformations；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · 2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Pascal den Boef, Diana Manvelyan, Wil Schilders, Joseph Maubach, Nathan van de Wouw · [paper](https://doi.org/10.1109/epeps61853.2024.10754092)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB Based Power Delivery Network Analysis Using Transfer Learning and Artificial Neural Networks
 
-- **元数据：** 2024 · IEEE SPI 2024 · Morten Schierholz, Christian Schuster, Zouhair Nezhi, Marcus Stiemer · [paper](https://doi.org/10.1109/SPI60975.2024.10539196)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `simulation_data_unreleased` — 30,000+ EM simulations
-- **应用场景：** 少样本 transfer learning 的 PCB PDN analysis。
-- **解决问题：** `reported` — 在新 board geometry 上用少量样本保持 PI prediction accuracy。
-- **最终测试：** `reported` — 少于 50 个训练样本时，transfer learning 将误差降低约 2 倍。 指标：prediction error, sample count。
-- **Baselines：** `named` — ANN without transfer
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE SPI 2024 · Morten Schierholz, Christian Schuster, Zouhair Nezhi, Marcus Stiemer · [paper](https://doi.org/10.1109/SPI60975.2024.10539196)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `simulation_data_unreleased`: 30,000+ EM simulations
+- **Application scenario:** PCB PDN analysis with few-shot transfer learning.
+- **Problem addressed:** `reported`: Maintains PI prediction accuracy on a new board geometry with few samples.
+- **Final evaluation:** `reported`: With fewer than 50 training samples, transfer learning reduces the error by about 2x. Metrics: prediction error, sample count.
+- **Baselines:** `named`: ANN without transfer
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Sensitivity analysis framework for PCB EMC and signal integrity
 
-- **元数据：** 2024 · Proceedings of the 4th URSI Atlantic RadioScience Conference – AT-RASC 2024 · S. Lalléchère, B. Ravelo, Jerome Rossignol, L. Patier · [paper](https://doi.org/10.46620/ursiatrasc24/btat8750)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Proceedings of the 4th URSI Atlantic RadioScience Conference – AT-RASC 2024 · S. Lalléchère, B. Ravelo, Jerome Rossignol, L. Patier · [paper](https://doi.org/10.46620/ursiatrasc24/btat8750)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Simulation Method for Quasi-Static Solver to Effectively Model Parasitic Components Between Package and PCB
 
-- **元数据：** 2024 · EPEPS 2024 · Silvia Simone, Fabio Pareschi, Davide Lena, Gianluca Setti · [paper](https://doi.org/10.1109/EPEPS61853.2024.10754476)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未核验到代码。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开摘要未列数据集/测试板。
-- **应用场景：** package-to-PCB parasitic component quasi-static modeling。
-- **解决问题：** `reported` — 让 quasi-static solver 更有效地表示封装与 PCB 之间的寄生耦合。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 postprint 已核验，但未抽取统一数值表。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 未抽取到命名 baseline。
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · EPEPS 2024 · Silvia Simone, Fabio Pareschi, Davide Lena, Gianluca Setti · [paper](https://doi.org/10.1109/EPEPS61853.2024.10754476)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No code was verified.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The public abstract does not list a dataset or test board.
+- **Application scenario:** Package-to-PCB parasitic component quasi-static modeling.
+- **Problem addressed:** `reported`: Enables a quasi-static solver to represent parasitic coupling between the package and PCB more effectively.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible postprint was verified, but no standardized numerical table was extracted. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: No named baseline was extracted.
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An Additive Approach to Embed Chips in a Metallic Matrix Infused PCB
 
-- **元数据：** 2023 · 2023 IEEE 73rd Electronic Components and Technology Conference (ECTC) · Roberto Aga, Fahima Ouchen, Rachel S. Aga, Carrie M. Bartsch, Emily M. Heckman · [paper](https://doi.org/10.1109/ectc51909.2023.00034)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：An Additive Approach to Embed Chips in a Metallic Matrix Infused PCB；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2023 · 2023 IEEE 73rd Electronic Components and Technology Conference (ECTC) · Roberto Aga, Fahima Ouchen, Rachel S. Aga, Carrie M. Bartsch, Emily M. Heckman · [paper](https://doi.org/10.1109/ectc51909.2023.00034)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Machine Learning Based PCB/Package Stack-up Optimization for Signal Integrity
 
-- **元数据：** 2023 · 2023 IEEE 73rd Electronic Components and Technology Conference (ECTC) · Wenchang Huang, Jiahuan Huang, Minseok Kim, Bumhee Bae, Chulsoon Hwang, Subin Kim · [paper](https://doi.org/10.1109/ectc51909.2023.00323)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Machine Learning Based PCB/Package Stack-up Optimization for Signal Integrity；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2023 · 2023 IEEE 73rd Electronic Components and Technology Conference (ECTC) · Wenchang Huang, Jiahuan Huang, Minseok Kim, Bumhee Bae, Chulsoon Hwang, Subin Kim · [paper](https://doi.org/10.1109/ectc51909.2023.00323)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB-level Jitter Sensitivity Measurement and Hierarchical PDN-Z based PSIJ Estimation for PCIe Gen5 SSD
 
-- **元数据：** 2023 · 2023 IEEE 32nd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Youngjun Ko, Jinwook Song, Seokwoo Hong, Hyunwoo Kim, Chorom Jang, Sungwoo Jin, Sungwon Roh, Jinan Lee, et al. · [paper](https://doi.org/10.1109/epeps58208.2023.10314905)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：PCB-level Jitter Sensitivity Measurement and Hierarchical PDN-Z based PSIJ Estimation for PCIe Gen5 SSD；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2023 · 2023 IEEE 32nd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Youngjun Ko, Jinwook Song, Seokwoo Hong, Hyunwoo Kim, Chorom Jang, Sungwoo Jin, Sungwon Roh, Jinan Lee, et al. · [paper](https://doi.org/10.1109/epeps58208.2023.10314905)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Signal Integrity Design of PCB Transmission Paths using a Decision Tree Approach
 
-- **元数据：** 2023 · EMC Europe 2023 · Emre Ecik, Werner John, Julian Withoft, Ralf Bruning, Jurgen Gotze · [paper](https://doi.org/10.1109/emceurope57790.2023.10274174)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到公开实现。
-- **数据集/数据来源：** `simulation_data_unreleased` — 60,000 P2P waveforms, 1,296 star-network simulations
-- **应用场景：** 用 decision tree 判定 PCB transmission-line overshoot、slew-rate 与电压级别异常。
-- **解决问题：** `reported` — 在昂贵全流程仿真前提供 AI-assisted SI design feedback。
-- **最终测试：** `reported` — 在 P2P 与 star-network simulation 上评估，并测试 transferability。 指标：confusion matrix, accuracy。
-- **Baselines：** `reported` — design-rule checks, Bayesian optimization, neural networks, SVR, genetic algorithm
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2023 · EMC Europe 2023 · Emre Ecik, Werner John, Julian Withoft, Ralf Bruning, Jurgen Gotze · [paper](https://doi.org/10.1109/emceurope57790.2023.10274174)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No public implementation was verified.
+- **Dataset or data source:** `simulation_data_unreleased`: 60,000 P2P waveforms, 1,296 star-network simulations
+- **Application scenario:** Uses a decision tree to classify PCB transmission-line overshoot, slew rate, and voltage-level anomalies.
+- **Problem addressed:** `reported`: Provides AI-assisted SI design feedback before costly end-to-end simulation.
+- **Final evaluation:** `reported`: Evaluated on P2P and star-network simulations, with transferability also tested. Metrics: confusion matrix, accuracy.
+- **Baselines:** `reported`: design-rule checks, Bayesian optimization, neural networks, SVR, genetic algorithm
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Influence of Prepreg Material Properties on Printed Circuit Board (PCB) Stack-up
 
-- **元数据：** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Tomin Liu, Mutharasu Devarajan · [paper](https://doi.org/10.1109/ectc51906.2022.00354)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Influence of Prepreg Material Properties on Printed Circuit Board (PCB) Stack-up；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Tomin Liu, Mutharasu Devarajan · [paper](https://doi.org/10.1109/ectc51906.2022.00354)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Methods of Printing Copper for PCB Repair
 
-- **元数据：** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Dylan J. Richmond, Emuobosan Enakerakpo, Mohammed Alhendi, Peter McClure, Mark D. Poliks · [paper](https://doi.org/10.1109/ectc51906.2022.00363)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Methods of Printing Copper for PCB Repair；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Dylan J. Richmond, Emuobosan Enakerakpo, Mohammed Alhendi, Peter McClure, Mark D. Poliks · [paper](https://doi.org/10.1109/ectc51906.2022.00363)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Parametric S-Parameters for PCB based Power Delivery Network Design Using Machine Learning
 
-- **元数据：** 2022 · IEEE SPI 2022 · Morten Schierholz, Ihsan Erdin, Jayaprakash Balachandran, Cheng Yang, Christian Schuster · [paper](https://doi.org/10.1109/SPI54345.2022.9874946)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `controlled_access` — SI/PI-Database, 10,000 simulations
-- **应用场景：** PCB PDN resonance 与 target-impedance violation prediction。
-- **解决问题：** `reported` — 用 ANN surrogate 代替大量电磁仿真。
-- **最终测试：** `reported` — 评估 resonance/TI prediction；公开摘要未给完整误差。 指标：resonance prediction, target-impedance classification。
-- **Baselines：** `named` — commercial FEM
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · IEEE SPI 2022 · Morten Schierholz, Ihsan Erdin, Jayaprakash Balachandran, Cheng Yang, Christian Schuster · [paper](https://doi.org/10.1109/SPI54345.2022.9874946)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No public code repository was verified.
+- **Dataset or data source:** `controlled_access`: SI/PI-Database, 10,000 simulations
+- **Application scenario:** Prediction of PCB PDN resonances and target-impedance violations.
+- **Problem addressed:** `reported`: Uses an ANN surrogate instead of large numbers of electromagnetic simulations.
+- **Final evaluation:** `reported`: Evaluates resonance and target-impedance prediction; the public abstract does not provide complete error values. Metrics: resonance prediction, target-impedance classification.
+- **Baselines:** `named`: commercial FEM
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Printed Circuit Board Electromagnetic Compatibility Design of LLC Resonant Converter Based on Field-Line Coupling Effect
 
-- **元数据：** 2022 · Journal of Nanoelectronics and Optoelectronics · Xiaojin Bai, Tao Wen, Hong Qin · [paper](https://doi.org/10.1166/jno.2022.3292)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Printed Circuit Board Electromagnetic Compatibility Design of LLC Resonant Converter Based on Field-Line Coupling Effect
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · Journal of Nanoelectronics and Optoelectronics · Xiaojin Bai, Tao Wen, Hong Qin · [paper](https://doi.org/10.1166/jno.2022.3292)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Au-Less, Ni-Less & Roughness-Less PCB Cu Surface Treatment Using All-in-One Al2O3 Passivation
 
-- **元数据：** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Soojae Park, Geonwoo Kim, Chanmi Oh, Munsang Yoo, Kyujin Lee, Ken Lee · [paper](https://doi.org/10.1109/ectc32696.2021.00111)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Au-Less, Ni-Less & Roughness-Less PCB Cu Surface Treatment Using All-in-One Al2O3 Passivation；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Soojae Park, Geonwoo Kim, Chanmi Oh, Munsang Yoo, Kyujin Lee, Ken Lee · [paper](https://doi.org/10.1109/ectc32696.2021.00111)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Distributed Nonlinear Shielding in Power Delivery Networks on Printed Circuit Boards
 
-- **元数据：** 2021 · 2021 IEEE 30th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Torben Wendt, Cheng Yang, Christian Schuster, Marco De Stefano, Stefano Grivet-Talocia · [paper](https://doi.org/10.1109/epeps51341.2021.9609177)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Distributed Nonlinear Shielding in Power Delivery Networks on Printed Circuit Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · 2021 IEEE 30th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Torben Wendt, Cheng Yang, Christian Schuster, Marco De Stefano, Stefano Grivet-Talocia · [paper](https://doi.org/10.1109/epeps51341.2021.9609177)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Evaluation of Support Vector Machines for PCB based Power Delivery Network Classification
 
-- **元数据：** 2021 · EPEPS 2021 · Morten Schierholz, Youcef Hassab, Cheng Yang, Christian Schuster · [paper](https://doi.org/10.1109/EPEPS51341.2021.9609190)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `simulation_data_unreleased` — simulated PCB PDNs
-- **应用场景：** 分类 PCB power-delivery network 是否满足 target impedance。
-- **解决问题：** `reported` — 评估几何特征与 SVM 组合对 PI compliance prediction 的作用。
-- **最终测试：** `reported` — 比较扩展 SVM、多 SVM setup 与 ANN；公开摘要未给完整数值。 指标：classification accuracy。
-- **Baselines：** `named` — multiple SVMs, ANN
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · EPEPS 2021 · Morten Schierholz, Youcef Hassab, Cheng Yang, Christian Schuster · [paper](https://doi.org/10.1109/EPEPS51341.2021.9609190)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_found: No public code repository was verified.
+- **Dataset or data source:** `simulation_data_unreleased`: simulated PCB PDNs
+- **Application scenario:** Classifies whether a PCB power-delivery network meets target impedance.
+- **Problem addressed:** `reported`: Evaluates the role of geometric features combined with SVMs in PI-compliance prediction.
+- **Final evaluation:** `reported`: Compares extended SVMs, multiple SVM setups, and an ANN; the public abstract does not provide complete numerical values. Metrics: classification accuracy.
+- **Baselines:** `named`: multiple SVMs, ANN
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Flexible Connectors and PCB Segmentation for Signaling and Power Delivery in Wafer-Scale Systems
 
-- **元数据：** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Randall Irwin, Krutikesh Sahoo, Saptadeep Pal, Subramanian S. Iyer · [paper](https://doi.org/10.1109/ectc32696.2021.00091)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Flexible Connectors and PCB Segmentation for Signaling and Power Delivery in Wafer-Scale Systems；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Randall Irwin, Krutikesh Sahoo, Saptadeep Pal, Subramanian S. Iyer · [paper](https://doi.org/10.1109/ectc32696.2021.00091)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Study on EMI Shielding at the PCB Strip Level with Conformal Spray Coating Process
 
-- **元数据：** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Sang Won Park, Jin-Ho Yoon, Byoung Woong Moon, Ho Yeong Jeong, Se Young Jeong, Seung Jae Lee, Kisu Joo · [paper](https://doi.org/10.1109/ectc32696.2021.00137)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Study on EMI Shielding at the PCB Strip Level with Conformal Spray Coating Process；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Sang Won Park, Jin-Ho Yoon, Byoung Woong Moon, Ho Yeong Jeong, Se Young Jeong, Seung Jae Lee, Kisu Joo · [paper](https://doi.org/10.1109/ectc32696.2021.00137)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Cost-Effective Implementation of Air-Filled Waveguides on Printed Circuit Boards
 
-- **元数据：** 2020 · 2020 IEEE 29th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Felix Sepaintner, Andreas Scharl, Johannes Jakob, Florian Keck, Kevin Kunze, Franz Xaver Rohrl, Werner Bogner, Stefan Zorn · [paper](https://doi.org/10.1109/epeps48591.2020.9231382)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Cost-Effective Implementation of Air-Filled Waveguides on Printed Circuit Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2020 · 2020 IEEE 29th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Felix Sepaintner, Andreas Scharl, Johannes Jakob, Florian Keck, Kevin Kunze, Franz Xaver Rohrl, Werner Bogner, Stefan Zorn · [paper](https://doi.org/10.1109/epeps48591.2020.9231382)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Stripline-Slotline Rectangular Resonators for Measurement of Uniaxial Anisotropic Permittivity of Composite PCB Dielectric Material
 
-- **元数据：** 2020 · 2020 IEEE 70th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc32862.2020.00272)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Stripline-Slotline Rectangular Resonators for Measurement of Uniaxial Anisotropic Permittivity of Composite PCB Dielectric Material；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2020 · 2020 IEEE 70th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc32862.2020.00272)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Fast and Accurate Radiation Calculations for Printed Circuit Boards and Packages
 
-- **元数据：** 2019 · 2019 IEEE 28th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · G. Kevin Zhu, Xin Xu, Werner Thiel, Ryan Schimizzi · [paper](https://doi.org/10.1109/epeps47316.2019.193239)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Fast and Accurate Radiation Calculations for Printed Circuit Boards and Packages；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2019 · 2019 IEEE 28th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · G. Kevin Zhu, Xin Xu, Werner Thiel, Ryan Schimizzi · [paper](https://doi.org/10.1109/epeps47316.2019.193239)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Novel Multicore PCB and Substrate Solutions for Ultra Broadband Dual Polarized Antennas for 5G Millimeter Wave Covering 28GHz & 39GHz Range
 
-- **元数据：** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Trang Thai, Sidharth Dalmia, Josef Hagn, Pouya Talebbeydokhti, Yossi Tsfati · [paper](https://doi.org/10.1109/ectc.2019.00149)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Novel Multicore PCB and Substrate Solutions for Ultra Broadband Dual Polarized Antennas for 5G Millimeter Wave Covering 28GHz & 39GHz Range；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Trang Thai, Sidharth Dalmia, Josef Hagn, Pouya Talebbeydokhti, Yossi Tsfati · [paper](https://doi.org/10.1109/ectc.2019.00149)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB Microstrip Line Far-End Crosstalk Mitigation by Surface Mount Capacitors
 
-- **元数据：** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc.2019.00305)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：PCB Microstrip Line Far-End Crosstalk Mitigation by Surface Mount Capacitors；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc.2019.00305)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Signal Integrity Considerations of PCB Wiring in Tightly Pitched Module Pin Fields of High Speed Channels
 
-- **元数据：** 2019 · 2019 IEEE 28th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Sungjun Chun, Wiren D. Becker, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps47316.2019.193216)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Signal Integrity Considerations of PCB Wiring in Tightly Pitched Module Pin Fields of High Speed Channels；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2019 · 2019 IEEE 28th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Sungjun Chun, Wiren D. Becker, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps47316.2019.193216)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Experimentally Minimizing the Gap Distance Between Extra Tall Packages and PCB Using the Digital Image Correlation (DIC) Method
 
-- **元数据：** 2018 · 2018 IEEE 68th Electronic Components and Technology Conference (ECTC) · Van-Lai Pham, Yuling Niu, Jing Wang, Huayang Wang, Charandeep Singh, Seungbae Park, Cheng Zhong, Sau Wee Koh, et al. · [paper](https://doi.org/10.1109/ectc.2018.00241)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Experimentally Minimizing the Gap Distance Between Extra Tall Packages and PCB Using the Digital Image Correlation (DIC) Method；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2018 · 2018 IEEE 68th Electronic Components and Technology Conference (ECTC) · Van-Lai Pham, Yuling Niu, Jing Wang, Huayang Wang, Charandeep Singh, Seungbae Park, Cheng Zhong, Sau Wee Koh, et al. · [paper](https://doi.org/10.1109/ectc.2018.00241)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Fast chip-package-PCB coanalysis methodology for power integrity of multi-domain high-speed memory: A case study
 
-- **元数据：** 2018 · Design, Automation and Test in Europe · Seungwon Kim, K. Han, Youngmin Kim, Seokhyeong Kang · [paper](https://doi.org/10.23919/date.2018.8342132)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2018 · Design, Automation and Test in Europe · Seungwon Kim, K. Han, Youngmin Kim, Seokhyeong Kang · [paper](https://doi.org/10.23919/date.2018.8342132)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### High Power-Density 3D Integrated Power Supply Module Based on Panel-Level PCB Embedded Technology
 
-- **元数据：** 2018 · 2018 IEEE 68th Electronic Components and Technology Conference (ECTC) · Fengze Hou, Xueping Guo, Qidong Wang, Wenbo Wang, Tingyu Lin, Liqiang Cao, G. Q. Zhang, J. A. Ferreira · [paper](https://doi.org/10.1109/ectc.2018.00208)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：High Power-Density 3D Integrated Power Supply Module Based on Panel-Level PCB Embedded Technology；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2018 · 2018 IEEE 68th Electronic Components and Technology Conference (ECTC) · Fengze Hou, Xueping Guo, Qidong Wang, Wenbo Wang, Tingyu Lin, Liqiang Cao, G. Q. Zhang, J. A. Ferreira · [paper](https://doi.org/10.1109/ectc.2018.00208)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Vertical and Horizontal Transitions of Substrate Integrated Waveguides Within a Multi-Layered PCB for High Speed Signaling Applications
 
-- **元数据：** 2018 · 2018 IEEE 27th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Pavel R. Paladhi, Wiren D. Becker, Sungjun Chun, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps.2018.8534285)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Vertical and Horizontal Transitions of Substrate Integrated Waveguides Within a Multi-Layered PCB for High Speed Signaling Applications；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2018 · 2018 IEEE 27th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Pavel R. Paladhi, Wiren D. Becker, Sungjun Chun, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps.2018.8534285)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Comparison and Consistency of On-PCB Microstrip Line Modeling by 3D Fullwave and 2D Quasi-Static Approaches for High Speed Packaging System Signal Integrity Simulations
 
-- **元数据：** 2017 · 2017 IEEE 67th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc.2017.7)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Comparison and Consistency of On-PCB Microstrip Line Modeling by 3D Fullwave and 2D Quasi-Static Approaches for High Speed Packaging System Signal Integrity Simulations；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2017 · 2017 IEEE 67th Electronic Components and Technology Conference (ECTC) · Zhaoqing Chen · [paper](https://doi.org/10.1109/ectc.2017.7)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Embeded filtering in PCB integrated ultra high speed dielectric waveguides using photonic band gap structures
 
-- **元数据：** 2017 · 2017 IEEE 26th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps.2017.8329753)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Embeded filtering in PCB integrated ultra high speed dielectric waveguides using photonic band gap structures；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2017 · 2017 IEEE 26th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Daniel M. Dreps · [paper](https://doi.org/10.1109/epeps.2017.8329753)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Signal Integrity Modeling in Inhomogeneous Waveguide/PCB of Arbitrary Shape Using Broadband Green's Function
 
-- **元数据：** 2017 · 2017 IEEE 67th Electronic Components and Technology Conference (ECTC) · Kung-Hau Ding, Tien-Hao Liao, Leung Tsang · [paper](https://doi.org/10.1109/ectc.2017.75)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Signal Integrity Modeling in Inhomogeneous Waveguide/PCB of Arbitrary Shape Using Broadband Green's Function；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2017 · 2017 IEEE 67th Electronic Components and Technology Conference (ECTC) · Kung-Hau Ding, Tien-Hao Liao, Leung Tsang · [paper](https://doi.org/10.1109/ectc.2017.75)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### The accuracy of port connections between layers in printed circuit board
 
-- **元数据：** 2017 · 2017 IEEE 26th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Siqi Bai, Chenxi Huang, Albert E. Ruehli, Stephen Scearce, James L. Drewniak · [paper](https://doi.org/10.1109/epeps.2017.8329731)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：The accuracy of port connections between layers in printed circuit board；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2017 · 2017 IEEE 26th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Siqi Bai, Chenxi Huang, Albert E. Ruehli, Stephen Scearce, James L. Drewniak · [paper](https://doi.org/10.1109/epeps.2017.8329731)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A dielectric based waveguide integrated in a multilayer PCB for ultra high speed communications
 
-- **元数据：** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Junyan Tang, Jose A. Hejase, Joshua C. Myers, Samuel R. Connor, Daniel M. Dreps, Joseph Kuczynski · [paper](https://doi.org/10.1109/epeps.2016.7835449)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A dielectric based waveguide integrated in a multilayer PCB for ultra high speed communications；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Junyan Tang, Jose A. Hejase, Joshua C. Myers, Samuel R. Connor, Daniel M. Dreps, Joseph Kuczynski · [paper](https://doi.org/10.1109/epeps.2016.7835449)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A method to assess the radiated susceptibility of printed circuit boards
 
-- **元数据：** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · G. Kevin Zhu, Werner Thiel, J. Eric Bracken · [paper](https://doi.org/10.1109/epeps.2016.7835431)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A method to assess the radiated susceptibility of printed circuit boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · G. Kevin Zhu, Werner Thiel, J. Eric Bracken · [paper](https://doi.org/10.1109/epeps.2016.7835431)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A neural network based method for predicting PCB glass weave induced skew
 
-- **元数据：** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Jose A. Hejase, Pavel Roy Paladhi, Roger S. Krabbenhoft, Zhaoqing Chen, Junyan Tang, Dylan J. Boday · [paper](https://doi.org/10.1109/epeps.2016.7835439)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `ai-eda`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A neural network based method for predicting PCB glass weave induced skew；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Jose A. Hejase, Pavel Roy Paladhi, Roger S. Krabbenhoft, Zhaoqing Chen, Junyan Tang, Dylan J. Boday · [paper](https://doi.org/10.1109/epeps.2016.7835439)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `ai-eda`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Crosstalk evaluation between ultra high speed multi-layer compatible PCB dielectric waveguides and reduction using split ring resonators
 
-- **元数据：** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Daniel M. Dreps, Samuel R. Connor, Joseph Kuczynski · [paper](https://doi.org/10.1109/epeps.2016.7835450)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Crosstalk evaluation between ultra high speed multi-layer compatible PCB dielectric waveguides and reduction using split ring resonators；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Joshua C. Myers, Jose A. Hejase, Junyan Tang, Daniel M. Dreps, Samuel R. Connor, Joseph Kuczynski · [paper](https://doi.org/10.1109/epeps.2016.7835450)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB stack-up design and optimization for next generation speeds
 
-- **元数据：** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Chun-Lin Liao, Bhyrav Mutnury, Ching-Huei Chen, Yi-Jyun Lee · [paper](https://doi.org/10.1109/epeps.2016.7835440)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：PCB stack-up design and optimization for next generation speeds；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 25th Conference on Electrical Performance Of Electronic Packaging And Systems (EPEPS) · Chun-Lin Liao, Bhyrav Mutnury, Ching-Huei Chen, Yi-Jyun Lee · [paper](https://doi.org/10.1109/epeps.2016.7835440)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Effects of board design parameters on failure mechanisms of PCB/BGA assemblies under drop impact
 
-- **元数据：** 2015 · 2015 IEEE 65th Electronic Components and Technology Conference (ECTC) · Grace L. Tsebo Simo, Hossein Shirangi, Mathias Nowottnick, Sven Rzepka · [paper](https://doi.org/10.1109/ectc.2015.7159884)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Effects of board design parameters on failure mechanisms of PCB/BGA assemblies under drop impact；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2015 · 2015 IEEE 65th Electronic Components and Technology Conference (ECTC) · Grace L. Tsebo Simo, Hossein Shirangi, Mathias Nowottnick, Sven Rzepka · [paper](https://doi.org/10.1109/ectc.2015.7159884)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Impact of PCB decoupling on device electromigration performance
 
-- **元数据：** 2015 · 2015 IEEE 65th Electronic Components and Technology Conference (ECTC) · Guang Chen, Janani Chandrasekhar, Dan Oh, Hui Liu · [paper](https://doi.org/10.1109/ectc.2015.7159675)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Impact of PCB decoupling on device electromigration performance；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2015 · 2015 IEEE 65th Electronic Components and Technology Conference (ECTC) · Guang Chen, Janani Chandrasekhar, Dan Oh, Hui Liu · [paper](https://doi.org/10.1109/ectc.2015.7159675)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Improving the target impedance method for PCB decoupling of core power
 
-- **元数据：** 2014 · 2014 IEEE 64th Electronic Components and Technology Conference (ECTC) · Guang Chen, Dan Oh · [paper](https://doi.org/10.1109/ectc.2014.6897341)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Improving the target impedance method for PCB decoupling of core power；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2014 · 2014 IEEE 64th Electronic Components and Technology Conference (ECTC) · Guang Chen, Dan Oh · [paper](https://doi.org/10.1109/ectc.2014.6897341)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Fast signal integrity methodology for PCB pre-layout analysis and layout quality check
 
-- **元数据：** 2013 · 2013 IEEE 63rd Electronic Components and Technology Conference · J. Hsu, T. Su, Yuan-Liang Li, E. Hsiung, Kai Xiao, X. Ye, Kai-Bin Wu · [paper](https://doi.org/10.1109/ectc.2013.6575855)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `testing-inspection`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2013 · 2013 IEEE 63rd Electronic Components and Technology Conference · J. Hsu, T. Su, Yuan-Liang Li, E. Hsiung, Kai Xiao, X. Ye, Kai-Bin Wu · [paper](https://doi.org/10.1109/ectc.2013.6575855)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `testing-inspection`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Method for early detection of PCB bending induced pad cratering
 
-- **元数据：** 2011 · 2011 IEEE 61st Electronic Components and Technology Conference (ECTC) · Anurag Bansal, Gnyaneshwar Ramakrishna, Kuo-Chuan Liu · [paper](https://doi.org/10.1109/ectc.2011.5898672)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Method for early detection of PCB bending induced pad cratering；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2011 · 2011 IEEE 61st Electronic Components and Technology Conference (ECTC) · Anurag Bansal, Gnyaneshwar Ramakrishna, Kuo-Chuan Liu · [paper](https://doi.org/10.1109/ectc.2011.5898672)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Verification of novel technology for power integrity on 16-channel 3Gbps circuit boards
 
-- **元数据：** 2011 · 2011 IEEE 20th Conference on Electrical Performance of Electronic Packaging and Systems · Norifumi Sasaoka, Takafumi Ochi, Yutaka Akiyama, Kazuo Kono, Chihiro Ueda, Kanji Otsuka · [paper](https://doi.org/10.1109/epeps.2011.6100172)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Verification of novel technology for power integrity on 16-channel 3Gbps circuit boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2011 · 2011 IEEE 20th Conference on Electrical Performance of Electronic Packaging and Systems · Norifumi Sasaoka, Takafumi Ochi, Yutaka Akiyama, Kazuo Kono, Chihiro Ueda, Kanji Otsuka · [paper](https://doi.org/10.1109/epeps.2011.6100172)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A compact, low-cost, and wide-band passive equalizer design using multi-layer PCB parasitics
 
-- **元数据：** 2010 · 19th Topical Meeting on Electrical Performance of Electronic Packaging and Systems · Eakhwan Song, Jiseong Kim, Joungho Kim, Jeonghyeon Cho · [paper](https://doi.org/10.1109/epeps.2010.5642572)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A compact, low-cost, and wide-band passive equalizer design using multi-layer PCB parasitics；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2010 · 19th Topical Meeting on Electrical Performance of Electronic Packaging and Systems · Eakhwan Song, Jiseong Kim, Joungho Kim, Jeonghyeon Cho · [paper](https://doi.org/10.1109/epeps.2010.5642572)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Failure mechanism and mitigation of PCB pad cratering
 
-- **元数据：** 2010 · 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · Dongji Xie, David Geiger, Dongkai Shangguan, Charles Cai, Boyi Wu, Billy Hu, Hans Liu, Ivan Martin · [paper](https://doi.org/10.1109/ectc.2010.5490930)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Failure mechanism and mitigation of PCB pad cratering；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2010 · 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · Dongji Xie, David Geiger, Dongkai Shangguan, Charles Cai, Boyi Wu, Billy Hu, Hans Liu, Ivan Martin · [paper](https://doi.org/10.1109/ectc.2010.5490930)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Layer misregistration in PCB and its effects on signal propagation
 
-- **元数据：** 2010 · 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · Lei Shan, Young Kwark, Christian Baks, Mark Ritter · [paper](https://doi.org/10.1109/ectc.2010.5490909)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Layer misregistration in PCB and its effects on signal propagation；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2010 · 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · Lei Shan, Young Kwark, Christian Baks, Mark Ritter · [paper](https://doi.org/10.1109/ectc.2010.5490909)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An approach for quantifying the conductor and dielectric losses in PCB transmission lines
 
-- **元数据：** 2009 · 2009 IEEE 18th Conference on Electrical Performance of Electronic Packaging and Systems · Reydezel Torres-Torres, Victor H. Vega-Gonzalez · [paper](https://doi.org/10.1109/epeps.2009.5338435)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：An approach for quantifying the conductor and dielectric losses in PCB transmission lines；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2009 · 2009 IEEE 18th Conference on Electrical Performance of Electronic Packaging and Systems · Reydezel Torres-Torres, Victor H. Vega-Gonzalez · [paper](https://doi.org/10.1109/epeps.2009.5338435)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Analysis of noise coupling from printed circuit board to shielding enclosure
 
-- **元数据：** 2008 · 2008 IEEE-EPEP Electrical Performance of Electronic Packaging · Zhenwei Yu, Xiaopeng Dong, Jason Mix, Kevin Slattery, Jun Fan · [paper](https://doi.org/10.1109/epep.2008.4675902)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Analysis of noise coupling from printed circuit board to shielding enclosure；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2008 · 2008 IEEE-EPEP Electrical Performance of Electronic Packaging · Zhenwei Yu, Xiaopeng Dong, Jason Mix, Kevin Slattery, Jun Fan · [paper](https://doi.org/10.1109/epep.2008.4675902)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Electrical Analysis of Multi-board PCB Systems with Differential Signaling Considering Non-ideal Common Ground Connection
 
-- **元数据：** 2007 · 2007 IEEE Electrical Performance of Electronic Packaging · Mosin Mondal, Bhyrav Mutnury, Pravin Patel, Samuel Connor, Bruce Archambeault, Moises Cases · [paper](https://doi.org/10.1109/epep.2007.4387117)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Electrical Analysis of Multi-board PCB Systems with Differential Signaling Considering Non-ideal Common Ground Connection；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2007 · 2007 IEEE Electrical Performance of Electronic Packaging · Mosin Mondal, Bhyrav Mutnury, Pravin Patel, Samuel Connor, Bruce Archambeault, Moises Cases · [paper](https://doi.org/10.1109/epep.2007.4387117)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Jitter Amplification Considerations for PCB Clock Channel Design
 
-- **元数据：** 2007 · 2007 IEEE Electrical Performance of Electronic Packaging · Chris Madden, Sam Chang, Dan Oh, Chuck Yuan · [paper](https://doi.org/10.1109/epep.2007.4387143)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Jitter Amplification Considerations for PCB Clock Channel Design；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2007 · 2007 IEEE Electrical Performance of Electronic Packaging · Chris Madden, Sam Chang, Dan Oh, Chuck Yuan · [paper](https://doi.org/10.1109/epep.2007.4387143)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A unified technique for PCB/MCM design by combining electromagnetic field analysis with circuit simulator
 
-- **元数据：** 1998 · Proceedings Design, Automation and Test in Europe · Hideaki Kimura, Norihito Iyenaga · [paper](https://doi.org/10.1109/date.1998.655984)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1998 · Proceedings Design, Automation and Test in Europe · Hideaki Kimura, Norihito Iyenaga · [paper](https://doi.org/10.1109/date.1998.655984)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Development of a support tool for PCB design with EMC constraint. Reflection and crosstalk noise reduction in manual design
 
-- **元数据：** 1998 · Proceedings of 1998 Asia and South Pacific Design Automation Conference · Y. Tarui, Takehiro Takahashi, N. Schibuya · [paper](https://doi.org/10.1109/aspdac.1998.669507)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1998 · Proceedings of 1998 Asia and South Pacific Design Automation Conference · Y. Tarui, Takehiro Takahashi, N. Schibuya · [paper](https://doi.org/10.1109/aspdac.1998.669507)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Electromagnetic modeling and signal integrity simulation of power/ground networks in high speed digital packages and printed circuit boards
 
-- **元数据：** 1998 · Proceedings of the 35th annual conference on Design automation conference  - DAC '98 · Frank Y. Yuan · [paper](https://doi.org/10.1145/277044.277164)
-- **范围/主题：** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Electromagnetic modeling and signal integrity simulation of power/ground networks in high speed digital packages and printed circuit boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1998 · Proceedings of the 35th annual conference on Design automation conference  - DAC '98 · Frank Y. Yuan · [paper](https://doi.org/10.1145/277044.277164)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Signal integrity analysis of simultaneous switching noises and decoupling capacitors in digital packages and PCB systems
 
-- **元数据：** 1996 · Electrical Performance of Electronic Packaging · F. Yuan · [paper](https://doi.org/10.1109/epep.1996.564807)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 信号/电源完整性与电磁兼容（SI, PI, and EMC）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1996 · Electrical Performance of Electronic Packaging · F. Yuan · [paper](https://doi.org/10.1109/epep.1996.564807)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** SI, PI, and EMC.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Evaluation of ground inductance in printed circuit boards
 
-- **元数据：** 1993 · Proceedings of IEEE Electrical Performance of Electronic Packaging · J.-G. Yook, M. Kurk, N.I. Dib, L.P.B. Katehi, T.R. Arabi · [paper](https://doi.org/10.1109/epep.1993.394575)
-- **范围/主题：** `pcb-core` · `si-pi-emc`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Evaluation of ground inductance in printed circuit boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1993 · Proceedings of IEEE Electrical Performance of Electronic Packaging · J.-G. Yook, M. Kurk, N.I. Dib, L.P.B. Katehi, T.R. Arabi · [paper](https://doi.org/10.1109/epep.1993.394575)
+- **Scope and topics:** `pcb-core` · `si-pi-emc`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.

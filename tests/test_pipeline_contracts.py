@@ -83,6 +83,36 @@ class PipelineContractTests(unittest.TestCase):
             "but is not a replayable discovery log or a mathematical claim of global bibliographic completeness.",
         )
 
+    def test_producers_do_not_copy_title_punctuation_into_authored_summaries(self) -> None:
+        top_module = load_script("complete_top_venue_catalog")
+        top_record = top_module.make_metadata_record(
+            {
+                "title": ["PCB routing \u2014 a case study"],
+                "published": {"date-parts": [[2025]]},
+                "container-title": ["Example conference"],
+                "author": [{"given": "Alice", "family": "Smith"}],
+            },
+            "10.1000/example-top",
+            "DAC",
+        )
+        build_module = load_script("build_catalog")
+        built_record = build_module.make_record(
+            {"topics_suggested": ["routing"], "primary_topic_suggested": "routing"},
+            {
+                "externalIds": {"DOI": "10.1000/example-build"},
+                "title": "PCB routing \u2014 a second case",
+                "abstract": "We propose a routing method.",
+                "authors": [{"name": "Alice Smith"}],
+                "year": 2025,
+                "venue": "Example conference",
+            },
+            "doi:10.1000/example-build",
+        )
+        for record in (top_record, built_record):
+            self.assertIn("\u2014", record["title"])
+            for field in ("code", "dataset", "application_scenario", "problem_solved", "evaluation", "baselines"):
+                self.assertNotRegex(record[field]["summary"], r"[\u2013\u2014\u2018\u2019\u201c\u201d]")
+
     def test_metadata_only_status_boundary_matches_live_catalog(self) -> None:
         module = load_script("complete_top_venue_catalog")
         audit = json.loads((ROOT / "data" / "top_venue_audit.json").read_text(encoding="utf-8"))
@@ -320,7 +350,32 @@ class PipelineContractTests(unittest.TestCase):
 
     def test_operational_coverage_count_is_derived(self) -> None:
         module = load_script("render_catalog")
-        self.assertIn("3 条 admitted DOI", module.operational_coverage_text({"DAC": 2, "ICCAD": 1}))
+        self.assertIn("3 admitted DOIs", module.operational_coverage_text({"DAC": 2, "ICCAD": 1}))
+
+    def test_keyword_analysis_ignores_metadata_only_templates(self) -> None:
+        module = load_script("analyze_catalog")
+        papers = [
+            {
+                "title": "PCB placement method",
+                "year": 2026,
+                "primary_topic": "placement",
+                "evidence_level": "metadata-only",
+                "application_scenario": {"summary": "Manufacturing and testing."},
+                "problem_solved": {"summary": "Inspection quality."},
+            },
+            {
+                "title": "Board method",
+                "year": 2026,
+                "primary_topic": "testing-inspection",
+                "evidence_level": "abstract",
+                "application_scenario": {"summary": "Manufacturing."},
+                "problem_solved": {"summary": "Testing and inspection."},
+            },
+        ]
+        counts = module.analyze_scope(papers)["keyword_document_frequency"]
+        self.assertEqual(counts["placement"], 1)
+        self.assertEqual(counts["manufacturing"], 1)
+        self.assertEqual(counts["testing-inspection"], 1)
 
     def test_link_checker_falls_back_to_get_after_head_error(self) -> None:
         class Handler(http.server.BaseHTTPRequestHandler):

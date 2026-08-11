@@ -79,7 +79,7 @@ def expand(item: dict, checked_on: str) -> dict:
         "code": {
             **evidence_block(
                 code.get("status", "not_found"),
-                code.get("summary", "未发现经核验的公开代码仓库。"),
+                code.get("summary", "No verified public code repository was found."),
                 code.get("evidence_url", primary_url),
                 code.get("locator", locator),
             ),
@@ -89,7 +89,7 @@ def expand(item: dict, checked_on: str) -> dict:
         "dataset": {
             **evidence_block(
                 dataset.get("status", "not_reported_in_accessible_source"),
-                dataset.get("summary", "公开可访问来源未报告数据集或数据来源。"),
+                dataset.get("summary", "The accessible sources do not report a dataset or data source."),
                 dataset.get("evidence_url", primary_url),
                 dataset.get("locator", locator),
             ),
@@ -110,7 +110,7 @@ def expand(item: dict, checked_on: str) -> dict:
         "evaluation": {
             **evidence_block(
                 evaluation.get("status", "not_reported_in_accessible_source"),
-                evaluation.get("summary", "公开可访问来源未报告最终测试。"),
+                evaluation.get("summary", "The accessible sources do not report final tests."),
                 evaluation.get("evidence_url", primary_url),
                 evaluation.get("locator", locator),
             ),
@@ -119,7 +119,7 @@ def expand(item: dict, checked_on: str) -> dict:
         "baselines": {
             **evidence_block(
                 baselines.get("status", "not_reported_in_accessible_source"),
-                baselines.get("summary", "公开可访问来源未列出 baseline。"),
+                baselines.get("summary", "The accessible sources do not list a baseline."),
                 baselines.get("evidence_url", primary_url),
                 baselines.get("locator", locator),
             ),

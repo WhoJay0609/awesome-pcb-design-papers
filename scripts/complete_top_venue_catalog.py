@@ -294,8 +294,9 @@ def make_metadata_record(message: dict, doi: str, venue: str) -> dict:
     container = (message.get("container-title") or [venue])[0]
     authors = author_names(message)
     inferred = (
-        f"题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；"
-        f"此场景归类由题名和 {venue} DOI 记录推断，未将推断当作实验事实。"
+        "The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, "
+        f"or manufacturing and testing. This classification is inferred from the title and the {venue} DOI record; "
+        "it is not treated as an experimental finding."
     )
     return {
         "id": f"doi:{doi}",
@@ -311,12 +312,12 @@ def make_metadata_record(message: dict, doi: str, venue: str) -> dict:
         "primary_topic": primary_topic,
         "top_venue": venue,
         "code": {
-            **missing_block("可访问 DOI/Crossref 元数据未报告可核验代码仓库。", primary_url),
+            **missing_block("The accessible DOI and Crossref metadata do not report a verifiable code repository.", primary_url),
             "url": "",
             "checked_on": CUTOFF,
         },
         "dataset": {
-            **missing_block("可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。", primary_url),
+            **missing_block("The accessible DOI and Crossref metadata do not report a dataset or data source.", primary_url),
             "names": [],
         },
         "application_scenario": {
@@ -326,15 +327,15 @@ def make_metadata_record(message: dict, doi: str, venue: str) -> dict:
         },
         "problem_solved": {
             "status": "inferred_from_title",
-            "summary": f"围绕题名所示的 PCB/板级任务：{title}；具体问题边界需查阅论文全文。",
+            "summary": "The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.",
             "evidence": {"source_url": primary_url, "locator": "title and venue metadata"},
         },
         "evaluation": {
-            **missing_block("可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。", primary_url),
+            **missing_block("The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results.", primary_url),
             "metrics_mentioned": [],
         },
         "baselines": {
-            **missing_block("可访问 DOI/Crossref 元数据未列出 baseline。", primary_url),
+            **missing_block("The accessible DOI and Crossref metadata do not list a baseline.", primary_url),
             "names": [],
         },
         "evidence_level": "metadata-only",

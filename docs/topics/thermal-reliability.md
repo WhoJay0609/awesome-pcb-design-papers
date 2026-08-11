@@ -1,6 +1,6 @@
-# 热、机械与可靠性协同设计 / Thermal and reliability co-design
+# Thermal and reliability co-design
 
-共 26 篇主分类论文。详细字段均来自 `data/papers.json`；`not_reported` 表示当前可访问证据未说明。
+26 papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
@@ -35,312 +35,312 @@
 
 ### Analytical Thermal Modeling and Arrangement Optimization Design Method for Hybrid Capacitor Banks Considering Thermal Transient and PCB Mounting Modes
 
-- **元数据：** 2026 · IEEE transactions on power electronics · Weiwei Wang, Shengxue Tang, Zhe Zhang · [paper](https://doi.org/10.1109/tpel.2025.3640103)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Analytical Thermal Modeling and Arrangement Optimization Design Method for Hybrid Capacitor Banks Considering Thermal Transient and PCB Mounting Modes
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE transactions on power electronics · Weiwei Wang, Shengxue Tang, Zhe Zhang · [paper](https://doi.org/10.1109/tpel.2025.3640103)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### CNN-Based Prediction of Thermo-Mechanical Properties of PCB and Interposer Conductive Layers with WGAN-Augmented Data
 
-- **元数据：** 2026 · International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Micro-Electronics and Micro-Systems · Qinghua Su, K. Chiang · [paper](https://doi.org/10.1109/eurosime69483.2026.11511949)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Micro-Electronics and Micro-Systems · Qinghua Su, K. Chiang · [paper](https://doi.org/10.1109/eurosime69483.2026.11511949)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Design and Simulation-Based Validation of an Embedded Acquisition Architecture for In Situ PCB Integrity Monitoring in Biomedical Devices
 
-- **元数据：** 2026 · Electronics · F. Laganà · [paper](https://doi.org/10.3390/electronics15040833)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Design and Simulation-Based Validation of an Embedded Acquisition Architecture for In Situ PCB Integrity Monitoring in Biomedical Devices
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Electronics · F. Laganà · [paper](https://doi.org/10.3390/electronics15040833)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Design and Thermal Optimization of a PCB-Embedded SiC Half-Bridge Power Module
 
-- **元数据：** 2026 · IEEE International Conference on DC Microgrids · Shaolei Wang, Wenjie Chen, Ziwei Peng, Shimin Lian, Jingye Shen, Tongrui Sun, Jingyi Wang, Xu Yang · [paper](https://doi.org/10.1109/icdcm67837.2026.11594514)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE International Conference on DC Microgrids · Shaolei Wang, Wenjie Chen, Ziwei Peng, Shimin Lian, Jingye Shen, Tongrui Sun, Jingyi Wang, Xu Yang · [paper](https://doi.org/10.1109/icdcm67837.2026.11594514)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB Vibration Co-Design: Sensitivity of Steinberg Fatigue Screening to PCB Component Modeling Fidelity in Base-Excited Vibration
 
-- **元数据：** 2026 · 55th International Conference on Environmental Systems · Yannick Sigmen, Mukund Rajamony · [paper](https://doi.org/10.32865/2346/108969)
-- **范围/主题：** `pcb-core` · `placement`, `thermal-reliability`, `dfm-manufacturing`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：PCB Vibration Co-Design: Sensitivity of Steinberg Fatigue Screening to PCB Component Modeling Fidelity in Base-Excited Vibration
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · 55th International Conference on Environmental Systems · Yannick Sigmen, Mukund Rajamony · [paper](https://doi.org/10.32865/2346/108969)
+- **Scope and topics:** `pcb-core` · `placement`, `thermal-reliability`, `dfm-manufacturing`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Thermal Analysis of Component Placement in High-Power Electronics and LED Boards
 
-- **元数据：** 2026 · Power Electronic Devices and Components · Alexandra Fodor, Ana Cristina Davidaș, Vlad-Andrei Cristescu, Rajmond Jano, Alin Grama · [paper](https://doi.org/10.1016/j.pedc.2026.100148)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `placement`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `simulation_cases` — three component-placement layouts
-- **应用场景：** 高功率 electronics 与 LED PCB 的热感知元件布局。
-- **解决问题：** `reported` — 分析 placement 对热点与最高温度的影响并优化器件位置。
-- **最终测试：** `reported` — 比较三个布局的温度场；优化布局的最高温度约 121°C。 指标：maximum temperature, temperature distribution。
-- **Baselines：** `named` — two alternative component layouts
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Power Electronic Devices and Components · Alexandra Fodor, Ana Cristina Davidaș, Vlad-Andrei Cristescu, Rajmond Jano, Alin Grama · [paper](https://doi.org/10.1016/j.pedc.2026.100148)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `placement`
+- **Code:** not_found: No public code was verified.
+- **Dataset or data source:** `simulation_cases`: three component-placement layouts
+- **Application scenario:** Thermal-aware component placement for high-power electronics and LED PCBs.
+- **Problem addressed:** `reported`: Analyzes how placement affects hotspots and peak temperature, then optimizes component positions.
+- **Final evaluation:** `reported`: Compares temperature fields for three placements; the optimized placement has a peak temperature of about 121 C. Metrics: maximum temperature, temperature distribution.
+- **Baselines:** `named`: two alternative component layouts
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Thermal Management and Experimental Validation of a Copper-Inlay PCB for SiC MOSFETs in High-Power EV Fast Chargers
 
-- **元数据：** 2026 · IEEE Open Journal of Power Electronics · Muhammad Awais, Saghir Amin, Francisco P. Brito, Nuno Costa, João L. Afonso, Vitor Monteiro · [paper](https://doi.org/10.1109/OJPEL.2026.3672717)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `experimental_prototypes` — copper-inlay and thermal-via PCB prototypes
-- **应用场景：** SiC MOSFET 高功率电动汽车快充器的 PCB 热管理。
-- **解决问题：** `reported` — 用 copper inlay 降低功率器件到 PCB 的热阻与结温。
-- **最终测试：** `reported` — 实验比较约 130°C 的 thermal-via 方案与约 102°C 的 copper-inlay 方案；报告热阻降低超过 30%。 指标：temperature, thermal resistance。
-- **Baselines：** `named` — thermal-via PCB
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE Open Journal of Power Electronics · Muhammad Awais, Saghir Amin, Francisco P. Brito, Nuno Costa, João L. Afonso, Vitor Monteiro · [paper](https://doi.org/10.1109/OJPEL.2026.3672717)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No public code was verified.
+- **Dataset or data source:** `experimental_prototypes`: copper-inlay and thermal-via PCB prototypes
+- **Application scenario:** PCB thermal management for a high-power SiC MOSFET electric-vehicle fast charger.
+- **Problem addressed:** `reported`: Uses a copper inlay to reduce thermal resistance and junction temperature from power devices to the PCB.
+- **Final evaluation:** `reported`: Experiments compare a thermal-via design at about 130 C with a copper-inlay design at about 102 C; thermal resistance is reported to decrease by more than 30%. Metrics: temperature, thermal resistance.
+- **Baselines:** `named`: thermal-via PCB
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Trace-Based Thermo-Mechanical Warpage Analysis of Multilayer PCB Substrates and Sensitivity Study on Support Conditions
 
-- **元数据：** 2026 · Korean Journal of Computational Design and Engineering · Misun Kim, D. Kim, Jinah Park, Junghyeon Kwon, Jiwon Lee, Kang-Guen Park · [paper](https://doi.org/10.7315/cde.2026.051)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Korean Journal of Computational Design and Engineering · Misun Kim, D. Kim, Jinah Park, Junghyeon Kwon, Jiwon Lee, Kang-Guen Park · [paper](https://doi.org/10.7315/cde.2026.051)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Warpage Prediction of PCB in Multi-Laminating Processes Considering Cure Shrinkage and Anisotropic Visco-Elastic Properties of Prepreg Core
 
-- **元数据：** 2026 · 2026 IEEE 76th Electronic Components and Technology Conference (ECTC) · Sanjay Kumar, Woong-Kyoo Yoo, Jaesung Kim, Chae-Young Ahn, Jinwoong Kim, Chan Hyuk Park, Hak-Sung Kim · [paper](https://doi.org/10.1109/ectc51846.2026.00258)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Warpage Prediction of PCB in Multi-Laminating Processes Considering Cure Shrinkage and Anisotropic Visco-Elastic Properties of Prepreg Core；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · 2026 IEEE 76th Electronic Components and Technology Conference (ECTC) · Sanjay Kumar, Woong-Kyoo Yoo, Jaesung Kim, Chae-Young Ahn, Jinwoong Kim, Chan Hyuk Park, Hak-Sung Kim · [paper](https://doi.org/10.1109/ectc51846.2026.00258)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### AI-Driven Point Cloud Framework for Predicting Solder Joint Reliability Using 3D FEA Data
 
-- **元数据：** 2025 · Scientific Reports 15 · Mohd Zubair Akhtar, Maximilian Schmid, Gordon Elger · [paper](https://doi.org/10.1038/s41598-025-06902-0)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`, `ai-eda`, `benchmarks-tools`
-- **代码：** not_found — 未核验到公开训练代码。
-- **数据集/数据来源：** `reported_link_unreachable` — 3D FEA solder-joint point clouds
-- **应用场景：** 电子封装/PCBA 焊点 thermo-mechanical reliability prediction。
-- **解决问题：** `reported` — 从 3D FEA point clouds 直接预测焊点可靠性响应。
-- **最终测试：** `reported` — 在 held-out FEA cases 上报告高 R2，并给出 MAE/RMSE。 指标：R2, MAE, RMSE。
-- **Baselines：** `reported_but_not_reextracted` — 论文比较多种回归/point-cloud 模型；模型名称未在本卡重抽取。
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Scientific Reports 15 · Mohd Zubair Akhtar, Maximilian Schmid, Gordon Elger · [paper](https://doi.org/10.1038/s41598-025-06902-0)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`, `ai-eda`, `benchmarks-tools`
+- **Code:** not_found: No public training code was verified.
+- **Dataset or data source:** `reported_link_unreachable`: 3D FEA solder-joint point clouds
+- **Application scenario:** Thermo-mechanical reliability prediction for electronic packages and PCBA solder joints.
+- **Problem addressed:** `reported`: Directly predicts solder-joint reliability responses from 3D FEA point clouds.
+- **Final evaluation:** `reported`: Reports high R2 on held-out FEA cases and gives MAE and RMSE. Metrics: R2, MAE, RMSE.
+- **Baselines:** `reported_but_not_reextracted`: The paper compares several regression and point-cloud models; model names were not re-extracted for this card.
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Comparative Study of Layout Effects on Thermal Management in PCB Hot-Plate
 
-- **元数据：** 2025 · Information Security Solutions Europe · Vlad Cristescu, A. Fodor, L. Viman · [paper](https://doi.org/10.1109/isse65583.2025.11120996)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Comparative Study of Layout Effects on Thermal Management in PCB Hot-Plate
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Information Security Solutions Europe · Vlad Cristescu, A. Fodor, L. Viman · [paper](https://doi.org/10.1109/isse65583.2025.11120996)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Effect of PCB fastening method and thickness on PCB assembly vibration reliability in thermal environments
 
-- **元数据：** 2025 · Microelectronics and reliability · Fang Liu, Runze Gong, Zhongwei Duan, Zhen Wang, Jiacheng Zhou · [paper](https://doi.org/10.1016/j.microrel.2024.115587)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Microelectronics and reliability · Fang Liu, Runze Gong, Zhongwei Duan, Zhen Wang, Jiacheng Zhou · [paper](https://doi.org/10.1016/j.microrel.2024.115587)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB Thermal Layout Optimization for Power Electronics: Integrating Large Language Models with NSGA-II for Enhanced Energy Efficiency
 
-- **元数据：** 2025 · IEEE ECCE 2025 · Yang Li, Youliang Zhu, Jiaze Kong, Bangli Du, Wilmar Martinez · [paper](https://doi.org/10.1109/ECCE58356.2025.11259777)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `placement`, `ai-eda`
-- **代码：** not_found — 未核验到公开实现。
-- **数据集/数据来源：** `simulation_cases` — power-electronics PCB layouts
-- **应用场景：** 功率电子 PCB 的热/能效多目标布局优化。
-- **解决问题：** `reported` — 以 LLM 辅助 NSGA-II 搜索满足设计约束的低温布局。
-- **最终测试：** `reported` — 报告优化后最大温度降低约 7%，并评估能效。 指标：maximum temperature, energy efficiency。
-- **Baselines：** `reported_but_unnamed` — 公开证据支持与原始布局比较，未重抽取完整算法 baseline 表。
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · IEEE ECCE 2025 · Yang Li, Youliang Zhu, Jiaze Kong, Bangli Du, Wilmar Martinez · [paper](https://doi.org/10.1109/ECCE58356.2025.11259777)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `placement`, `ai-eda`
+- **Code:** not_found: No public implementation was verified.
+- **Dataset or data source:** `simulation_cases`: power-electronics PCB layouts
+- **Application scenario:** Multi-objective thermal and energy-efficiency placement optimization for power-electronics PCBs.
+- **Problem addressed:** `reported`: Uses an LLM-assisted NSGA-II search for a low-temperature placement that meets design constraints.
+- **Final evaluation:** `reported`: Reports about a 7% reduction in peak temperature after optimization and evaluates energy efficiency. Metrics: maximum temperature, energy efficiency.
+- **Baselines:** `reported_but_unnamed`: Public evidence supports comparison with the original placement; the complete algorithm baseline table was not re-extracted.
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Cross-Scale Finite Element Analysis of PCBA Thermal Cycling Based on Manufacturing History for More Accurate Fatigue Life Prediction of Solder Joints
 
-- **元数据：** 2024 · Microelectronics Reliability · Ruiqian Zheng, Wenqian Li, Mengxuan Cheng, Hao Zheng, Zhiyan Zhao, Guoshun Wan, Yuxi Jia · [paper](https://doi.org/10.1016/j.microrel.2024.115473)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `simulation_and_experiment` — PCBA manufacturing-history thermal-cycling cases
-- **应用场景：** PCBA solder-joint thermal-cycling fatigue reliability。
-- **解决问题：** `reported` — 把制造历史引入跨尺度有限元以提高焊点寿命预测准确性。
-- **最终测试：** `reported_but_not_reextracted` — 公开摘要确认通过 thermal-cycling/FEA 验证；具体数值未重抽取。 指标：fatigue life prediction error, stress-strain response。
-- **Baselines：** `named` — FEA without manufacturing history
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Microelectronics Reliability · Ruiqian Zheng, Wenqian Li, Mengxuan Cheng, Hao Zheng, Zhiyan Zhao, Guoshun Wan, Yuxi Jia · [paper](https://doi.org/10.1016/j.microrel.2024.115473)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No public code repository was verified.
+- **Dataset or data source:** `simulation_and_experiment`: PCBA manufacturing-history thermal-cycling cases
+- **Application scenario:** PCBA solder-joint thermal-cycling fatigue reliability.
+- **Problem addressed:** `reported`: Incorporates manufacturing history into cross-scale finite-element analysis to improve solder-joint life prediction accuracy.
+- **Final evaluation:** `reported_but_not_reextracted`: The public abstract confirms validation through thermal cycling and FEA; specific values were not re-extracted. Metrics: fatigue life prediction error, stress-strain response.
+- **Baselines:** `named`: FEA without manufacturing history
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Evaluation of Thermo-Mechanical Fatigue Life of Microvias Under PCB Substrate's Influence During Reflow Process
 
-- **元数据：** 2024 · Electronic Packaging Technology Conference · Syed Mujahid Abbas, Qiang Yu · [paper](https://doi.org/10.1109/eptc62800.2024.10909749)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Evaluation of Thermo-Mechanical Fatigue Life of Microvias Under PCB Substrate's Influence During Reflow Process
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：accuracy。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Electronic Packaging Technology Conference · Syed Mujahid Abbas, Qiang Yu · [paper](https://doi.org/10.1109/eptc62800.2024.10909749)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Thermo-Mechanical Investigations for PCB Assemblies Using Top-side Cooled Power Devices
 
-- **元数据：** 2024 · International Workshop on Thermal Investigations of ICs and Systems · Philip Matzick, C. Mentin, Lukas Adelbrecht, Elisa Anes Romero, Roberto Petrella · [paper](https://doi.org/10.1109/therminic62015.2024.10732465)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Thermo-Mechanical Investigations for PCB Assemblies Using Top-side Cooled Power Devices
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · International Workshop on Thermal Investigations of ICs and Systems · Philip Matzick, C. Mentin, Lukas Adelbrecht, Elisa Anes Romero, Roberto Petrella · [paper](https://doi.org/10.1109/therminic62015.2024.10732465)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A Parameter Study for the Design Optimization to Relieve Pattern Stress of PCB under the Temperature Cycling Condition
 
-- **元数据：** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Hyunggyun Noh, Kyungwoo Lee, Jinsu Bae, Yuchul Hwang, Hoosung Kim, Sangwoo Pae · [paper](https://doi.org/10.1109/ectc51906.2022.00276)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A Parameter Study for the Design Optimization to Relieve Pattern Stress of PCB under the Temperature Cycling Condition；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · 2022 IEEE 72nd Electronic Components and Technology Conference (ECTC) · Hyunggyun Noh, Kyungwoo Lee, Jinsu Bae, Yuchul Hwang, Hoosung Kim, Sangwoo Pae · [paper](https://doi.org/10.1109/ectc51906.2022.00276)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Effects of Heatsink Application and PCB Design Variations on BGA Solder Joint Reliability
 
-- **元数据：** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Omar Ahmed, Leif Hutchinson, Peng Su, Tengfei Jiang · [paper](https://doi.org/10.1109/ectc32696.2021.00164)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Effects of Heatsink Application and PCB Design Variations on BGA Solder Joint Reliability；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2021 · 2021 IEEE 71st Electronic Components and Technology Conference (ECTC) · Omar Ahmed, Leif Hutchinson, Peng Su, Tengfei Jiang · [paper](https://doi.org/10.1109/ectc32696.2021.00164)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Board Level Reliability Enhancement with Considerations of Solder Ball, Substrate and PCB
 
-- **元数据：** 2020 · 2020 IEEE 70th Electronic Components and Technology Conference (ECTC) · Yangming Liu, Bo Yang, Shenghua Huang, Ning Ye, Shrikar Bhagath, Rama Shukla · [paper](https://doi.org/10.1109/ectc32862.2020.00050)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Board Level Reliability Enhancement with Considerations of Solder Ball, Substrate and PCB；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2020 · 2020 IEEE 70th Electronic Components and Technology Conference (ECTC) · Yangming Liu, Bo Yang, Shenghua Huang, Ning Ye, Shrikar Bhagath, Rama Shukla · [paper](https://doi.org/10.1109/ectc32862.2020.00050)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Thermal Modeling and Design Optimization of PCB Vias and Pads
 
-- **元数据：** 2020 · IEEE Transactions on Power Electronics 35(1) · Yanfeng Shen, Huai Wang, Frede Blaabjerg, Hui Zhao, Teng Long · [paper](https://doi.org/10.1109/TPEL.2019.2915029)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `simulation_and_experiment` — PCB via/pad thermal test vehicles
-- **应用场景：** 功率电子 PCB via/pad 导热设计。
-- **解决问题：** `reported` — 建立可用于尺寸/阵列优化的 via 与 pad 热模型。
-- **最终测试：** `reported` — 以 FEA 和实验验证模型并进行 via/pad design optimization。 指标：thermal resistance, temperature。
-- **Baselines：** `named` — finite-element simulation, experimental measurements
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2020 · IEEE Transactions on Power Electronics 35(1) · Yanfeng Shen, Huai Wang, Frede Blaabjerg, Hui Zhao, Teng Long · [paper](https://doi.org/10.1109/TPEL.2019.2915029)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No public code repository was verified.
+- **Dataset or data source:** `simulation_and_experiment`: PCB via/pad thermal test vehicles
+- **Application scenario:** Thermal design of PCB vias and pads for power electronics.
+- **Problem addressed:** `reported`: Builds thermal models of vias and pads for size and array optimization.
+- **Final evaluation:** `reported`: Validates the models with FEA and experiments and performs via and pad design optimization. Metrics: thermal resistance, temperature.
+- **Baselines:** `named`: finite-element simulation, experimental measurements
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### WLCSP Package and PCB Design for Board Level Reliability
 
-- **元数据：** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Jason Chiu, K.C. Chang, Steven Hsu, Pei-Haw Tsao, M.J. Lii · [paper](https://doi.org/10.1109/ectc.2019.00121)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：WLCSP Package and PCB Design for Board Level Reliability；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2019 · 2019 IEEE 69th Electronic Components and Technology Conference (ECTC) · Jason Chiu, K.C. Chang, Steven Hsu, Pei-Haw Tsao, M.J. Lii · [paper](https://doi.org/10.1109/ectc.2019.00121)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Electronic PCB and PKG Thermal Stress Analysis
 
-- **元数据：** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · G. Refai-Ahmed, H. Shi, Y. Bhartiya, T. Pawlak, M. Keshavamurthy, B. Boots, S. Shah, D. Ostergaard, et al. · [paper](https://doi.org/10.1109/ectc.2016.196)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Electronic PCB and PKG Thermal Stress Analysis；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · G. Refai-Ahmed, H. Shi, Y. Bhartiya, T. Pawlak, M. Keshavamurthy, B. Boots, S. Shah, D. Ostergaard, et al. · [paper](https://doi.org/10.1109/ectc.2016.196)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Impact of PCB Layer Orientation on the Drop Reliability of WCSP Boards
 
-- **元数据：** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · Anik Mahmood, Trina Barua, A. R. Nazmus Sakib, Dereje Agonafer · [paper](https://doi.org/10.1109/ectc.2016.236)
-- **范围/主题：** `pcb-core` · `thermal-reliability`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Impact of PCB Layer Orientation on the Drop Reliability of WCSP Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · Anik Mahmood, Trina Barua, A. R. Nazmus Sakib, Dereje Agonafer · [paper](https://doi.org/10.1109/ectc.2016.236)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Development of PCB design guide and PCB deformation simulation tool for slim PCB quality and reliability
 
-- **元数据：** 2013 · 2013 IEEE 63rd Electronic Components and Technology Conference · Soonwan Chung, Gyun Heo, J. Kwak, Seunghee Oh, Yongwon Lee, Changsun Kang, Tackmo Lee · [paper](https://doi.org/10.1109/ectc.2013.6575879)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2013 · 2013 IEEE 63rd Electronic Components and Technology Conference · Soonwan Chung, Gyun Heo, J. Kwak, Seunghee Oh, Yongwon Lee, Changsun Kang, Tackmo Lee · [paper](https://doi.org/10.1109/ectc.2013.6575879)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Process development and reliability study with anisotropic conductive film bonding on multiple types of PCB surface finishes
 
-- **元数据：** 2011 · 2011 IEEE 61st Electronic Components and Technology Conference (ECTC) · Jenson Lee, David Geiger, Dongkai Shangguan · [paper](https://doi.org/10.1109/ectc.2011.5898750)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Process development and reliability study with anisotropic conductive film bonding on multiple types of PCB surface finishes；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2011 · 2011 IEEE 61st Electronic Components and Technology Conference (ECTC) · Jenson Lee, David Geiger, Dongkai Shangguan · [paper](https://doi.org/10.1109/ectc.2011.5898750)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Predicted Fundamental Vibration Frequency of a Heavy Electronic Component Mounted on a Printed Circuit Board
 
-- **元数据：** 2000 · Journal of Electronic Packaging · E. Suhir · [paper](https://doi.org/10.1115/1.483134)
-- **范围/主题：** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 热、机械与可靠性协同设计（Thermal and reliability co-design）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2000 · Journal of Electronic Packaging · E. Suhir · [paper](https://doi.org/10.1115/1.483134)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Thermal and reliability co-design.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation. The metrics field lists only items named explicitly in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.

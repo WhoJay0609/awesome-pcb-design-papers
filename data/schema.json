@@ -38,18 +38,17 @@
     }
   },
   "properties": {
-    "schema_version": {"type": "string"},
+    "schema_version": {"const": "2.0.0"},
     "cutoff_date": {"type": "string", "format": "date"},
     "topics": {
       "type": "array",
       "minItems": 8,
       "items": {
         "type": "object",
-        "required": ["id", "name_zh", "name_en"],
+        "required": ["id", "name"],
         "properties": {
           "id": {"type": "string", "minLength": 1},
-          "name_zh": {"type": "string", "minLength": 1},
-          "name_en": {"type": "string", "minLength": 1}
+          "name": {"type": "string", "minLength": 1}
         }
       }
     },

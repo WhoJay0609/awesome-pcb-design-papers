@@ -103,13 +103,15 @@ def analyze_scope(papers: list[dict]) -> dict:
     keyword_counts = Counter()
     keyword_by_year = defaultdict(Counter)
     for paper in papers:
-        text = " ".join(
-            [
-                paper.get("title", ""),
-                paper.get("problem_solved", {}).get("summary", ""),
-                paper.get("application_scenario", {}).get("summary", ""),
-            ]
-        )
+        parts = [paper.get("title", "")]
+        if paper.get("evidence_level") != "metadata-only":
+            parts.extend(
+                [
+                    paper.get("problem_solved", {}).get("summary", ""),
+                    paper.get("application_scenario", {}).get("summary", ""),
+                ]
+            )
+        text = " ".join(parts)
         for keyword, pattern in PATTERNS.items():
             if pattern.search(text):
                 keyword_counts[keyword] += 1
@@ -138,8 +140,9 @@ def main() -> int:
     result = {
         "cutoff_date": payload["cutoff_date"],
         "method": (
-            "Document frequency over controlled case-insensitive regex terms applied to titles and original "
-            "catalog summaries. Each keyword counts at most once per paper; scopes are computed separately."
+            "Document frequency over controlled case-insensitive regex terms applied to every title and to "
+            "scenario/problem summaries only when the evidence level is abstract, full-text, or project-page. "
+            "Each keyword counts at most once per paper; scopes are computed separately."
         ),
         "scopes": {scope: analyze_scope(items) for scope, items in scopes.items()},
     }

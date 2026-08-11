@@ -11,7 +11,7 @@ The retrieval cutoff is **2026-08-11**. The catalog includes peer-reviewed paper
 
 ## Search and discovery
 
-The query families used by the discovery connectors are defined in [`scripts/discover_openalex.py`](../scripts/discover_openalex.py) and reused by the Crossref connector. They combine PCB synonyms with:
+The discovery connectors use the query families defined in [`scripts/discover_openalex.py`](../scripts/discover_openalex.py); the Crossref connector reuses them. The queries combine PCB synonyms with:
 
 - placement, legalization, and floorplanning;
 - routing, escape routing, layer assignment, length matching, and pin assignment;
@@ -22,9 +22,9 @@ The query families used by the discovery connectors are defined in [`scripts/dis
 - DFM/DFA/DFT, fabrication, assembly, and process optimization;
 - inspection, testing, datasets, benchmarks, and open tools.
 
-Candidate retrieval is intentionally broader than admission. Raw API response caches are not committed and their transient hit counts are not used as coverage evidence. Semantic Scholar's batch API was used as metadata/abstract corroboration for the review queue; DOI, publisher, conference, or arXiv pages remain the primary record.
+Candidate retrieval is broader than admission by design. The repository does not commit raw API response caches or use their transient hit counts as coverage evidence. The review queue used Semantic Scholar's batch API for metadata and abstract corroboration; DOI, publisher, conference, or arXiv pages remain the primary record.
 
-OpenAlex and DBLP connectors are provided as optional discovery aids. A source can be unavailable or rate-limited on a given run; an unavailable connector is never silently treated as proof of completeness.
+OpenAlex and DBLP connectors are optional discovery aids. A source may be unavailable or rate-limited on a given run. The catalog does not silently treat an unavailable connector as proof of completeness.
 
 ## De-duplication and version policy
 
@@ -36,7 +36,7 @@ OpenAlex and DBLP connectors are provided as optional discovery aids. A source c
 
 ## Operational top-venue audit
 
-“All top-conference papers” is made falsifiable through a closed set: **DAC, ICCAD, DATE, ASP-DAC, ISPD, ECTC, and EPEPS**. This is an operational coverage definition, not a universal ranking claim.
+The audit makes "all top-conference papers" falsifiable by using the closed set: **DAC, ICCAD, DATE, ASP-DAC, ISPD, ECTC, and EPEPS**. This is an operational coverage definition, not a universal ranking claim.
 
 For each venue, the audit searches proceedings/metadata with `PCB`, `printed circuit board`, `printed wiring board`, `board-level`, `placement`, `routing`, `layout`, `signal integrity`, `power integrity`, `EMC`, `DFM`, and `testability`. The audit file records:
 
@@ -47,7 +47,7 @@ For each venue, the audit searches proceedings/metadata with `PCB`, `printed cir
 - duplicate/version normalization;
 - known access or indexing gaps.
 
-The admitted DOI inventory is the operational coverage target for PCB-specific results inside this closed surface. It is individually auditable, but the unavailable/rate-limited proceedings surfaces prevent a mathematical completeness claim. Non-PCB EDA papers remain representative references only.
+The admitted DOI inventory is the coverage target for PCB-specific results in this closed surface. The inventory is individually auditable, but unavailable or rate-limited proceedings surfaces prevent a mathematical completeness claim. Non-PCB EDA papers are representative references only.
 
 ## Evidence-card extraction
 
@@ -66,7 +66,7 @@ Full abstracts are not redistributed. The catalog stores original short summarie
 
 ## Keyword analysis
 
-[`scripts/analyze_catalog.py`](../scripts/analyze_catalog.py) applies a version-controlled controlled vocabulary to titles and catalog summaries. Counts are **document frequency**: a keyword contributes at most one count per paper. PCB-core and related-EDA records are computed separately so reference papers cannot distort PCB trends.
+[`scripts/analyze_catalog.py`](../scripts/analyze_catalog.py) applies a controlled vocabulary tracked in version control to every title. It also uses scenario and problem summaries for records supported by an abstract, full text, or project page. Metadata-only summaries are excluded because their repeated templates would distort the distribution. Counts are **document frequency**: a keyword contributes at most one count per paper. PCB-core and related-EDA records are computed separately so reference papers cannot distort PCB trends.
 
 ## Limitations
 
@@ -74,7 +74,7 @@ Full abstracts are not redistributed. The catalog stores original short summarie
 - Publisher deposits can carry a deposit year rather than the publication year.
 - Papers can avoid PCB/PWB terms in their titles and abstracts.
 - Code can be released after the catalog's verification date.
-- “Latest” is a moving boundary; the cutoff makes the time boundary explicit, not permanently current.
-- The URL-check snapshot treats publisher `401/403` responses as access-controlled rather than dead links. On 2026-08-11, 348 of 351 unique paper/code/data URLs were reachable or access-controlled; two dataset hosts returned network errors and one author-reported Kaggle URL returned HTTP 404. These links are retained as provenance, with the Kaggle dataset explicitly marked `reported_link_unreachable` rather than open.
+- "Latest" is a moving boundary. The cutoff makes the time boundary explicit, but it does not make the catalog permanently current.
+- The URL-check snapshot treats publisher `401/403` responses as access-controlled rather than dead links. On 2026-08-11, 348 of 351 unique paper/code/data URLs were reachable or access-controlled. Two dataset hosts returned network errors, and one author-reported Kaggle URL returned HTTP 404. The catalog retains these links as provenance and marks the Kaggle dataset `reported_link_unreachable` rather than open.
 
 Corrections with a primary source are welcome.

@@ -1,6 +1,6 @@
-# 元件布局与合法化 / Placement and legalization
+# Placement and legalization
 
-共 35 篇主分类论文。详细字段均来自 `data/papers.json`；`not_reported` 表示当前可访问证据未说明。
+35 papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
@@ -44,420 +44,420 @@
 
 ### Automatic PCB Component Placement via GNN-Guided Similarity Retrieval Coupled with GAN-Based Completion
 
-- **元数据：** 2026 · 2026 International Conference on Electronics Packaging and Hybrid Bonding Symposium (ICEP-HBS) · Hiroki Yonekura, T. Echigo · [paper](https://doi.org/10.23919/icep-hbs69241.2026.11550476)
-- **范围/主题：** `pcb-core` · `placement`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Automatic PCB Component Placement via GNN-Guided Similarity Retrieval Coupled with GAN-Based Completion
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · 2026 International Conference on Electronics Packaging and Hybrid Bonding Symposium (ICEP-HBS) · Hiroki Yonekura, T. Echigo · [paper](https://doi.org/10.23919/icep-hbs69241.2026.11550476)
+- **Scope and topics:** `pcb-core` · `placement`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Component Centric Placement Using Deep Reinforcement Learning
 
-- **元数据：** 2026 · arXiv · Kart Leong Lim · [paper](https://arxiv.org/abs/2602.23540)
-- **范围/主题：** `pcb-core` · `placement`, `ai-eda`
-- **代码：** not_found — 未核验到代码或数据发布。
-- **数据集/数据来源：** `private_or_unreleased` — 9+ real-world PCBs
-- **应用场景：** 主器件居中、无源器件按电源/引脚邻近约束放置的 component-centric PCB layout。
-- **解决问题：** `reported` — 缩小 RL placement action space，并用先验避免无效探索。
-- **最终测试：** `reported` — 在 9+ 真实 PCB 上测试线长与可行性，最佳方法接近人工布局。 指标：Euclidean wirelength, feasibility, overlap, routing conflicts。
-- **Baselines：** `named` — DQN, Actor-Critic, simulated annealing
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Kart Leong Lim · [paper](https://arxiv.org/abs/2602.23540)
+- **Scope and topics:** `pcb-core` · `placement`, `ai-eda`
+- **Code:** not_found: No code or data release was verified.
+- **Dataset or data source:** `private_or_unreleased`: 9+ real-world PCBs
+- **Application scenario:** A component-centric PCB layout with the main device centered and passive components placed by power and pin-proximity constraints.
+- **Problem addressed:** `reported`: Reduces the RL placement action space and uses priors to avoid ineffective exploration.
+- **Final evaluation:** `reported`: Tests wirelength and feasibility on 9+ real PCBs; the best method approaches manual placement. Metrics: Euclidean wirelength, feasibility, overlap, routing conflicts.
+- **Baselines:** `named`: DQN, Actor-Critic, simulated annealing
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method
 
-- **元数据：** 2026 · 2026 31st Asia and South Pacific Design Automation Conference (ASP-DAC) · Lei Cai, Ke Cheng, Jixin Zhang, Haiyun Li, Zhiwei Ye · [paper](https://doi.org/10.1109/asp-dac66049.2026.11420655)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ASP-DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · 2026 31st Asia and South Pacific Design Automation Conference (ASP-DAC) · Lei Cai, Ke Cheng, Jixin Zhang, Haiyun Li, Zhiwei Ye · [paper](https://doi.org/10.1109/asp-dac66049.2026.11420655)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ASP-DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### HiePlace: Efficient Hierarchical PCB Placement
 
-- **元数据：** 2026 · IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems · Shanyi Li, Zhuang Zhen, Mingyu Liu, Weihua Sheng, Bei Yu, Tsungyi Ho · [paper](https://doi.org/10.1109/tcad.2025.3580511)
-- **范围/主题：** `pcb-core` · `placement`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：HiePlace: Efficient Hierarchical PCB Placement
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems · Shanyi Li, Zhuang Zhen, Mingyu Liu, Weihua Sheng, Bei Yu, Tsungyi Ho · [paper](https://doi.org/10.1109/tcad.2025.3580511)
+- **Scope and topics:** `pcb-core` · `placement`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Influence of Boundary Conditions and Component Placement on Lifetime of PCB Assemblies under Vibration Loading: XGBoost and SGB Analysis with SHAP Interpretation
 
-- **元数据：** 2026 · Journal of Electronic Packaging · Akashjyoti Barman, Jai Mantri, Ganesh S.P, Yash Kantamneni, G. Sabareesh, S.a Radhika · [paper](https://doi.org/10.1115/1.4071646)
-- **范围/主题：** `pcb-core` · `placement`, `thermal-reliability`, `dfm-manufacturing`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：accuracy。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Journal of Electronic Packaging · Akashjyoti Barman, Jai Mantri, Ganesh S.P, Yash Kantamneni, G. Sabareesh, S.a Radhika · [paper](https://doi.org/10.1115/1.4071646)
+- **Scope and topics:** `pcb-core` · `placement`, `thermal-reliability`, `dfm-manufacturing`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### MARS-Place: Multi-stage alignment-refined strategy for PCB placement and routing optimization
 
-- **元数据：** 2026 · Integr. · Peng Wei, Yunhao Hu, Zhuomin Chai, Hongyu Zhao, Wei Liu · [paper](https://doi.org/10.1016/j.vlsi.2026.102671)
-- **范围/主题：** `pcb-core` · `placement`, `routing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Integr. · Peng Wei, Yunhao Hu, Zhuomin Chai, Hongyu Zhao, Wei Liu · [paper](https://doi.org/10.1016/j.vlsi.2026.102671)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Modern Automatic PCB Placement With Complex Constraints
 
-- **元数据：** 2026 · IEEE TCAD 45(5) · Chien-Hao Tsou, Sheng-Yah Lin, Wei-Chen Hung, Yao-Wen Chang · [paper](https://doi.org/10.1109/tcad.2025.3618936)
-- **范围/主题：** `pcb-core` · `placement`, `routing`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `reported` — 12 PCBs
-- **应用场景：** 带 region/technology constraints 和 detailed-routing-aware legalization 的现代 PCB placement。
-- **解决问题：** `reported` — 处理异构器件、复杂区域和后布线质量约束。
-- **最终测试：** `reported` — 会议版报告在 12 块板上优于 ISPD 2015 contest winners 与近期方法。 指标：detailed-routing result, overall score。
-- **Baselines：** `reported_but_unnamed` — ISPD 2015 contest winners
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE TCAD 45(5) · Chien-Hao Tsou, Sheng-Yah Lin, Wei-Chen Hung, Yao-Wen Chang · [paper](https://doi.org/10.1109/tcad.2025.3618936)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`
+- **Code:** not_found: No public code was verified.
+- **Dataset or data source:** `reported`: 12 PCBs
+- **Application scenario:** Modern PCB placement with region and technology constraints and detailed-routing-aware legalization.
+- **Problem addressed:** `reported`: Handles heterogeneous components, complex regions, and post-routing quality constraints.
+- **Final evaluation:** `reported`: The conference version reports better results on 12 boards than the ISPD 2015 contest winners and recent methods. Metrics: detailed-routing result, overall score.
+- **Baselines:** `reported_but_unnamed`: ISPD 2015 contest winners
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Multiobjective Hybrid Evolutionary Multitasking Algorithm for PCB Assembly Optimization in Beam-Head Placement Machines
 
-- **元数据：** 2026 · IEEE Transactions on Industrial Informatics · Junhu Cao, Jinyong Yu, Zhengkai Li, Xinghu Yu, Hao Sun, Jianbin Qiu, J. Rodríguez-Andina · [paper](https://doi.org/10.1109/tii.2025.3642805)
-- **范围/主题：** `pcb-core` · `placement`, `dfm-manufacturing`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Multiobjective Hybrid Evolutionary Multitasking Algorithm for PCB Assembly Optimization in Beam-Head Placement Machines
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · IEEE Transactions on Industrial Informatics · Junhu Cao, Jinyong Yu, Zhengkai Li, Xinghu Yu, Hao Sun, Jianbin Qiu, J. Rodríguez-Andina · [paper](https://doi.org/10.1109/tii.2025.3642805)
+- **Scope and topics:** `pcb-core` · `placement`, `dfm-manufacturing`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout
 
-- **元数据：** 2026 · arXiv · Taiting Lu, Kaiyuan Lin, Mingjia Wang, Haolin Ye, Runze Liu, Mahanth Gowda · [paper](https://arxiv.org/abs/2607.03261)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `schematic-design`, `benchmarks-tools`, `ai-eda`
-- **代码：** [partial_open](https://www.omnieda.com/) — 项目页提供样例数据与可视化代码；完整基准发布未核验。
-- **数据集/数据来源：** `partial_open` — OmniLayout
-- **应用场景：** 面向 PCB 元件布局、可布通性、电气功能保持和工具增强 agent 的多模态推理。
-- **解决问题：** `reported` — 衡量 LMM 在真实几何、连接和布线约束下完成 PCB 布局推理的能力。
-- **最终测试：** `reported` — 同时测试几何合法性、可布通性、功能正确性和端到端通过率。 指标：overlap area, out-of-bound count, HPWL, net crossings, routed-net ratio, via count, pass rate。
-- **Baselines：** `named` — GPT-5.5, Qwen3.5, Qwen3.6, LLaMA 4 Maverick, Ministral 14B, Quilter, PCBAgent, SA-PCB, NS-Place, human reference
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Taiting Lu, Kaiyuan Lin, Mingjia Wang, Haolin Ye, Runze Liu, Mahanth Gowda · [paper](https://arxiv.org/abs/2607.03261)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `schematic-design`, `benchmarks-tools`, `ai-eda`
+- **Code:** [partial_open](https://www.omnieda.com/): The project page provides sample data and visualization code; release of the complete benchmark was not verified.
+- **Dataset or data source:** `partial_open`: OmniLayout
+- **Application scenario:** Multimodal reasoning for PCB component placement, routability, electrical-function preservation, and tool-augmented agents.
+- **Problem addressed:** `reported`: Measures LMM ability to reason about PCB placement under real geometry, connectivity, and routing constraints.
+- **Final evaluation:** `reported`: Tests geometric legality, routability, functional correctness, and end-to-end pass rate. Metrics: overlap area, out-of-bound count, HPWL, net crossings, routed-net ratio, via count, pass rate.
+- **Baselines:** `named`: GPT-5.5, Qwen3.5, Qwen3.6, LLaMA 4 Maverick, Ministral 14B, Quilter, PCBAgent, SA-PCB, NS-Place, human reference
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A deep reinforcement learning framework for optimized dummy pad placement in PCB electroplating
 
-- **元数据：** 2025 · Expert systems with applications · Qiuzhan Zhou, Yinggang Li, Cong Wang, Jingsong Wang · [paper](https://doi.org/10.1016/j.eswa.2025.128639)
-- **范围/主题：** `pcb-core` · `placement`, `dfm-manufacturing`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Expert systems with applications · Qiuzhan Zhou, Yinggang Li, Cong Wang, Jingsong Wang · [paper](https://doi.org/10.1016/j.eswa.2025.128639)
+- **Scope and topics:** `pcb-core` · `placement`, `dfm-manufacturing`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An analytical approach and fine-tuning strategy for PCB placement optimization
 
-- **元数据：** 2025 · Integr. · Hongyun Zhao, Yunhao Hu, Zhuomin Chai, Peng Wei, Shupei He, Wei Liu · [paper](https://doi.org/10.1016/j.vlsi.2025.102567)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Integr. · Hongyun Zhao, Yunhao Hu, Zhuomin Chai, Peng Wei, Shupei He, Wei Liu · [paper](https://doi.org/10.1016/j.vlsi.2025.102567)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Clearance-Constrained PCB Global Placement with Heterogeneous Components
 
-- **元数据：** 2025 · Design Automation Conference · Yan-Jen Chen, Wei-Kai Huang, Chung-Ting Tsai, Chiao-Yu Ou, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11133056)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Clearance-Constrained PCB Global Placement with Heterogeneous Components
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：violations, power。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Design Automation Conference · Yan-Jen Chen, Wei-Kai Huang, Chung-Ting Tsai, Chiao-Yu Ou, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11133056)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: violations, power.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Constraint Graph-based PCB Legalization Considering Dense, Heterogeneous, Irregular-Shaped, and Any-oriented Components
 
-- **元数据：** 2025 · 2025 62nd ACM/IEEE Design Automation Conference (DAC) · Chiao-Yu Ou, Yan-Jen Chen, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11133304)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Constraint Graph-based PCB Legalization Considering Dense, Heterogeneous, Irregular-Shaped, and Any-oriented Components；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · 2025 62nd ACM/IEEE Design Automation Conference (DAC) · Chiao-Yu Ou, Yan-Jen Chen, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11133304)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Cypress: VLSI-Inspired PCB Placement with GPU Acceleration
 
-- **元数据：** 2025 · ISPD 2025 · Niansong Zhang, Anthony Agnesina, Noor Shbat, Yuval Leader, Zhiru Zhang, Haoxing Ren · [paper](https://doi.org/10.1145/3698364.3705346)
-- **范围/主题：** `pcb-core` · `placement`, `benchmarks-tools`
-- **代码：** [open](https://github.com/NVlabs/Cypress) — NVlabs 仓库公开实现与 benchmark suite。
-- **数据集/数据来源：** `open` — Cypress benchmarks
-- **应用场景：** GPU 加速的 VLSI-inspired PCB placement，联合 wirelength、density、orientation 与 net-crossing costs。
-- **解决问题：** `reported` — 在 PCB 特有几何和可布通约束下兼顾布局质量与运行速度。
-- **最终测试：** `reported` — 报告 1–5.9x 更高 routability、1–19.7x 更短 routed tracks、最高 492.3x speedup。 指标：routability, routed track length, runtime。
-- **Baselines：** `named` — SA-PCB, NS-Place, NS-Place+, Quilter, human reference
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · ISPD 2025 · Niansong Zhang, Anthony Agnesina, Noor Shbat, Yuval Leader, Zhiru Zhang, Haoxing Ren · [paper](https://doi.org/10.1145/3698364.3705346)
+- **Scope and topics:** `pcb-core` · `placement`, `benchmarks-tools`
+- **Code:** [open](https://github.com/NVlabs/Cypress): The NVlabs repository publishes an implementation and benchmark suite.
+- **Dataset or data source:** `open`: Cypress benchmarks
+- **Application scenario:** GPU-accelerated VLSI-inspired PCB placement that jointly uses wirelength, density, orientation, and net-crossing costs.
+- **Problem addressed:** `reported`: Balances placement quality and runtime under PCB-specific geometry and routability constraints.
+- **Final evaluation:** `reported`: Reports 1 to 5.9x higher routability, 1 to 19.7x shorter routed tracks, and up to 492.3x speedup. Metrics: routability, routed track length, runtime.
+- **Baselines:** `named`: SA-PCB, NS-Place, NS-Place+, Quilter, human reference
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Graph-based legalization for PCB placement
 
-- **元数据：** 2025 · Journal of Physics, Conference Series · Weibo Chen, Xinguo Deng · [paper](https://doi.org/10.1088/1742-6596/3079/1/012071)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Graph-based legalization for PCB placement
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Journal of Physics, Conference Series · Weibo Chen, Xinguo Deng · [paper](https://doi.org/10.1088/1742-6596/3079/1/012071)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Late Breaking Results: Advanced PCB Placement with Irregular Components for Efficient Collision Detection and Routability Optimization
 
-- **元数据：** 2025 · Design Automation Conference · Chien-Hao Tsou, Zhu-Xun Lee, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11132719)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Late Breaking Results: Advanced PCB Placement with Irregular Components for Efficient Collision Detection and Routability Optimization
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：routability。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · Design Automation Conference · Chien-Hao Tsou, Zhu-Xun Lee, Yao-Wen Chang · [paper](https://doi.org/10.1109/dac63849.2025.11132719)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: routability.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCBAgent: An Agent-Based Framework for High-Density Printed Circuit Board Placement
 
-- **元数据：** 2025 · ASP-DAC 2025 · Lin Chen, Ran Chen, Shoubo Hu, Xufeng Yao, Zhentao Tang, Shixiong Kai, Siyuan Xu, Mingxuan Yuan, et al. · [paper](https://doi.org/10.1145/3658617.3697736)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `ai-eda`
-- **代码：** not_found — 未核验到公开实现。
-- **数据集/数据来源：** `industrial_cases` — 17 industrial PCB tasks
-- **应用场景：** 带专家意图交互的高密度 PCB placement。
-- **解决问题：** `reported` — 结合 RL inference/fine-tuning 与 LLM 交互，在合法性、线长和 surface-layer routing 间优化。
-- **最终测试：** `reported` — 报告平均约 1.04 normalized HPWL 与 0.94 NSLW，并比较 non-overlap performance。 指标：non-overlap rate, HPWL, NSLW, surface-layer wire。
-- **Baselines：** `named` — ChipFormer, MaskPlace, MILP, expert manual layouts
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · ASP-DAC 2025 · Lin Chen, Ran Chen, Shoubo Hu, Xufeng Yao, Zhentao Tang, Shixiong Kai, Siyuan Xu, Mingxuan Yuan, et al. · [paper](https://doi.org/10.1145/3658617.3697736)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `ai-eda`
+- **Code:** not_found: No public implementation was verified.
+- **Dataset or data source:** `industrial_cases`: 17 industrial PCB tasks
+- **Application scenario:** Interactive high-density PCB placement that captures expert intent.
+- **Problem addressed:** `reported`: Combines RL inference or fine-tuning with LLM interaction to optimize legality, wirelength, and surface-layer routing.
+- **Final evaluation:** `reported`: Reports about 1.04 normalized HPWL and 0.94 NSLW on average, and compares non-overlap performance. Metrics: non-overlap rate, HPWL, NSLW, surface-layer wire.
+- **Baselines:** `named`: ChipFormer, MaskPlace, MILP, expert manual layouts
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A Comprehensive Study of Open-Source Printed Circuit Board (PCB) Design Software Bugs
 
-- **元数据：** 2024 · IEEE Transactions on Instrumentation and Measurement · Xu Zhao, He Jiang, Shikai Guo, Dong Liu, Hui Liu, Chongyang Shi, Xiaochen Li · [paper](https://doi.org/10.1109/tim.2024.3450918)
-- **范围/主题：** `pcb-core` · `placement`, `benchmarks-tools`
-- **代码：** announced_or_mentioned_unverified — 摘要提到开放资源，但尚未核验到代码 URL。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：A Comprehensive Study of Open-Source Printed Circuit Board (PCB) Design Software Bugs
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE Transactions on Instrumentation and Measurement · Xu Zhao, He Jiang, Shikai Guo, Dong Liu, Hui Liu, Chongyang Shi, Xiaochen Li · [paper](https://doi.org/10.1109/tim.2024.3450918)
+- **Scope and topics:** `pcb-core` · `placement`, `benchmarks-tools`
+- **Code:** announced_or_mentioned_unverified: The abstract mentions an open resource, but no direct code URL was verified.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A Study on Alternative Micro-gripper for Intelligent Dissimilar Component Placement-machine in Industrial PCB Manufacturing
 
-- **元数据：** 2024 · Journal of the Korea Academia-Industrial cooperation Society · Jeong-Keun Kook, Jongwon Kim · [paper](https://doi.org/10.5762/kais.2024.25.7.409)
-- **范围/主题：** `pcb-core` · `placement`, `dfm-manufacturing`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Journal of the Korea Academia-Industrial cooperation Society · Jeong-Keun Kook, Jongwon Kim · [paper](https://doi.org/10.5762/kais.2024.25.7.409)
+- **Scope and topics:** `pcb-core` · `placement`, `dfm-manufacturing`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### AI-Optimized Placement and Routing for PCB Design
 
-- **元数据：** 2024 · 2024 Ninth International Conference on Science Technology Engineering and Mathematics (ICONSTEM) · P. Sathyaraj, S. Arulkumar, A. Ajina, Kedir Beshir, L. Umasankar, A. N. Arularasan · [paper](https://doi.org/10.1109/iconstem60960.2024.10568665)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `si-pi-emc`, `thermal-reliability`, `dfm-manufacturing`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：AI-Optimized Placement and Routing for PCB Design
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · 2024 Ninth International Conference on Science Technology Engineering and Mathematics (ICONSTEM) · P. Sathyaraj, S. Arulkumar, A. Ajina, Kedir Beshir, L. Umasankar, A. N. Arularasan · [paper](https://doi.org/10.1109/iconstem60960.2024.10568665)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `si-pi-emc`, `thermal-reliability`, `dfm-manufacturing`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Automatic Multi-Constraint Placement of Printed Circuit Board
 
-- **元数据：** 2024 · International Conference on Communications, Circuits and Systems · Xuezhou Wang, Ning Xu, Yu Chen · [paper](https://doi.org/10.1109/icccas62034.2024.10652855)
-- **范围/主题：** `pcb-core` · `placement`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · International Conference on Communications, Circuits and Systems · Xuezhou Wang, Ning Xu, Yu Chen · [paper](https://doi.org/10.1109/icccas62034.2024.10652855)
+- **Scope and topics:** `pcb-core` · `placement`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Automatic Placement of PCB Functional Modules Based on Regional Division
 
-- **元数据：** 2024 · International Conference on Communications, Circuits and Systems · Hongjun Chen, Yu Chen, Ning Xu · [paper](https://doi.org/10.1109/icccas62034.2024.10652680)
-- **范围/主题：** `pcb-core` · `placement`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Automatic Placement of PCB Functional Modules Based on Regional Division
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · International Conference on Communications, Circuits and Systems · Hongjun Chen, Yu Chen, Ning Xu · [paper](https://doi.org/10.1109/icccas62034.2024.10652680)
+- **Scope and topics:** `pcb-core` · `placement`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Late Breaking Results: Modern Automatic PCB Placement with Complex Constraints
 
-- **元数据：** 2024 · Design Automation Conference · Chien-Hao Tsou, Sheng-Yah Lin, Wei-Chen Hung, Yao-Wen Chang · [paper](https://doi.org/10.1145/3649329.3663495)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Late Breaking Results: Modern Automatic PCB Placement with Complex Constraints
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：routability, power。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Design Automation Conference · Chien-Hao Tsou, Sheng-Yah Lin, Wei-Chen Hung, Yao-Wen Chang · [paper](https://doi.org/10.1145/3649329.3663495)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: routability, power.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Subgraph Matching with Diversity Handling and Its Applications to PCB Placement
 
-- **元数据：** 2024 · 2024 2nd International Symposium of Electronics Design Automation (ISEDA) · Chuandong Chen, Haiming Lin, Miaodi Su, Huan He, Jianli Chen, Ziran Zhu · [paper](https://doi.org/10.1109/iseda62518.2024.10617495)
-- **范围/主题：** `pcb-core` · `placement`, `schematic-design`, `testing-inspection`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Subgraph Matching with Diversity Handling and Its Applications to PCB Placement
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · 2024 2nd International Symposium of Electronics Design Automation (ISEDA) · Chuandong Chen, Haiming Lin, Miaodi Su, Huan He, Jianli Chen, Ziran Zhu · [paper](https://doi.org/10.1109/iseda62518.2024.10617495)
+- **Scope and topics:** `pcb-core` · `placement`, `schematic-design`, `testing-inspection`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Subgraph Matching-Based Reference Placement for Printed Circuit Board Designs
 
-- **元数据：** 2024 · The Journal of Supercomputing · Ziran Zhu, Yilin Li, Miaodi Su, Shu Zhang, Haiyuan Su, Yifeng Xiao, Huan He, Jianli Chen, et al. · [paper](https://doi.org/10.1007/s11227-024-06338-9)
-- **范围/主题：** `pcb-core` · `placement`, `ai-eda`
-- **代码：** not_found — 未核验到公开代码。
-- **数据集/数据来源：** `industrial_cases` — reference/current PCB design pairs
-- **应用场景：** 复用历史/参考 PCB 布局进行自动 component placement。
-- **解决问题：** `reported` — 用 diversity-aware subgraph matching 识别可复用模块并映射 reference placement。
-- **最终测试：** `reported_but_not_reextracted` — 公开摘要确认在大规模 PCB cases 上比较匹配率与效率；详细表格未重抽取。 指标：matching rate, runtime, placement quality。
-- **Baselines：** `reported_but_unnamed` — 摘要称比较 state-of-the-art works，但未列出完整名称。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · The Journal of Supercomputing · Ziran Zhu, Yilin Li, Miaodi Su, Shu Zhang, Haiyuan Su, Yifeng Xiao, Huan He, Jianli Chen, et al. · [paper](https://doi.org/10.1007/s11227-024-06338-9)
+- **Scope and topics:** `pcb-core` · `placement`, `ai-eda`
+- **Code:** not_found: No public code repository was verified.
+- **Dataset or data source:** `industrial_cases`: reference/current PCB design pairs
+- **Application scenario:** Automatic component placement by reusing historical or reference PCB layouts.
+- **Problem addressed:** `reported`: Uses diversity-aware subgraph matching to identify reusable modules and map them to a reference placement.
+- **Final evaluation:** `reported_but_not_reextracted`: The public abstract confirms comparisons of matching rate and efficiency on large PCB cases; detailed tables were not re-extracted. Metrics: matching rate, runtime, placement quality.
+- **Baselines:** `reported_but_unnamed`: The abstract says that state-of-the-art works are compared, but it does not list their full names.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Substrate Integrated Coaxial Line Millimeterwave Components Manufactured in Standard PCB
 
-- **元数据：** 2023 · 2023 IEEE 32nd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Laura Van Messem, Arno Moerman, Olivier Caytan, Hendrik Rogier, Sam Lemey · [paper](https://doi.org/10.1109/epeps58208.2023.10314860)
-- **范围/主题：** `pcb-core` · `placement`, `dfm-manufacturing`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Substrate Integrated Coaxial Line Millimeterwave Components Manufactured in Standard PCB；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2023 · 2023 IEEE 32nd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS) · Laura Van Messem, Arno Moerman, Olivier Caytan, Hendrik Rogier, Sam Lemey · [paper](https://doi.org/10.1109/epeps58208.2023.10314860)
+- **Scope and topics:** `pcb-core` · `placement`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Net Separation-Oriented Printed Circuit Board Placement via Margin Maximization
 
-- **元数据：** 2022 · ASP-DAC 2022 · Chung-Kuan Cheng, Chia-Tung Ho, Chester Holtz · [paper](https://doi.org/10.1109/asp-dac52403.2022.9712480)
-- **范围/主题：** `pcb-core` · `placement`, `routing`
-- **代码：** not_found — 使用开源 router，但 method code/data 未核验公开。
-- **数据集/数据来源：** `reported` — 14 PCB designs
-- **应用场景：** 用 maximum-margin net separation 与 MILP legalization 改善 PCB placement 可布通性。
-- **解决问题：** `reported` — 避免只最小化线长导致的 net congestion 和后续 routing 质量退化。
-- **最终测试：** `reported` — 相对人工和 wirelength-minimal placement，最多减少 25% routed wirelength、50% vias、79% DRVs。 指标：routed wirelength, via count, DRV count。
-- **Baselines：** `named` — manual placement, wirelength-minimal placement
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · ASP-DAC 2022 · Chung-Kuan Cheng, Chia-Tung Ho, Chester Holtz · [paper](https://doi.org/10.1109/asp-dac52403.2022.9712480)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`
+- **Code:** not_found: Uses an open-source router, but no public release of the method code or data was verified.
+- **Dataset or data source:** `reported`: 14 PCB designs
+- **Application scenario:** Uses maximum-margin net separation and MILP legalization to improve PCB placement routability.
+- **Problem addressed:** `reported`: Addresses net congestion and downstream routing-quality degradation caused by minimizing wirelength alone.
+- **Final evaluation:** `reported`: Relative to manual and wirelength-minimal placement, the reported reductions are up to 25% in routed wirelength, 50% in vias, and 79% in DRVs. Metrics: routed wirelength, via count, DRV count.
+- **Baselines:** `named`: manual placement, wirelength-minimal placement
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Subgraph matching based reference placement for PCB designs
 
-- **元数据：** 2022 · Proceedings of the 59th ACM/IEEE Design Automation Conference · Miaodi Su, Yifeng Xiao, Shu Zhang, Haiyuan Su, Jiacen Xu, Huan He, Ziran Zhu, Jianli Chen, et al. · [paper](https://doi.org/10.1145/3489517.3530670)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Subgraph matching based reference placement for PCB designs；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2022 · Proceedings of the 59th ACM/IEEE Design Automation Conference · Miaodi Su, Yifeng Xiao, Shu Zhang, Haiyuan Su, Jiacen Xu, Huan He, Ziran Zhu, Jianli Chen, et al. · [paper](https://doi.org/10.1145/3489517.3530670)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An optimization method for placement of decoupling capacitors on printed circuit board
 
-- **元数据：** 2000 · IEEE 9th Topical Meeting on Electrical Performance of Electronic Packaging (Cat. No.00TH8524) · A. Kamo, Takayuki Watanabe, Hideki Asai · [paper](https://doi.org/10.1109/epep.2000.895496)
-- **范围/主题：** `pcb-core` · `placement`, `si-pi-emc`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2000 · IEEE 9th Topical Meeting on Electrical Performance of Electronic Packaging (Cat. No.00TH8524) · A. Kamo, Takayuki Watanabe, Hideki Asai · [paper](https://doi.org/10.1109/epep.2000.895496)
+- **Scope and topics:** `pcb-core` · `placement`, `si-pi-emc`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### VLSI/PCB placement with obstacles based on sequence-pair
 
-- **元数据：** 1997 · ACM International Symposium on Physical Design · H. Murata, K. Fujiyoshi, M. Kaneko · [paper](https://doi.org/10.1145/267665.267675)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 元件布局与合法化（Placement and legalization）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1997 · ACM International Symposium on Physical Design · H. Murata, K. Fujiyoshi, M. Kaneko · [paper](https://doi.org/10.1145/267665.267675)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** Placement and legalization.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A rule-based placement system for printed wiring boards
 
-- **元数据：** 1987 · 24th ACM/IEEE conference proceedings on Design automation conference  - DAC '87 · G. Odawara, T. Hamuro, K. Iijima, T. Yoshino, Y. Dai · [paper](https://doi.org/10.1145/37888.38011)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A rule-based placement system for printed wiring boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1987 · 24th ACM/IEEE conference proceedings on Design automation conference  - DAC '87 · G. Odawara, T. Hamuro, K. Iijima, T. Yoshino, Y. Dai · [paper](https://doi.org/10.1145/37888.38011)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Knowledge-Based Placement Technique for Printed Wiring Boards
 
-- **元数据：** 1985 · 22nd ACM/IEEE Design Automation Conference · G. Odawara, K. Iijima, K. Wakabayashi · [paper](https://doi.org/10.1109/dac.1985.1586007)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Knowledge-Based Placement Technique for Printed Wiring Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1985 · 22nd ACM/IEEE Design Automation Conference · G. Odawara, K. Iijima, K. Wakabayashi · [paper](https://doi.org/10.1109/dac.1985.1586007)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An Interactive Layout System of Analog Printed Wiring Boards
 
-- **元数据：** 1979 · 16th Design Automation Conference · K. Sahara, K. Kobori, L. Nishioka · [paper](https://doi.org/10.1109/dac.1979.1600158)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：An Interactive Layout System of Analog Printed Wiring Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1979 · 16th Design Automation Conference · K. Sahara, K. Kobori, L. Nishioka · [paper](https://doi.org/10.1109/dac.1979.1600158)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An Approach to Gate Assignment and Module Placement for Printed Wiring Boards
 
-- **元数据：** 1978 · 15th Design Automation Conference · I. Nishioka, T. Kurimoto, S. Yamamoto, I. Shirakawa, H. Ozaki · [paper](https://doi.org/10.1109/dac.1978.1585149)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：An Approach to Gate Assignment and Module Placement for Printed Wiring Boards；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1978 · 15th Design Automation Conference · I. Nishioka, T. Kurimoto, S. Yamamoto, I. Shirakawa, H. Ozaki · [paper](https://doi.org/10.1109/dac.1978.1585149)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Building block programs for the layout of printed circuit boards utilizing integrated circuit packs (DAPSYS V.2)
 
-- **元数据：** 1968 · Proceedings of the fifth annual 1968 design automation workshop on Design automation  - DAC '68 · Robert W. Kadis, Kenneth L. Thompson, William J. Volkman, W. Lawrence Hill, Charlotte E. Gillette · [paper](https://doi.org/10.1145/800167.805390)
-- **范围/主题：** `pcb-core` · `placement`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 DAC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Building block programs for the layout of printed circuit boards utilizing integrated circuit packs (DAPSYS V.2)；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1968 · Proceedings of the fifth annual 1968 design automation workshop on Design automation  - DAC '68 · Robert W. Kadis, Kenneth L. Thompson, William J. Volkman, W. Lawrence Hill, Charlotte E. Gillette · [paper](https://doi.org/10.1145/800167.805390)
+- **Scope and topics:** `pcb-core` · `placement`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DAC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.

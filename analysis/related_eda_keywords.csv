@@ -1,14 +1,14 @@
 keyword,paper_count
 placement,9
-routing,4
+optimization,5
+routing,5
 llm-agent,3
+reinforcement-learning,2
 machine-learning,1
 benchmark-dataset,1
 graph-learning,1
 thermal,1
 transformer,1
-reinforcement-learning,1
 open-source,1
 deep-learning,1
 testing-inspection,1
-optimization,1

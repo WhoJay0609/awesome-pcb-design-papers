@@ -10,14 +10,14 @@ from pathlib import Path
 
 
 TOPIC_NAMES = {
-    "placement": ("元件布局与合法化", "Placement and legalization"),
-    "routing": ("自动布线与约束满足", "Routing and constraint handling"),
-    "schematic-design": ("原理图、网表与设计链自动化", "Schematic and design-chain automation"),
-    "si-pi-emc": ("信号/电源完整性与电磁兼容", "SI, PI, and EMC"),
-    "thermal-reliability": ("热、机械与可靠性协同设计", "Thermal and reliability co-design"),
-    "dfm-manufacturing": ("可制造性与装配优化", "DFM and assembly optimization"),
-    "testing-inspection": ("测试、检测与质量反馈", "Testing and inspection"),
-    "benchmarks-tools": ("基准、数据集与开放工具", "Benchmarks, datasets, and tools"),
+    "placement": "Placement and legalization",
+    "routing": "Routing and constraint handling",
+    "schematic-design": "Schematic and design-chain automation",
+    "si-pi-emc": "SI, PI, and EMC",
+    "thermal-reliability": "Thermal and reliability co-design",
+    "dfm-manufacturing": "DFM and assembly optimization",
+    "testing-inspection": "Testing and inspection",
+    "benchmarks-tools": "Benchmarks, datasets, and tools",
 }
 AI_PATTERN = re.compile(
     r"machine learning|deep learning|reinforcement learning|neural|\bLLM\b|multi.agent|"
@@ -111,7 +111,7 @@ def status_block(
     if not texts:
         return {
             "status": "not_reported_in_accessible_source",
-            "summary": "公开可访问的元数据/摘要未报告。" if has_abstract else "公开可访问元数据未报告。",
+            "summary": "The accessible metadata or abstract does not report this field." if has_abstract else "The accessible metadata does not report this field.",
             "evidence": {
                 "source_url": evidence_url,
                 "locator": "metadata or abstract" if has_abstract else "metadata",
@@ -189,7 +189,7 @@ def make_record(seed: dict, semantic: dict | None, requested_id: str) -> dict:
     open_pdf = (semantic.get("openAccessPdf") or {}).get("url") or ""
     code_mentions = matching_sentences(abstract, re.compile(r"open.source|source code|github|code is available", re.I))
     code_status = "announced_or_mentioned_unverified" if code_mentions else "not_found"
-    topic_zh, topic_en = TOPIC_NAMES[primary_topic]
+    topic_label = TOPIC_NAMES[primary_topic]
     authors = [entry.get("name", "") for entry in semantic.get("authors") or [] if entry.get("name")]
     if not authors:
         authors = seed.get("authors") or []
@@ -219,7 +219,7 @@ def make_record(seed: dict, semantic: dict | None, requested_id: str) -> dict:
         "code": {
             "status": code_status,
             "url": "",
-            "summary": "摘要提到开放资源，但尚未核验到代码 URL。" if code_mentions else "未发现经核验的公开代码仓库。",
+            "summary": "The abstract mentions an open resource, but no direct code URL was verified." if code_mentions else "No verified public code repository was found.",
             "checked_on": "2026-08-11",
             "evidence": {
                 "source_url": primary_url,
@@ -230,14 +230,14 @@ def make_record(seed: dict, semantic: dict | None, requested_id: str) -> dict:
             **status_block(
                 dataset_evidence,
                 primary_url,
-                "摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。",
+                "The abstract mentions a dataset, benchmark, or data from real, industrial, or simulated cases. Only identifiable names are retained.",
                 has_abstract=bool(abstract),
             ),
             "names": dataset_names,
         },
         "application_scenario": {
             "status": "classified_from_title_and_abstract" if abstract else "classified_from_title",
-            "summary": f"{topic_zh}（{topic_en}）。",
+            "summary": f"{topic_label}.",
             "evidence": {
                 "source_url": primary_url,
                 "locator": "title" if not abstract else "title and abstract",
@@ -246,14 +246,14 @@ def make_record(seed: dict, semantic: dict | None, requested_id: str) -> dict:
         "problem_solved": status_block(
             problem_evidence,
             primary_url,
-            f"论文围绕题名所述的 PCB 设计问题展开：{title}",
+            "The abstract describes the PCB design problem.",
             has_abstract=bool(abstract),
         ),
         "evaluation": {
             **status_block(
                 evaluation_evidence,
                 primary_url,
-                "摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。",
+                "The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract.",
                 has_abstract=bool(abstract),
             ),
             "metrics_mentioned": metrics,
@@ -262,13 +262,13 @@ def make_record(seed: dict, semantic: dict | None, requested_id: str) -> dict:
             "status": baseline_status,
             "names": baseline_names,
             "summary": (
-                f"摘要明确点名的 baseline：{', '.join(baseline_names)}。"
+                f"Baselines explicitly named in the abstract: {', '.join(baseline_names)}."
                 if baseline_names
-                else "摘要提到比较但未点名 baseline。"
+                else "The abstract mentions a comparison but does not name the baseline."
                 if baseline_evidence
-                else "公开可访问的元数据/摘要未列出 baseline。"
+                else "The accessible metadata or abstract does not list a baseline."
                 if abstract
-                else "公开可访问元数据未列出 baseline。"
+                else "The accessible metadata does not list a baseline."
             ),
             "evidence": {"source_url": primary_url, "locator": "abstract" if abstract else "metadata"},
         },
@@ -314,17 +314,15 @@ def main() -> int:
 
     records.sort(key=lambda item: (-(item.get("year") or 0), item["primary_topic"], item["title"].casefold()))
     payload = {
-        "schema_version": "1.0.0",
+        "schema_version": "2.0.0",
         "title": "Awesome PCB Design Papers",
         "cutoff_date": "2026-08-11",
         "scope_note": (
             "PCB-core papers are the catalog authority. Non-PCB automated EDA papers, when admitted, "
             "use scope=related-eda and are analyzed separately."
         ),
-        "topics": [
-            {"id": key, "name_zh": value[0], "name_en": value[1]} for key, value in TOPIC_NAMES.items()
-        ]
-        + [{"id": "ai-eda", "name_zh": "AI/ML 辅助 EDA", "name_en": "AI/ML-assisted EDA"}],
+        "topics": [{"id": key, "name": value} for key, value in TOPIC_NAMES.items()]
+        + [{"id": "ai-eda", "name": "AI/ML-assisted EDA"}],
         "papers": records,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
-# 原理图、网表与设计链自动化 / Schematic and design-chain automation
+# Schematic and design-chain automation
 
-共 14 篇主分类论文。详细字段均来自 `data/papers.json`；`not_reported` 表示当前可访问证据未说明。
+14 papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
@@ -23,168 +23,168 @@
 
 ### OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning
 
-- **元数据：** 2026 · arXiv · Taiting Lu, Kaiyuan Lin, Yuxin Tian, Yubo Wang, Muchuan Wang, Mahanth Gowda · [paper](https://arxiv.org/abs/2604.00270)
-- **范围/主题：** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 项目页发布了数据下载，但未核验到完整代码仓库。
-- **数据集/数据来源：** `open` — OmniSch
-- **应用场景：** 多模态 PCB 原理图理解、视觉定位、原理图到网表图构建与工具调用。
-- **解决问题：** `reported` — 建立面向真实 PCB 原理图结构化视觉推理的统一任务与标注基准。
-- **最终测试：** `reported` — 按 symbol/pin/text、net graph 与 agent task 分层测试，并采用 80/10/10 划分评估经典管线。 指标：F1, IoU, graph edit distance, Kendall tau, pass rate。
-- **Baselines：** `named` — YOLO11, PaddleOCR, GPT-5.2, GPT-5-mini, Claude Sonnet 4.6, Gemini, Qwen, human engineers
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Taiting Lu, Kaiyuan Lin, Yuxin Tian, Yubo Wang, Muchuan Wang, Mahanth Gowda · [paper](https://arxiv.org/abs/2604.00270)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: The project page publishes a data download, but no complete code repository was verified.
+- **Dataset or data source:** `open`: OmniSch
+- **Application scenario:** Multimodal PCB schematic understanding, visual localization, schematic-to-netlist graph construction, and tool use.
+- **Problem addressed:** `reported`: Establishes unified tasks and an annotated benchmark for structured visual reasoning over real PCB schematics.
+- **Final evaluation:** `reported`: Tests symbol, pin, and text recognition, net graphs, and agent tasks separately, using an 80/10/10 split to evaluate classical pipelines. Metrics: F1, IoU, graph edit distance, Kendall tau, pass rate.
+- **Baselines:** `named`: YOLO11, PaddleOCR, GPT-5.2, GPT-5-mini, Claude Sonnet 4.6, Gemini, Qwen, human engineers
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB-Migrator: Automated PCB PnR Migration
 
-- **元数据：** 2026 · Design, Automation and Test in Europe · Yaohui Han, Beichen Li, Rongliang Fu, Qunsong Ye, Zhiyuan Lu, Junchen Liu, Bei Yu, Tsung-Yi Ho, et al. · [paper](https://doi.org/10.23919/date69613.2026.11539307)
-- **范围/主题：** `pcb-core` · `placement`, `routing`, `schematic-design`, `thermal-reliability`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：PCB-Migrator: Automated PCB PnR Migration
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Design, Automation and Test in Europe · Yaohui Han, Beichen Li, Rongliang Fu, Qunsong Ye, Zhiyuan Lu, Junchen Liu, Bei Yu, Tsung-Yi Ho, et al. · [paper](https://doi.org/10.23919/date69613.2026.11539307)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `schematic-design`, `thermal-reliability`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCB-QA: A Task-Specific Question Answering Framework for Text-Centric Chip Datasheet Queries in PCB Design
 
-- **元数据：** 2026 · ACM Transactions on Design Automation of Electronic Systems · Binwu Zhu, Bei Yu · [paper](https://doi.org/10.1145/3811922)
-- **范围/主题：** `pcb-core` · `placement`, `schematic-design`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：PCB-QA: A Task-Specific Question Answering Framework for Text-Centric Chip Datasheet Queries in PCB Design
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：accuracy。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · ACM Transactions on Design Automation of Electronic Systems · Binwu Zhu, Bei Yu · [paper](https://doi.org/10.1145/3811922)
+- **Scope and topics:** `pcb-core` · `placement`, `schematic-design`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements
 
-- **元数据：** 2026 · arXiv · Tobias King, Steven Kehrberg, Michael Beigl, Tobias Röddiger · [paper](https://arxiv.org/abs/2606.01188)
-- **范围/主题：** `pcb-core` · `schematic-design`, `ai-eda`
-- **代码：** not_found — 未核验到公开代码/数据仓库。
-- **数据集/数据来源：** `reported` — pcbGPT-20 tasks
-- **应用场景：** 把 embedded/IoT/wearable 自然语言需求转换为可编辑 KiCad projects。
-- **解决问题：** `reported` — 结合 DSL、器件库检索、datasheet grounding 和执行检查生成可用原理图。
-- **最终测试：** `reported` — 最佳模型 pass@1=0.90、pass@5=1.00；hard tasks 的 pass@1=0.72。 指标：pass@1, pass@5。
-- **Baselines：** `reported_but_unnamed` — 比较模型变体和任务难度分层，未报告外部 baseline。
-- **证据边界：** `full-text`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Tobias King, Steven Kehrberg, Michael Beigl, Tobias Röddiger · [paper](https://arxiv.org/abs/2606.01188)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `ai-eda`
+- **Code:** not_found: No public code or data repository was verified.
+- **Dataset or data source:** `reported`: pcbGPT-20 tasks
+- **Application scenario:** Converts natural-language requirements for embedded, IoT, and wearable systems into editable KiCad projects.
+- **Problem addressed:** `reported`: Combines a DSL, component-library retrieval, datasheet grounding, and execution checks to generate usable schematics.
+- **Final evaluation:** `reported`: The best model reports pass@1 = 0.90 and pass@5 = 1.00; pass@1 is 0.72 on hard tasks. Metrics: pass@1, pass@5.
+- **Baselines:** `reported_but_unnamed`: Compares model variants and task-difficulty strata; no external baseline is reported.
+- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCBSchemaGen: Reward-Guided LLM Code Synthesis for Printed Circuit Boards (PCB) Schematic Design with Structured Verification
 
-- **元数据：** 2026 · arXiv · Huanghaohe Zou, Peng Han, Emad Nazerian, Mafu Zhang, Zhicheng Guo, Alex Q. Huang · [paper](https://arxiv.org/abs/2602.00510)
-- **范围/主题：** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
-- **代码：** [open](https://github.com/HZou9/PCBSchemaGen_v2) — MIT 仓库含 benchmarks、知识图谱、验证器和配置。
-- **数据集/数据来源：** `open` — PCBBench, Open-Schematics-Eval
-- **应用场景：** 从自然语言需求生成 PCB 原理图，并用 datasheet KG 和确定性验证器修复。
-- **解决问题：** `reported` — 在不训练专用大模型的前提下生成可验证、可编辑的 PCB schematic。
-- **最终测试：** `reported` — 五层结构验证；Gemma-4-31B 平均通过 81.3%，并测试 held-out public schematics。 指标：pass rate。
-- **Baselines：** `named` — Circuitron-style prompting
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Huanghaohe Zou, Peng Han, Emad Nazerian, Mafu Zhang, Zhicheng Guo, Alex Q. Huang · [paper](https://arxiv.org/abs/2602.00510)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
+- **Code:** [open](https://github.com/HZou9/PCBSchemaGen_v2): The MIT repository contains benchmarks, a knowledge graph, validators, and configuration.
+- **Dataset or data source:** `open`: PCBBench, Open-Schematics-Eval
+- **Application scenario:** Generates PCB schematics from natural-language requirements and repairs them with a datasheet knowledge graph and deterministic validators.
+- **Problem addressed:** `reported`: Generates verifiable, editable PCB schematics without training a dedicated large model.
+- **Final evaluation:** `reported`: Five-layer structural validation; Gemma-4-31B passes 81.3% on average and is tested on held-out public schematics. Metrics: pass rate.
+- **Baselines:** `named`: Circuitron-style prompting
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations
 
-- **元数据：** 2026 · arXiv · Qinpei Luo, Ruichun Ma, Xinyu Zhang, Lili Qiu · [paper](https://arxiv.org/abs/2605.30345)
-- **范围/主题：** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
-- **代码：** [open](https://github.com/microsoft/SchGen) — Microsoft 仓库公开模型、数据集链接和 KiCad 生成流程。
-- **数据集/数据来源：** `open` — SchGen_dataset
-- **应用场景：** 自然语言到可编辑 KiCad 原理图的语义代码生成。
-- **解决问题：** `reported` — 用语义 grounded representation 提高连线和功能结构的可执行性。
-- **最终测试：** `reported` — 比较连线正确性与功能正确性；公开摘要未给完整数值。 指标：wire-connectivity accuracy, functional correctness。
-- **Baselines：** `reported_but_unnamed` — 比较其他 schematic representations 与更大的通用 LLM，摘要未列全名称。
-- **证据边界：** `project-page`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · arXiv · Qinpei Luo, Ruichun Ma, Xinyu Zhang, Lili Qiu · [paper](https://arxiv.org/abs/2605.30345)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
+- **Code:** [open](https://github.com/microsoft/SchGen): The Microsoft repository publishes model and dataset links and a KiCad generation workflow.
+- **Dataset or data source:** `open`: SchGen_dataset
+- **Application scenario:** Semantic code generation from natural language to editable KiCad schematics.
+- **Problem addressed:** `reported`: Uses a semantically grounded representation to improve the executability of wiring and functional structure.
+- **Final evaluation:** `reported`: Compares wiring correctness and functional correctness; the public abstract does not give complete numerical results. Metrics: wire-connectivity accuracy, functional correctness.
+- **Baselines:** `reported_but_unnamed`: Compares other schematic representations with larger general-purpose LLMs; the abstract does not list all names.
+- **Evidence boundary:** `project-page`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation
 
-- **元数据：** 2026 · Design, Automation and Test in Europe · Zhaohai Di, Jindong Tu, Zhiyuan He, Yuan Pu, Jiawei Liu, Chong Tong, Tsung-Yi Ho, Bei Yu, et al. · [paper](https://doi.org/10.23919/date69613.2026.11539310)
-- **范围/主题：** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：accuracy。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2026 · Design, Automation and Test in Europe · Zhaohai Di, Jindong Tu, Zhiyuan He, Yuan Pu, Jiawei Liu, Chong Tong, Tsung-Yi Ho, Bei Yu, et al. · [paper](https://doi.org/10.23919/date69613.2026.11539310)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### PCBSmith: An Effective Schematic Generator for Testing PCB Design Tool Chain
 
-- **元数据：** 2025 · IEEE Transactions on Reliability · Xu Zhao, He Jiang, Xiaochen Li, Shikai Guo, Zhilei Ren, Peiyu Zou, Huijiang Liu · [paper](https://doi.org/10.1109/tr.2025.3529303)
-- **范围/主题：** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `reported_in_abstract` — 摘要提到数据集、基准或真实/工业/仿真数据；仅保留可确定的名称。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：PCBSmith: An Effective Schematic Generator for Testing PCB Design Tool Chain
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2025 · IEEE Transactions on Reliability · Xu Zhao, He Jiang, Xiaochen Li, Shikai Guo, Zhilei Ren, Peiyu Zou, Huijiang Liu · [paper](https://doi.org/10.1109/tr.2025.3529303)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions a dataset, benchmark, or real, industrial, or simulated data; only names that can be identified are retained.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### AEM-PCB Reverser: Circuit Schematic Generation in PCB Reverse Engineering Using Reinforcement Learning Based on Aesthetic Evaluation Metric
 
-- **元数据：** 2024 · IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems · Jie Yang, Kai Qiao, S. Shi, Baojie Song, Jian Chen, B. Yan · [paper](https://doi.org/10.1109/tcad.2023.3340869)
-- **范围/主题：** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`, `ai-eda`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：AEM-PCB Reverser: Circuit Schematic Generation in PCB Reverse Engineering Using Reinforcement Learning Based on Aesthetic Evaluation Metric
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `reported_but_unnamed_in_abstract` — 摘要提到比较但未点名 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems · Jie Yang, Kai Qiao, S. Shi, Baojie Song, Jian Chen, B. Yan · [paper](https://doi.org/10.1109/tcad.2023.3340869)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `thermal-reliability`, `testing-inspection`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Impact of Line Length and Component Selection on RF Performance for a PCB-based Ferromagnetic Nonlinear Transmission Line
 
-- **元数据：** 2024 · IEEE International Power Modulator and High Voltage Conference · T. Wright, D. Saheb, J. Schrock, E. Schrock, J. Mankowski, James Dickens, A. Neuber, Jacob Stephens · [paper](https://doi.org/10.2172/2565141)
-- **范围/主题：** `pcb-core` · `schematic-design`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · IEEE International Power Modulator and High Voltage Conference · T. Wright, D. Saheb, J. Schrock, E. Schrock, J. Mankowski, James Dickens, A. Neuber, Jacob Stephens · [paper](https://doi.org/10.2172/2565141)
+- **Scope and topics:** `pcb-core` · `schematic-design`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata do not report a dataset or data source.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Multi-modal printed circuit board netlist extraction with x-ray and optical imaging
 
-- **元数据：** 2024 · Optical Engineering + Applications · Patrick J. Craig, Nitin Varshney, Antika Roy, Shajib Ghosh, C. Patil, H. Dalir, N. Asadizanjani · [paper](https://doi.org/10.1117/12.3027170)
-- **范围/主题：** `pcb-core` · `schematic-design`, `testing-inspection`, `benchmarks-tools`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未报告。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `reported_in_abstract` — 论文围绕题名所述的 PCB 设计问题展开：Multi-modal printed circuit board netlist extraction with x-ray and optical imaging
-- **最终测试：** `reported_in_abstract` — 摘要报告了实验或评估；指标字段仅列出摘要中明确出现的项目。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问的元数据/摘要未列出 baseline。
-- **证据边界：** `abstract`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2024 · Optical Engineering + Applications · Patrick J. Craig, Nitin Varshney, Antika Roy, Shajib Ghosh, C. Patil, H. Dalir, N. Asadizanjani · [paper](https://doi.org/10.1117/12.3027170)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### A Novel Modular Design and Modeling Methodology for High Speed High Density Die Package PCB Co-Simulation and Model Library Creation
 
-- **元数据：** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · Jenny Xiaohong Jiang, Chit Zhung Tan, Xinyun Guo, Lei Hua, Yee Huan Yew, Nate Unger, Hui Liu, Pheak Ti Teh · [paper](https://doi.org/10.1109/ectc.2016.237)
-- **范围/主题：** `pcb-core` · `schematic-design`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 ECTC DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：A Novel Modular Design and Modeling Methodology for High Speed High Density Die Package PCB Co-Simulation and Model Library Creation；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2016 · 2016 IEEE 66th Electronic Components and Technology Conference (ECTC) · Jenny Xiaohong Jiang, Chit Zhung Tan, Xinyun Guo, Lei Hua, Yee Huan Yew, Nate Unger, Hui Liu, Pheak Ti Teh · [paper](https://doi.org/10.1109/ectc.2016.237)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the ECTC DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### Modeling methodologies for multi level PCB-package co-simulation & co-design
 
-- **元数据：** 2013 · 2013 IEEE 22nd Conference on Electrical Performance of Electronic Packaging and Systems · Antonio Ciccomancini Scogna, ChunTong Chiang, Linus Lau, LianKheng Teoh, HsuenYen Lee · [paper](https://doi.org/10.1109/epeps.2013.6703466)
-- **范围/主题：** `pcb-core` · `schematic-design`, `benchmarks-tools`
-- **代码：** not_reported_in_accessible_source — 可访问 DOI/Crossref 元数据未报告可核验代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告可核验数据集或数据源。
-- **应用场景：** 题名明确涉及 PCB/板级设计、互连、封装-板级 SI/PI 或制造测试；此场景归类由题名和 EPEPS DOI 记录推断，未将推断当作实验事实。
-- **解决问题：** `inferred_from_title` — 围绕题名所示的 PCB/板级任务：Modeling methodologies for multi level PCB-package co-simulation & co-design；具体问题边界需查阅论文全文。
-- **最终测试：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未报告最终测试、指标或数值结果。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 可访问 DOI/Crossref 元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 2013 · 2013 IEEE 22nd Conference on Electrical Performance of Electronic Packaging and Systems · Antonio Ciccomancini Scogna, ChunTong Chiang, Linus Lau, LianKheng Teoh, HsuenYen Lee · [paper](https://doi.org/10.1109/epeps.2013.6703466)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the EPEPS DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
 
 ### An Integrated System for Interactive Editing of Schematics, Logic Simulation and PCB Layout Design
 
-- **元数据：** 1978 · Design Automation Conference · H. Bayegan, E. Aas · [paper](https://doi.org/10.1109/dac.1978.1585140)
-- **范围/主题：** `pcb-core` · `schematic-design`
-- **代码：** not_found — 未发现经核验的公开代码仓库。
-- **数据集/数据来源：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **应用场景：** 原理图、网表与设计链自动化（Schematic and design-chain automation）。
-- **解决问题：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。
-- **最终测试：** `not_reported_in_accessible_source` — 公开可访问元数据未报告。 指标：未在可访问来源中明确列出。
-- **Baselines：** `not_reported_in_accessible_source` — 公开可访问元数据未列出 baseline。
-- **证据边界：** `metadata-only`；核验日期 2026-08-11。未报告不等于不存在。
+- **Metadata:** 1978 · Design Automation Conference · H. Bayegan, E. Aas · [paper](https://doi.org/10.1109/dac.1978.1585140)
+- **Scope and topics:** `pcb-core` · `schematic-design`
+- **Code:** not_found: No public code repository was found in the sources checked.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** Schematic and design-chain automation.
+- **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.

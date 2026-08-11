@@ -1,10 +1,10 @@
 # GLM and DeepSeek consultation notes
 
-Consulted on 2026-08-11 before the catalog schema and coverage protocol were finalized. These are design recommendations, not evidence for any paper-level claim.
+The catalog schema and coverage protocol were finalized after consultations on 2026-08-11. These notes record design recommendations, not evidence for any paper-level claim.
 
 ## Shared recommendations adopted
 
-- Use a closed operational top-venue set and publish an admitted/excluded audit matrix instead of making an untestable global “all top venues” claim.
+- Use a closed operational top-venue set and publish an admitted/excluded audit matrix rather than make the untestable global claim that the catalog covers all top venues.
 - Retrieve broadly from Crossref, OpenAlex, DBLP, publisher proceedings, arXiv/OpenReview, Semantic Scholar, and project repositories; de-duplicate by DOI and normalized title.
 - Separate PCB-core work from transferable non-PCB EDA references in both the catalog and trend analysis.
 - Attach field-level evidence to code status, data source, scenario, problem, evaluation, and baselines.

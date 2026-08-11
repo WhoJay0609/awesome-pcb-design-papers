@@ -7,6 +7,7 @@ import argparse
 import html
 import json
 import re
+import unicodedata
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -14,6 +15,7 @@ from urllib.parse import urlparse
 
 
 TOP_VENUES = {"DAC", "ICCAD", "DATE", "ASP-DAC", "ISPD", "ECTC", "EPEPS"}
+SCHEMA_VERSION = "2.0.0"
 EVIDENCE_LEVELS = {"metadata-only", "abstract", "full-text", "project-page"}
 OPEN_CODE_STATUSES = {"open", "partial_open", "utility_open", "open_archived"}
 OPEN_DATA_STATUSES = {"open"}
@@ -48,6 +50,37 @@ REQUIRED_PAPER_FIELDS = {
     "evidence_level",
     "verification",
 }
+NON_ENGLISH_SCRIPT_MARKERS = (
+    "BOPOMOFO",
+    "CJK",
+    "HANGUL",
+    "HANGZHOU",
+    "HIRAGANA",
+    "IDEOGRAPH",
+    "KANGXI",
+    "KATAKANA",
+    "KHITAN",
+    "NUSHU",
+    "TANGUT",
+    "YI RADICAL",
+    "YI SYLLABLE",
+)
+NON_ENGLISH_CODEPOINT_RANGES = (
+    (0x1100, 0x11FF),
+    (0x2E80, 0x33FF),
+    (0x3400, 0x9FFF),
+    (0xA000, 0xA4CF),
+    (0xA960, 0xA97F),
+    (0xAC00, 0xD7FF),
+    (0xF900, 0xFAFF),
+    (0xFE10, 0xFE4F),
+    (0xFF65, 0xFF9F),
+    (0x16FE0, 0x18DFF),
+    (0x1AFF0, 0x1B2FF),
+    (0x1F200, 0x1F2FF),
+    (0x20000, 0x33FFF),
+)
+HUMANIZER_PUNCTUATION = re.compile(r"[\u2013\u2014\u2018\u2019\u201c\u201d]")
 
 
 def normalized_title(title: str) -> str:
@@ -59,6 +92,21 @@ def valid_url(value: object) -> bool:
         return False
     parsed = urlparse(value)
     return parsed.scheme == "https" and bool(parsed.netloc)
+
+
+def contains_non_english_script(value: str) -> bool:
+    for character in value:
+        if ord(character) < 128:
+            continue
+        codepoint = ord(character)
+        if any(start <= codepoint <= end for start, end in NON_ENGLISH_CODEPOINT_RANGES):
+            return True
+        name = unicodedata.name(character, "")
+        if any(marker in name for marker in NON_ENGLISH_SCRIPT_MARKERS):
+            return True
+        if character.isalpha() and not name.startswith("LATIN "):
+            return True
+    return False
 
 
 def string_list(value: object, *, require_items: bool = False) -> bool:
@@ -105,8 +153,8 @@ def main() -> int:
         return 1
     papers = payload.get("papers") or []
     errors = []
-    if "schema_version" not in payload or not isinstance(payload.get("schema_version"), str):
-        errors.append("catalog: schema_version must be present and a string")
+    if payload.get("schema_version") != SCHEMA_VERSION:
+        errors.append(f"catalog: schema_version must be {SCHEMA_VERSION}")
     for field in ("cutoff_date", "topics", "papers"):
         if field not in payload:
             errors.append(f"catalog: missing required top-level field {field}")
@@ -129,9 +177,14 @@ def main() -> int:
     for index, topic in enumerate(raw_topics):
         if not isinstance(topic, dict):
             continue
-        for field in ("id", "name_zh", "name_en"):
+        for field in ("id", "name"):
             if not isinstance(topic.get(field), str) or not topic[field]:
                 errors.append(f"catalog: topic {index} {field} must be a non-empty string")
+        name = topic.get("name")
+        if isinstance(name, str) and contains_non_english_script(name):
+            errors.append(f"catalog: topic {index} name must be English")
+        if isinstance(name, str) and HUMANIZER_PUNCTUATION.search(name):
+            errors.append(f"catalog: topic {index} name contains disallowed punctuation")
     seen_ids = set()
     seen_titles = set()
     for index, paper in enumerate(papers):
@@ -222,6 +275,10 @@ def main() -> int:
                 errors.append(f"{label}: {block} needs status and summary")
             if isinstance(summary, str) and html.unescape(summary) != summary:
                 errors.append(f"{label}: {block} summary contains an HTML entity")
+            if isinstance(summary, str) and contains_non_english_script(summary):
+                errors.append(f"{label}: {block} summary must be English")
+            if isinstance(summary, str) and HUMANIZER_PUNCTUATION.search(summary):
+                errors.append(f"{label}: {block} summary contains disallowed punctuation")
             evidence = value.get("evidence")
             if not isinstance(evidence, dict):
                 errors.append(f"{label}: {block} evidence must be an object")
@@ -302,6 +359,11 @@ def main() -> int:
         for field in ("requested_id", "note"):
             if not isinstance(verification.get(field), str) or not verification.get(field):
                 errors.append(f"{label}: verification.{field} must be a non-empty string")
+        note = verification.get("note")
+        if isinstance(note, str) and contains_non_english_script(note):
+            errors.append(f"{label}: verification.note must be English")
+        if isinstance(note, str) and HUMANIZER_PUNCTUATION.search(note):
+            errors.append(f"{label}: verification.note contains disallowed punctuation")
         if "abstract" in paper:
             errors.append(f"{label}: do not redistribute full abstracts")
 
