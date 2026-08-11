@@ -1,0 +1,396 @@
+{
+  "cutoff_date": "2026-08-11",
+  "method": "Document frequency over controlled case-insensitive regex terms applied to titles and original catalog summaries. Each keyword counts at most once per paper; scopes are computed separately.",
+  "scopes": {
+    "pcb-core": {
+      "paper_count": 305,
+      "year_counts": {
+        "1964": 1,
+        "1967": 1,
+        "1968": 1,
+        "1970": 2,
+        "1972": 2,
+        "1976": 4,
+        "1978": 6,
+        "1979": 4,
+        "1980": 2,
+        "1981": 3,
+        "1982": 2,
+        "1983": 1,
+        "1985": 3,
+        "1986": 2,
+        "1987": 3,
+        "1988": 1,
+        "1989": 1,
+        "1990": 1,
+        "1991": 2,
+        "1993": 1,
+        "1995": 2,
+        "1996": 2,
+        "1997": 1,
+        "1998": 4,
+        "2000": 2,
+        "2003": 1,
+        "2004": 1,
+        "2007": 3,
+        "2008": 3,
+        "2009": 5,
+        "2010": 7,
+        "2011": 11,
+        "2012": 1,
+        "2013": 4,
+        "2014": 3,
+        "2015": 7,
+        "2016": 10,
+        "2017": 8,
+        "2018": 12,
+        "2019": 9,
+        "2020": 7,
+        "2021": 13,
+        "2022": 9,
+        "2023": 16,
+        "2024": 41,
+        "2025": 31,
+        "2026": 49
+      },
+      "topic_counts": {
+        "benchmarks-tools": 36,
+        "dfm-manufacturing": 14,
+        "placement": 35,
+        "routing": 92,
+        "schematic-design": 14,
+        "si-pi-emc": 70,
+        "testing-inspection": 18,
+        "thermal-reliability": 26
+      },
+      "keyword_document_frequency": {
+        "routing": 65,
+        "optimization": 35,
+        "placement": 34,
+        "testing-inspection": 30,
+        "reliability": 25,
+        "manufacturing": 24,
+        "thermal": 21,
+        "co-design": 21,
+        "signal-integrity": 18,
+        "emc-emi": 16,
+        "benchmark-dataset": 12,
+        "llm-agent": 9,
+        "open-source": 7,
+        "reinforcement-learning": 7,
+        "machine-learning": 6,
+        "deep-learning": 4,
+        "power-integrity": 4,
+        "graph-learning": 3,
+        "transformer": 3
+      },
+      "keyword_by_year": {
+        "1970": {
+          "testing-inspection": 1
+        },
+        "1972": {
+          "routing": 1
+        },
+        "1976": {
+          "routing": 1
+        },
+        "1978": {
+          "placement": 1,
+          "routing": 2
+        },
+        "1979": {
+          "routing": 3
+        },
+        "1980": {
+          "routing": 2
+        },
+        "1981": {
+          "optimization": 1,
+          "routing": 2
+        },
+        "1983": {
+          "optimization": 1,
+          "manufacturing": 1
+        },
+        "1985": {
+          "placement": 1,
+          "routing": 1
+        },
+        "1986": {
+          "routing": 2
+        },
+        "1987": {
+          "placement": 1,
+          "routing": 2
+        },
+        "1988": {
+          "routing": 1
+        },
+        "1989": {
+          "manufacturing": 1
+        },
+        "1991": {
+          "routing": 1
+        },
+        "1995": {
+          "routing": 2
+        },
+        "1996": {
+          "signal-integrity": 1,
+          "emc-emi": 1,
+          "co-design": 1
+        },
+        "1997": {
+          "placement": 1
+        },
+        "1998": {
+          "routing": 1,
+          "emc-emi": 2,
+          "signal-integrity": 1
+        },
+        "2000": {
+          "placement": 1,
+          "optimization": 1,
+          "thermal": 1,
+          "reliability": 1,
+          "co-design": 1
+        },
+        "2003": {
+          "routing": 1
+        },
+        "2004": {
+          "routing": 1,
+          "co-design": 1
+        },
+        "2008": {
+          "optimization": 2
+        },
+        "2009": {
+          "optimization": 1,
+          "routing": 1,
+          "co-design": 1
+        },
+        "2010": {
+          "manufacturing": 1,
+          "routing": 2,
+          "co-design": 1
+        },
+        "2011": {
+          "co-design": 1,
+          "testing-inspection": 1,
+          "routing": 2,
+          "manufacturing": 1,
+          "power-integrity": 1,
+          "reliability": 1
+        },
+        "2013": {
+          "routing": 1,
+          "co-design": 2,
+          "signal-integrity": 1,
+          "emc-emi": 1,
+          "testing-inspection": 2,
+          "thermal": 1,
+          "reliability": 1
+        },
+        "2014": {
+          "manufacturing": 1
+        },
+        "2015": {
+          "routing": 1,
+          "testing-inspection": 2
+        },
+        "2016": {
+          "optimization": 1,
+          "testing-inspection": 1,
+          "thermal": 1,
+          "reliability": 1
+        },
+        "2017": {
+          "reliability": 2,
+          "signal-integrity": 2
+        },
+        "2018": {
+          "signal-integrity": 1,
+          "power-integrity": 1,
+          "emc-emi": 1,
+          "testing-inspection": 1
+        },
+        "2019": {
+          "manufacturing": 1,
+          "thermal": 1,
+          "signal-integrity": 1,
+          "testing-inspection": 1,
+          "benchmark-dataset": 1,
+          "reliability": 1
+        },
+        "2020": {
+          "testing-inspection": 2,
+          "benchmark-dataset": 1,
+          "optimization": 2,
+          "reliability": 2,
+          "co-design": 1,
+          "manufacturing": 1,
+          "thermal": 1
+        },
+        "2021": {
+          "emc-emi": 2,
+          "machine-learning": 1,
+          "routing": 3,
+          "reliability": 1,
+          "manufacturing": 1
+        },
+        "2022": {
+          "routing": 1,
+          "placement": 2,
+          "machine-learning": 1,
+          "emc-emi": 1,
+          "optimization": 1
+        },
+        "2023": {
+          "testing-inspection": 1,
+          "benchmark-dataset": 2,
+          "machine-learning": 2,
+          "manufacturing": 1,
+          "routing": 5,
+          "reinforcement-learning": 1,
+          "deep-learning": 1,
+          "optimization": 1,
+          "signal-integrity": 2
+        },
+        "2024": {
+          "testing-inspection": 7,
+          "deep-learning": 1,
+          "benchmark-dataset": 2,
+          "optimization": 7,
+          "manufacturing": 7,
+          "open-source": 2,
+          "placement": 9,
+          "routing": 8,
+          "transformer": 1,
+          "reinforcement-learning": 1,
+          "power-integrity": 1,
+          "signal-integrity": 2,
+          "emc-emi": 2,
+          "machine-learning": 2,
+          "thermal": 3,
+          "reliability": 3,
+          "co-design": 2
+        },
+        "2025": {
+          "power-integrity": 1,
+          "optimization": 8,
+          "manufacturing": 4,
+          "testing-inspection": 4,
+          "placement": 8,
+          "reinforcement-learning": 1,
+          "routing": 7,
+          "llm-agent": 3,
+          "transformer": 1,
+          "signal-integrity": 4,
+          "emc-emi": 4,
+          "reliability": 4,
+          "benchmark-dataset": 1,
+          "thermal": 4,
+          "co-design": 2
+        },
+        "2026": {
+          "graph-learning": 3,
+          "benchmark-dataset": 5,
+          "emc-emi": 2,
+          "testing-inspection": 7,
+          "open-source": 5,
+          "routing": 11,
+          "placement": 10,
+          "llm-agent": 6,
+          "optimization": 9,
+          "manufacturing": 4,
+          "deep-learning": 2,
+          "reinforcement-learning": 4,
+          "reliability": 8,
+          "thermal": 9,
+          "co-design": 8,
+          "signal-integrity": 3,
+          "transformer": 1
+        }
+      }
+    },
+    "related-eda": {
+      "paper_count": 16,
+      "year_counts": {
+        "2014": 1,
+        "2018": 1,
+        "2019": 3,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2024": 5,
+        "2025": 1
+      },
+      "topic_counts": {
+        "benchmarks-tools": 3,
+        "placement": 6,
+        "routing": 3,
+        "schematic-design": 2,
+        "testing-inspection": 1,
+        "thermal-reliability": 1
+      },
+      "keyword_document_frequency": {
+        "placement": 9,
+        "routing": 4,
+        "llm-agent": 3,
+        "machine-learning": 1,
+        "benchmark-dataset": 1,
+        "graph-learning": 1,
+        "thermal": 1,
+        "transformer": 1,
+        "reinforcement-learning": 1,
+        "open-source": 1,
+        "deep-learning": 1,
+        "testing-inspection": 1,
+        "optimization": 1
+      },
+      "keyword_by_year": {
+        "2014": {
+          "placement": 1,
+          "optimization": 1
+        },
+        "2018": {
+          "routing": 1
+        },
+        "2019": {
+          "routing": 2,
+          "placement": 3,
+          "open-source": 1,
+          "deep-learning": 1,
+          "testing-inspection": 1
+        },
+        "2020": {
+          "reinforcement-learning": 1
+        },
+        "2021": {
+          "placement": 1
+        },
+        "2022": {
+          "routing": 1,
+          "placement": 1
+        },
+        "2023": {
+          "placement": 1,
+          "transformer": 1
+        },
+        "2024": {
+          "llm-agent": 2,
+          "machine-learning": 1,
+          "benchmark-dataset": 1,
+          "placement": 2,
+          "graph-learning": 1,
+          "thermal": 1
+        },
+        "2025": {
+          "llm-agent": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2542 @@
+{
+  "cutoff_date": "2026-08-11",
+  "definition": "Admitted means a DOI-bearing, PCB-specific paper in exactly the seven operational venues; PCB/PWB/board-level routing, placement, layout, SI/PI/EMC, manufacturing, reliability, or testability must be an explicit paper object. Pure IC/VLSI, package-only, chemical/recycling, and board-as-hardware records are excluded. DOI aliases are normalized by canonical DOI and normalized title.",
+  "venue_searches": [
+    {
+      "venue": "DAC",
+      "accepted_count": 63,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "ICCAD",
+      "accepted_count": 7,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "DATE",
+      "accepted_count": 7,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "ASP-DAC",
+      "accepted_count": 11,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "ISPD",
+      "accepted_count": 5,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "ECTC",
+      "accepted_count": 46,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    },
+    {
+      "venue": "EPEPS",
+      "accepted_count": 53,
+      "query_terms": [
+        "PCB",
+        "printed circuit board",
+        "printed wiring board",
+        "board-level",
+        "routing",
+        "placement",
+        "layout",
+        "SI/PI/EMC",
+        "manufacturing",
+        "testability"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "DBLP TOCs/records",
+        "ACM/IEEE DOI and proceedings pages"
+      ],
+      "note": "Closed DOI inventory from the venue audit; no abstract text is redistributed."
+    }
+  ],
+  "admitted": [
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800265.810745",
+      "title": "AUTO CARD automated printed circuit board design",
+      "year": 1964,
+      "catalog_id": "doi:10.1145/800265.810745",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800265.810745",
+        "https://api.crossref.org/works/10.1145/800265.810745"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800270.810872",
+      "title": "Topographic simulation as an aid to printed circuit board design",
+      "year": 1967,
+      "catalog_id": "doi:10.1145/800270.810872",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800270.810872",
+        "https://api.crossref.org/works/10.1145/800270.810872"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800167.805390",
+      "title": "Building block programs for the layout of printed circuit boards utilizing integrated circuit packs (DAPSYS V.2)",
+      "year": 1968,
+      "catalog_id": "doi:10.1145/800167.805390",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800167.805390",
+        "https://api.crossref.org/works/10.1145/800167.805390"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800160.805127",
+      "title": "Automation of test specifications for N/C printed circuit boards",
+      "year": 1970,
+      "catalog_id": "doi:10.1145/800160.805127",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800160.805127",
+        "https://api.crossref.org/works/10.1145/800160.805127"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800160.805141",
+      "title": "Computer aided design of high density printed circuit boards",
+      "year": 1970,
+      "catalog_id": "doi:10.1145/800160.805141",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800160.805141",
+        "https://api.crossref.org/works/10.1145/800160.805141"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800153.804932",
+      "title": "Pin assignment in automated printed circuit board design",
+      "year": 1972,
+      "catalog_id": "doi:10.1145/800153.804932",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800153.804932",
+        "https://api.crossref.org/works/10.1145/800153.804932"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800153.804933",
+      "title": "Topologic class routing for printed circuit boards",
+      "year": 1972,
+      "catalog_id": "doi:10.1145/800153.804933",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800153.804933",
+        "https://api.crossref.org/works/10.1145/800153.804933"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800146.804811",
+      "title": "A solution to closeness checking of non-orthogonal printed circuit board wiring",
+      "year": 1976,
+      "catalog_id": "doi:10.1145/800146.804811",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800146.804811",
+        "https://api.crossref.org/works/10.1145/800146.804811"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800146.804810",
+      "title": "An organizational approach to routing printed circuit boards",
+      "year": 1976,
+      "catalog_id": "doi:10.1145/800146.804810",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800146.804810",
+        "https://api.crossref.org/works/10.1145/800146.804810"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800146.804802",
+      "title": "Computer aided design of printed circuit boards using remote graphics and TSO",
+      "year": 1976,
+      "catalog_id": "doi:10.1145/800146.804802",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800146.804802",
+        "https://api.crossref.org/works/10.1145/800146.804802"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800146.804801",
+      "title": "Use of an on-line, time-shared graphics system to design and document printed circuit boards",
+      "year": 1976,
+      "catalog_id": "doi:10.1145/800146.804801",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800146.804801",
+        "https://api.crossref.org/works/10.1145/800146.804801"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585152",
+      "title": "A Multi-Pass, Multi-Algorithm Approach to PCB Routing",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585152",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585152",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585152"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585149",
+      "title": "An Approach to Gate Assignment and Module Placement for Printed Wiring Boards",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585149",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585149",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585149"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585209",
+      "title": "Classification of PCB Types for Cost Effective Solutions",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585209",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585209",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585209"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585140",
+      "title": "An Integrated System for Interactive Editing of Schematics, Logic Simulation and PCB Layout Design",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585140",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585140",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585140"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585150",
+      "title": "Pin Assignment on a Printed Circuit Board",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585150",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585150",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585150"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1978.1585211",
+      "title": "The Design of a Dense PCB Using an Interactive DA System",
+      "year": 1978,
+      "catalog_id": "doi:10.1109/dac.1978.1585211",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1978.1585211",
+        "https://api.crossref.org/works/10.1109/dac.1978.1585211"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1979.1600155",
+      "title": "A \"Lookahead\" Router for Multilayer Printed Wiring Boards",
+      "year": 1979,
+      "catalog_id": "doi:10.1109/dac.1979.1600155",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1979.1600155",
+        "https://api.crossref.org/works/10.1109/dac.1979.1600155"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1979.1600156",
+      "title": "An Application of Branch and Bound Method to Automatic Printed Circuit Board Routing",
+      "year": 1979,
+      "catalog_id": "doi:10.1109/dac.1979.1600156",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1979.1600156",
+        "https://api.crossref.org/works/10.1109/dac.1979.1600156"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1979.1600158",
+      "title": "An Interactive Layout System of Analog Printed Wiring Boards",
+      "year": 1979,
+      "catalog_id": "doi:10.1109/dac.1979.1600158",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1979.1600158",
+        "https://api.crossref.org/works/10.1109/dac.1979.1600158"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1979.1600154",
+      "title": "New Algorithms for Grid-Less Routing of High Density Printed Circuit Boards",
+      "year": 1979,
+      "catalog_id": "doi:10.1109/dac.1979.1600154",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1979.1600154",
+        "https://api.crossref.org/works/10.1109/dac.1979.1600154"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800139.804580",
+      "title": "An automatic routing system for high density multilayer printed wiring boards",
+      "year": 1980,
+      "catalog_id": "doi:10.1145/800139.804580",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800139.804580",
+        "https://api.crossref.org/works/10.1145/800139.804580"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/800139.804536",
+      "title": "An implementation of a saturated zone multi-layer printed circuit board router",
+      "year": 1980,
+      "catalog_id": "doi:10.1145/800139.804536",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/800139.804536",
+        "https://api.crossref.org/works/10.1145/800139.804536"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1981.1585384",
+      "title": "A High-Density Multilayer PCB Router Based on Necessary and Sufficient Conditions for Single Row Routing",
+      "year": 1981,
+      "catalog_id": "doi:10.1109/dac.1981.1585384",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1981.1585384",
+        "https://api.crossref.org/works/10.1109/dac.1981.1585384"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1981.1585343",
+      "title": "Routing of Printed Circuit Boards",
+      "year": 1981,
+      "catalog_id": "doi:10.1109/dac.1981.1585343",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1981.1585343",
+        "https://api.crossref.org/works/10.1109/dac.1981.1585343"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1981.1585383",
+      "title": "Verification and Optimization for LSI & PCB Layout",
+      "year": 1981,
+      "catalog_id": "doi:10.1109/dac.1981.1585383",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1981.1585383",
+        "https://api.crossref.org/works/10.1109/dac.1981.1585383"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1982.1585552",
+      "title": "A \"Non-Restrictive\" Artwork Verification Program for Printed Circuit Boards",
+      "year": 1982,
+      "catalog_id": "doi:10.1109/dac.1982.1585552",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1982.1585552",
+        "https://api.crossref.org/works/10.1109/dac.1982.1585552"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1982.1585576",
+      "title": "ICAD/PCB: Integrated Computer Aided Design System for Printed Circuit Boards",
+      "year": 1982,
+      "catalog_id": "doi:10.1109/dac.1982.1585576",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1982.1585576",
+        "https://api.crossref.org/works/10.1109/dac.1982.1585576"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1983.1585689",
+      "title": "Integrated Computer Aided Design, Documentation and Manufacturing System for PCB Electronics",
+      "year": 1983,
+      "catalog_id": "doi:10.1109/dac.1983.1585689",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1983.1585689",
+        "https://api.crossref.org/works/10.1109/dac.1983.1585689"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1985.1585990",
+      "title": "A Method for Gridless Routing of Printed Circuit Boards",
+      "year": 1985,
+      "catalog_id": "doi:10.1109/dac.1985.1585990",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1985.1585990",
+        "https://api.crossref.org/works/10.1109/dac.1985.1585990"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/317825.317939",
+      "title": "An expert systems approach to completing partially routed printed circuit boards",
+      "year": 1985,
+      "catalog_id": "doi:10.1145/317825.317939",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/317825.317939",
+        "https://api.crossref.org/works/10.1145/317825.317939"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1985.1586007",
+      "title": "Knowledge-Based Placement Technique for Printed Wiring Boards",
+      "year": 1985,
+      "catalog_id": "doi:10.1109/dac.1985.1586007",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1985.1586007",
+        "https://api.crossref.org/works/10.1109/dac.1985.1586007"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1986.1586166",
+      "title": "A New Approach to Multi-Layer PCB Routing with Short Vias",
+      "year": 1986,
+      "catalog_id": "doi:10.1109/dac.1986.1586166",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1986.1586166",
+        "https://api.crossref.org/works/10.1109/dac.1986.1586166"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1986.1586179",
+      "title": "Router System for Printed Wiring Boards of Very High-Speed, Very Large-Scale Computers",
+      "year": 1986,
+      "catalog_id": "doi:10.1109/dac.1986.1586179",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1986.1586179",
+        "https://api.crossref.org/works/10.1109/dac.1986.1586179"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/37888.38003",
+      "title": "A new interactive supply/demand router with rip-up capability for printed circuit boards",
+      "year": 1987,
+      "catalog_id": "doi:10.1145/37888.38003",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/37888.38003",
+        "https://api.crossref.org/works/10.1145/37888.38003"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/37888.38011",
+      "title": "A rule-based placement system for printed wiring boards",
+      "year": 1987,
+      "catalog_id": "doi:10.1145/37888.38011",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/37888.38011",
+        "https://api.crossref.org/works/10.1145/37888.38011"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/37888.38004",
+      "title": "Fast printed circuit board routing",
+      "year": 1987,
+      "catalog_id": "doi:10.1145/37888.38004",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/37888.38004",
+        "https://api.crossref.org/works/10.1145/37888.38004"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/74382.74459",
+      "title": "MIOS: a flexible system for PCB manufacturing",
+      "year": 1989,
+      "catalog_id": "doi:10.1145/74382.74459",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/74382.74459",
+        "https://api.crossref.org/works/10.1145/74382.74459"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/123186.123321",
+      "title": "System simulation of printed circuit boards including packages and connectors",
+      "year": 1990,
+      "catalog_id": "doi:10.1145/123186.123321",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/123186.123321",
+        "https://api.crossref.org/works/10.1145/123186.123321"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/127601.127629",
+      "title": "Constrained via minimization with practical considerations for multi-layer VLSI/PCB routing problems",
+      "year": 1991,
+      "catalog_id": "doi:10.1145/127601.127629",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/127601.127629",
+        "https://api.crossref.org/works/10.1145/127601.127629"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/127601.127734",
+      "title": "Propagation delay calculation for interconnection nets on printed circuit boards by reflected waves",
+      "year": 1991,
+      "catalog_id": "doi:10.1145/127601.127734",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/127601.127734",
+        "https://api.crossref.org/works/10.1145/127601.127734"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1995.250008",
+      "title": "On Optimal Board-Level Routing for FPGA-based Logic Emulation",
+      "year": 1995,
+      "catalog_id": "doi:10.1109/dac.1995.250008",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1995.250008",
+        "https://api.crossref.org/works/10.1109/dac.1995.250008"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1995.249977",
+      "title": "Performance Driven Global Routing and Wiring Rule Generation for High Speed PCBs and MCMs",
+      "year": 1995,
+      "catalog_id": "doi:10.1109/dac.1995.249977",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1995.249977",
+        "https://api.crossref.org/works/10.1109/dac.1995.249977"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/240518.240620",
+      "title": "An AWE technique for fast printed circuit board delays",
+      "year": 1996,
+      "catalog_id": "doi:10.1145/240518.240620",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/240518.240620",
+        "https://api.crossref.org/works/10.1145/240518.240620"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/277044.277164",
+      "title": "Electromagnetic modeling and signal integrity simulation of power/ground networks in high speed digital packages and printed circuit boards",
+      "year": 1998,
+      "catalog_id": "doi:10.1145/277044.277164",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/277044.277164",
+        "https://api.crossref.org/works/10.1145/277044.277164"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/277044.277144",
+      "title": "Performance driven multi-layer general area routing for PCB/MCM designs",
+      "year": 1998,
+      "catalog_id": "doi:10.1109/dac.1998.724497",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/277044.277144",
+        "https://api.crossref.org/works/10.1145/277044.277144"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/1629911.1630000",
+      "title": "Automatic bus planner for dense PCBs",
+      "year": 2009,
+      "catalog_id": "doi:10.1145/1629911.1630000",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/1629911.1630000",
+        "https://api.crossref.org/works/10.1145/1629911.1630000"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/1629911.1630002",
+      "title": "Flip-chip routing with unified area-I/O pad assignments for package-board co-design",
+      "year": 2009,
+      "catalog_id": "doi:10.1145/1629911.1630002",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/1629911.1630002",
+        "https://api.crossref.org/works/10.1145/1629911.1630002"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/1837274.1837326",
+      "title": "An optimal algorithm for finding disjoint rectangles and its application to PCB routing",
+      "year": 2010,
+      "catalog_id": "doi:10.1145/1837274.1837326",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/1837274.1837326",
+        "https://api.crossref.org/works/10.1145/1837274.1837326"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac18074.2021.9586143",
+      "title": "A Complete PCB Routing Methodology with Concurrent Hierarchical Routing",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/dac18074.2021.9586143",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac18074.2021.9586143",
+        "https://api.crossref.org/works/10.1109/dac18074.2021.9586143"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac18074.2021.9586086",
+      "title": "BHDL: A Lucid, Expressive, and Embedded Programming Language and System for PCB Designs",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/dac18074.2021.9586086",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac18074.2021.9586086",
+        "https://api.crossref.org/works/10.1109/dac18074.2021.9586086"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac18074.2021.9586128",
+      "title": "SPROUT - Smart Power ROUting Tool for Board-Level Exploration and Prototyping",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/dac18074.2021.9586128",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac18074.2021.9586128",
+        "https://api.crossref.org/works/10.1109/dac18074.2021.9586128"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3489517.3530670",
+      "title": "Subgraph matching based reference placement for PCB designs",
+      "year": 2022,
+      "catalog_id": "doi:10.1145/3489517.3530670",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3489517.3530670",
+        "https://api.crossref.org/works/10.1145/3489517.3530670"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3489517.3530545",
+      "title": "VIPR-PCB",
+      "year": 2022,
+      "catalog_id": "doi:10.1145/3489517.3530545",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3489517.3530545",
+        "https://api.crossref.org/works/10.1145/3489517.3530545"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac56929.2023.10247728",
+      "title": "Disjoint-Path and Golden-Pin Based Irregular PCB Routing with Complex Constraints",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/dac56929.2023.10247728",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac56929.2023.10247728",
+        "https://api.crossref.org/works/10.1109/dac56929.2023.10247728"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3649329.3663495",
+      "title": "Late Breaking Results: Modern Automatic PCB Placement with Complex Constraints",
+      "year": 2024,
+      "catalog_id": "doi:10.1145/3649329.3663495",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3649329.3663495",
+        "https://api.crossref.org/works/10.1145/3649329.3663495"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3649329.3663494",
+      "title": "Late Breaking Results: Power Rail Routing for Advanced Multi-Layered Printed Circuit Boards",
+      "year": 2024,
+      "catalog_id": "doi:10.1145/3649329.3663494",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3649329.3663494",
+        "https://api.crossref.org/works/10.1145/3649329.3663494"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3649329.3655915",
+      "title": "Obstacle-Aware Length-Matching Routing for Any-Direction Traces in Printed Circuit Board",
+      "year": 2024,
+      "catalog_id": "doi:10.1145/3649329.3655915",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3649329.3655915",
+        "https://api.crossref.org/works/10.1145/3649329.3655915"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3649329.3658484",
+      "title": "TraceFormer: S-parameter Prediction Framework for PCB Traces based on Graph Transformer",
+      "year": 2024,
+      "catalog_id": "doi:10.1145/3649329.3658484",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3649329.3658484",
+        "https://api.crossref.org/works/10.1145/3649329.3658484"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac63849.2025.11133056",
+      "title": "Clearance-Constrained PCB Global Placement with Heterogeneous Components",
+      "year": 2025,
+      "catalog_id": "doi:10.1109/dac63849.2025.11133056",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac63849.2025.11133056",
+        "https://api.crossref.org/works/10.1109/dac63849.2025.11133056"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac63849.2025.11133304",
+      "title": "Constraint Graph-based PCB Legalization Considering Dense, Heterogeneous, Irregular-Shaped, and Any-oriented Components",
+      "year": 2025,
+      "catalog_id": "doi:10.1109/dac63849.2025.11133304",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac63849.2025.11133304",
+        "https://api.crossref.org/works/10.1109/dac63849.2025.11133304"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac63849.2025.11132719",
+      "title": "Late Breaking Results: Advanced PCB Placement with Irregular Components for Efficient Collision Detection and Routability Optimization",
+      "year": 2025,
+      "catalog_id": "doi:10.1109/dac63849.2025.11132719",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac63849.2025.11132719",
+        "https://api.crossref.org/works/10.1109/dac63849.2025.11132719"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1109/dac.1988.14818",
+      "title": "The constrained via minimization problem for PCB and VLSI design",
+      "year": 1988,
+      "catalog_id": "doi:10.1109/dac.1988.14818",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/dac.1988.14818",
+        "https://api.crossref.org/works/10.1109/dac.1988.14818"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2004.1382689",
+      "title": "Simultaneous escape routing and layer assignment for dense PCBs",
+      "year": 2004,
+      "catalog_id": "doi:10.1109/iccad.2004.1382689",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2004.1382689",
+        "https://api.crossref.org/works/10.1109/iccad.2004.1382689"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2003.159717",
+      "title": "Length-matching routing for high-speed printed circuit boards",
+      "year": 2003,
+      "catalog_id": "doi:10.1109/iccad.2003.159717",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2003.159717",
+        "https://api.crossref.org/works/10.1109/iccad.2003.159717"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2010.5654190",
+      "title": "Recent research development in PCB layout",
+      "year": 2010,
+      "catalog_id": "doi:10.1109/iccad.2010.5654190",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2010.5654190",
+        "https://api.crossref.org/works/10.1109/iccad.2010.5654190"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2011.6105346",
+      "title": "Escape routing for staggered-pin-array PCBs",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/iccad.2011.6105346",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2011.6105346",
+        "https://api.crossref.org/works/10.1109/iccad.2011.6105346"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2013.6691193",
+      "title": "Post-route alleviation of dense meander segments in high-performance printed circuit boards",
+      "year": 2013,
+      "catalog_id": "doi:10.1109/iccad.2013.6691193",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2013.6691193",
+        "https://api.crossref.org/works/10.1109/iccad.2013.6691193"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad.2015.7372563",
+      "title": "BoardPUF: Physical Unclonable Functions for printed circuit board authentication",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/iccad.2015.7372563",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad.2015.7372563",
+        "https://api.crossref.org/works/10.1109/iccad.2015.7372563"
+      ]
+    },
+    {
+      "venue": "ICCAD",
+      "doi": "10.1109/iccad66269.2025.11240981",
+      "title": "PCBFormer: Understanding 3D Structure of RealWorld PCB Traces for S-Parameter Prediction",
+      "year": 2025,
+      "catalog_id": "doi:10.1109/iccad66269.2025.11240981",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/iccad66269.2025.11240981",
+        "https://api.crossref.org/works/10.1109/iccad66269.2025.11240981"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.1109/date.1998.655984",
+      "title": "A unified technique for PCB/MCM design by combining electromagnetic field analysis with circuit simulator",
+      "year": 1998,
+      "catalog_id": "doi:10.1109/date.1998.655984",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/date.1998.655984",
+        "https://api.crossref.org/works/10.1109/date.1998.655984"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.1109/date.2008.4484891",
+      "title": "Analysis and Optimization of the Recessed Probe Launch for High Frequency Measurements of PCB Interconnects",
+      "year": 2008,
+      "catalog_id": "doi:10.1109/date.2008.4484891",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/date.2008.4484891",
+        "https://api.crossref.org/works/10.1109/date.2008.4484891"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.23919/date.2018.8342132",
+      "title": "Fast chip-package-PCB coanalysis methodology for power integrity of multi-domain high-speed memory: A case study",
+      "year": 2018,
+      "catalog_id": "doi:10.23919/date.2018.8342132",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.23919/date.2018.8342132",
+        "https://api.crossref.org/works/10.23919/date.2018.8342132"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.23919/date56975.2023.10137062",
+      "title": "Two-stage PCB Routing Using Polygon-based Dynamic Partitioning and MCTS",
+      "year": 2023,
+      "catalog_id": "doi:10.23919/date56975.2023.10137062",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.23919/date56975.2023.10137062",
+        "https://api.crossref.org/works/10.23919/date56975.2023.10137062"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.23919/date64628.2025.10993225",
+      "title": "MegaRoute: Universal Automated Large-Scale PCB Routing Method with Adaptive Step-Size Search",
+      "year": 2025,
+      "catalog_id": "doi:10.23919/date64628.2025.10993225",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.23919/date64628.2025.10993225",
+        "https://api.crossref.org/works/10.23919/date64628.2025.10993225"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.23919/date69613.2026.11539307",
+      "title": "PCB-Migrator: Automated PCB PnR Migration",
+      "year": 2026,
+      "catalog_id": "doi:10.23919/date69613.2026.11539307",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.23919/date69613.2026.11539307",
+        "https://api.crossref.org/works/10.23919/date69613.2026.11539307"
+      ]
+    },
+    {
+      "venue": "DATE",
+      "doi": "10.23919/date69613.2026.11539310",
+      "title": "Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation",
+      "year": 2026,
+      "catalog_id": "doi:10.23919/date69613.2026.11539310",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.23919/date69613.2026.11539310",
+        "https://api.crossref.org/works/10.23919/date69613.2026.11539310"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2011.5722308",
+      "title": "A provably good approximation algorithm for Rectangle Escape Problem with application to PCB routing",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/aspdac.2011.5722308",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2011.5722308",
+        "https://api.crossref.org/works/10.1109/aspdac.2011.5722308"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2011.5722239",
+      "title": "Deterministic test for the reproduction and detection of board-level functional failures",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/aspdac.2011.5722239",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2011.5722239",
+        "https://api.crossref.org/works/10.1109/aspdac.2011.5722239"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2015.7059038",
+      "title": "A length matching routing method for disordered pins in PCB design",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/aspdac.2015.7059038",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2015.7059038",
+        "https://api.crossref.org/works/10.1109/aspdac.2015.7059038"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2015.7059098",
+      "title": "On test syndrome merging for reasoning-based board-level functional fault diagnosis",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/aspdac.2015.7059098",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2015.7059098",
+        "https://api.crossref.org/works/10.1109/aspdac.2015.7059098"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2015.7059021",
+      "title": "Self-learning and adaptive board-level functional fault diagnosis",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/aspdac.2015.7059021",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2015.7059021",
+        "https://api.crossref.org/works/10.1109/aspdac.2015.7059021"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.2016.7427989",
+      "title": "JTAG-based robust PCB authentication for protection against counterfeiting attacks",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/aspdac.2016.7427989",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.2016.7427989",
+        "https://api.crossref.org/works/10.1109/aspdac.2016.7427989"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1145/3394885.3431568",
+      "title": "A Unified Printed Circuit Board Routing Algorithm With Complicated Constraints and Differential Pairs",
+      "year": 2021,
+      "catalog_id": "doi:10.1145/3394885.3431568",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3394885.3431568",
+        "https://api.crossref.org/works/10.1145/3394885.3431568"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/asp-dac52403.2022.9712480",
+      "title": "Net Separation-Oriented Printed Circuit Board Placement via Margin Maximization",
+      "year": 2022,
+      "catalog_id": "doi:10.1109/asp-dac52403.2022.9712480",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/asp-dac52403.2022.9712480",
+        "https://api.crossref.org/works/10.1109/asp-dac52403.2022.9712480"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/asp-dac66049.2026.11420655",
+      "title": "DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method",
+      "year": 2026,
+      "catalog_id": "doi:10.1109/asp-dac66049.2026.11420655",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/asp-dac66049.2026.11420655",
+        "https://api.crossref.org/works/10.1109/asp-dac66049.2026.11420655"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1145/3658617.3697736",
+      "title": "PCBAgent: An Agent-based Framework for High-Density Printed Circuit Board Placement",
+      "year": 2025,
+      "catalog_id": "doi:10.1145/3658617.3697736",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3658617.3697736",
+        "https://api.crossref.org/works/10.1145/3658617.3697736"
+      ]
+    },
+    {
+      "venue": "ASP-DAC",
+      "doi": "10.1109/aspdac.1998.669507",
+      "title": "Development of a support tool for PCB design with EMC constraint. Reflection and crosstalk noise reduction in manual design",
+      "year": 1998,
+      "catalog_id": "doi:10.1109/aspdac.1998.669507",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/aspdac.1998.669507",
+        "https://api.crossref.org/works/10.1109/aspdac.1998.669507"
+      ]
+    },
+    {
+      "venue": "ISPD",
+      "doi": "10.1145/267665.267675",
+      "title": "VLSI/PCB placement with obstacles based on sequence-pair",
+      "year": 1997,
+      "catalog_id": "doi:10.1145/267665.267675",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/267665.267675",
+        "https://api.crossref.org/works/10.1145/267665.267675"
+      ]
+    },
+    {
+      "venue": "ISPD",
+      "doi": "10.1145/3569052.3578907",
+      "title": "Goal Driven PCB Synthesis Using Machine Learning and CloudScale Compute",
+      "year": 2023,
+      "catalog_id": "doi:10.1145/3569052.3578907",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3569052.3578907",
+        "https://api.crossref.org/works/10.1145/3569052.3578907"
+      ]
+    },
+    {
+      "venue": "ISPD",
+      "doi": "10.1145/1735023.1735033",
+      "title": "B-Escape: A Simultaneous Escape Routing Algorithm Based on Boundary Routing",
+      "year": 2010,
+      "catalog_id": "doi:10.1145/1735023.1735033",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/1735023.1735033",
+        "https://api.crossref.org/works/10.1145/1735023.1735033"
+      ]
+    },
+    {
+      "venue": "ISPD",
+      "doi": "10.1145/3626184.3635285",
+      "title": "Challenges for Automating PCB Layout",
+      "year": 2024,
+      "catalog_id": "doi:10.1145/3626184.3635285",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3626184.3635285",
+        "https://api.crossref.org/works/10.1145/3626184.3635285"
+      ]
+    },
+    {
+      "venue": "ISPD",
+      "doi": "10.1145/3698364.3705346",
+      "title": "Cypress: VLSI-Inspired PCB Placement with GPU Acceleration",
+      "year": 2025,
+      "catalog_id": "doi:10.1145/3698364.3705346",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3698364.3705346",
+        "https://api.crossref.org/works/10.1145/3698364.3705346"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2010.5490797",
+      "title": "Effects of PCB design variations on bend and ATC performance of lead-free solder joints",
+      "year": 2010,
+      "catalog_id": "doi:10.1109/ectc.2010.5490797",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2010.5490797",
+        "https://api.crossref.org/works/10.1109/ectc.2010.5490797"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2010.5490930",
+      "title": "Failure mechanism and mitigation of PCB pad cratering",
+      "year": 2010,
+      "catalog_id": "doi:10.1109/ectc.2010.5490930",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2010.5490930",
+        "https://api.crossref.org/works/10.1109/ectc.2010.5490930"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2010.5490909",
+      "title": "Layer misregistration in PCB and its effects on signal propagation",
+      "year": 2010,
+      "catalog_id": "doi:10.1109/ectc.2010.5490909",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2010.5490909",
+        "https://api.crossref.org/works/10.1109/ectc.2010.5490909"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898755",
+      "title": "Formation of through aluminum via for noble metal PCB and packaging substrate",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898755",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898755",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898755"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898739",
+      "title": "Green manufacturing process for solder-less PCB assembly using uniform pressure surface interconnector and anisotropic conductive film",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898739",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898739",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898739"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898672",
+      "title": "Method for early detection of PCB bending induced pad cratering",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898672",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898672",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898672"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898750",
+      "title": "Process development and reliability study with anisotropic conductive film bonding on multiple types of PCB surface finishes",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898750",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898750",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898750"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898510",
+      "title": "System-level exhaustive link simulation needed for PCB Co-design",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898510",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898510",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898510"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898552",
+      "title": "Techniques for de-embedding a high port count connector to PCB via interposer",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/ectc.2011.5898552",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2011.5898552",
+        "https://api.crossref.org/works/10.1109/ectc.2011.5898552"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2013.6575879",
+      "title": "Development of PCB design guide and PCB deformation simulation tool for slim PCB quality and reliability",
+      "year": 2013,
+      "catalog_id": "doi:10.1109/ectc.2013.6575879",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2013.6575879",
+        "https://api.crossref.org/works/10.1109/ectc.2013.6575879"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2013.6575855",
+      "title": "Fast signal integrity methodology for PCB pre-layout analysis and layout quality check",
+      "year": 2013,
+      "catalog_id": "doi:10.1109/ectc.2013.6575855",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2013.6575855",
+        "https://api.crossref.org/works/10.1109/ectc.2013.6575855"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2014.6897601",
+      "title": "A low-cost PCB fabrication process",
+      "year": 2014,
+      "catalog_id": "doi:10.1109/ectc.2014.6897601",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2014.6897601",
+        "https://api.crossref.org/works/10.1109/ectc.2014.6897601"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2014.6897560",
+      "title": "Improved PCB via pattern to reduce crosstalk at package BGA region for high speed serial interface",
+      "year": 2014,
+      "catalog_id": "doi:10.1109/ectc.2014.6897560",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2014.6897560",
+        "https://api.crossref.org/works/10.1109/ectc.2014.6897560"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2014.6897341",
+      "title": "Improving the target impedance method for PCB decoupling of core power",
+      "year": 2014,
+      "catalog_id": "doi:10.1109/ectc.2014.6897341",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2014.6897341",
+        "https://api.crossref.org/works/10.1109/ectc.2014.6897341"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2015.7159884",
+      "title": "Effects of board design parameters on failure mechanisms of PCB/BGA assemblies under drop impact",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/ectc.2015.7159884",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2015.7159884",
+        "https://api.crossref.org/works/10.1109/ectc.2015.7159884"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2015.7159675",
+      "title": "Impact of PCB decoupling on device electromigration performance",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/ectc.2015.7159675",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2015.7159675",
+        "https://api.crossref.org/works/10.1109/ectc.2015.7159675"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2016.237",
+      "title": "A Novel Modular Design and Modeling Methodology for High Speed High Density Die Package PCB Co-Simulation and Model Library Creation",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/ectc.2016.237",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2016.237",
+        "https://api.crossref.org/works/10.1109/ectc.2016.237"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2016.196",
+      "title": "Electronic PCB and PKG Thermal Stress Analysis",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/ectc.2016.196",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2016.196",
+        "https://api.crossref.org/works/10.1109/ectc.2016.196"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2016.236",
+      "title": "Impact of PCB Layer Orientation on the Drop Reliability of WCSP Boards",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/ectc.2016.236",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2016.236",
+        "https://api.crossref.org/works/10.1109/ectc.2016.236"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2017.7",
+      "title": "Comparison and Consistency of On-PCB Microstrip Line Modeling by 3D Fullwave and 2D Quasi-Static Approaches for High Speed Packaging System Signal Integrity Simulations",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/ectc.2017.7",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2017.7",
+        "https://api.crossref.org/works/10.1109/ectc.2017.7"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2017.146",
+      "title": "Effect of PCB and Package Type on Board Level Vibration Using Vibrational Spectrum Analysis",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/ectc.2017.146",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2017.146",
+        "https://api.crossref.org/works/10.1109/ectc.2017.146"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2017.281",
+      "title": "Reflow Warpage Induced Interconnect Gaps between Package/PCB and PoP Top/Bottom Packages",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/ectc.2017.281",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2017.281",
+        "https://api.crossref.org/works/10.1109/ectc.2017.281"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2017.75",
+      "title": "Signal Integrity Modeling in Inhomogeneous Waveguide/PCB of Arbitrary Shape Using Broadband Green's Function",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/ectc.2017.75",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2017.75",
+        "https://api.crossref.org/works/10.1109/ectc.2017.75"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00241",
+      "title": "Experimentally Minimizing the Gap Distance Between Extra Tall Packages and PCB Using the Digital Image Correlation (DIC) Method",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/ectc.2018.00241",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2018.00241",
+        "https://api.crossref.org/works/10.1109/ectc.2018.00241"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00208",
+      "title": "High Power-Density 3D Integrated Power Supply Module Based on Panel-Level PCB Embedded Technology",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/ectc.2018.00208",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2018.00208",
+        "https://api.crossref.org/works/10.1109/ectc.2018.00208"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00271",
+      "title": "PCB Pin Area Wire Modeling Based on Representative Layer 2D Misregistration",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/ectc.2018.00271",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2018.00271",
+        "https://api.crossref.org/works/10.1109/ectc.2018.00271"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00344",
+      "title": "Practical High Speed PCB Stackup Tool - Generation and Validation",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/ectc.2018.00344",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2018.00344",
+        "https://api.crossref.org/works/10.1109/ectc.2018.00344"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00117",
+      "title": "Understanding the Impact of PCB Changes in the Latest Published JEDEC Board Level Drop Test Method",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/ectc.2018.00117",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2018.00117",
+        "https://api.crossref.org/works/10.1109/ectc.2018.00117"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2019.00149",
+      "title": "Novel Multicore PCB and Substrate Solutions for Ultra Broadband Dual Polarized Antennas for 5G Millimeter Wave Covering 28GHz & 39GHz Range",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/ectc.2019.00149",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2019.00149",
+        "https://api.crossref.org/works/10.1109/ectc.2019.00149"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2019.00305",
+      "title": "PCB Microstrip Line Far-End Crosstalk Mitigation by Surface Mount Capacitors",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/ectc.2019.00305",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2019.00305",
+        "https://api.crossref.org/works/10.1109/ectc.2019.00305"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2019.00121",
+      "title": "WLCSP Package and PCB Design for Board Level Reliability",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/ectc.2019.00121",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc.2019.00121",
+        "https://api.crossref.org/works/10.1109/ectc.2019.00121"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32862.2020.00050",
+      "title": "Board Level Reliability Enhancement with Considerations of Solder Ball, Substrate and PCB",
+      "year": 2020,
+      "catalog_id": "doi:10.1109/ectc32862.2020.00050",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32862.2020.00050",
+        "https://api.crossref.org/works/10.1109/ectc32862.2020.00050"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32862.2020.00129",
+      "title": "Considerations on a Smart Strategy for Simultaneously Testing Multiple PCB Assemblies in Board Level Vibration",
+      "year": 2020,
+      "catalog_id": "doi:10.1109/ectc32862.2020.00129",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32862.2020.00129",
+        "https://api.crossref.org/works/10.1109/ectc32862.2020.00129"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32862.2020.00272",
+      "title": "Stripline-Slotline Rectangular Resonators for Measurement of Uniaxial Anisotropic Permittivity of Composite PCB Dielectric Material",
+      "year": 2020,
+      "catalog_id": "doi:10.1109/ectc32862.2020.00272",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32862.2020.00272",
+        "https://api.crossref.org/works/10.1109/ectc32862.2020.00272"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32696.2021.00111",
+      "title": "Au-Less, Ni-Less & Roughness-Less PCB Cu Surface Treatment Using All-in-One Al2O3 Passivation",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/ectc32696.2021.00111",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32696.2021.00111",
+        "https://api.crossref.org/works/10.1109/ectc32696.2021.00111"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32696.2021.00164",
+      "title": "Effects of Heatsink Application and PCB Design Variations on BGA Solder Joint Reliability",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/ectc32696.2021.00164",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32696.2021.00164",
+        "https://api.crossref.org/works/10.1109/ectc32696.2021.00164"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32696.2021.00091",
+      "title": "Flexible Connectors and PCB Segmentation for Signaling and Power Delivery in Wafer-Scale Systems",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/ectc32696.2021.00091",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32696.2021.00091",
+        "https://api.crossref.org/works/10.1109/ectc32696.2021.00091"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32696.2021.00137",
+      "title": "Study on EMI Shielding at the PCB Strip Level with Conformal Spray Coating Process",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/ectc32696.2021.00137",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc32696.2021.00137",
+        "https://api.crossref.org/works/10.1109/ectc32696.2021.00137"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51906.2022.00276",
+      "title": "A Parameter Study for the Design Optimization to Relieve Pattern Stress of PCB under the Temperature Cycling Condition",
+      "year": 2022,
+      "catalog_id": "doi:10.1109/ectc51906.2022.00276",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51906.2022.00276",
+        "https://api.crossref.org/works/10.1109/ectc51906.2022.00276"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51906.2022.00354",
+      "title": "Influence of Prepreg Material Properties on Printed Circuit Board (PCB) Stack-up",
+      "year": 2022,
+      "catalog_id": "doi:10.1109/ectc51906.2022.00354",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51906.2022.00354",
+        "https://api.crossref.org/works/10.1109/ectc51906.2022.00354"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51906.2022.00363",
+      "title": "Methods of Printing Copper for PCB Repair",
+      "year": 2022,
+      "catalog_id": "doi:10.1109/ectc51906.2022.00363",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51906.2022.00363",
+        "https://api.crossref.org/works/10.1109/ectc51906.2022.00363"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51909.2023.00034",
+      "title": "An Additive Approach to Embed Chips in a Metallic Matrix Infused PCB",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/ectc51909.2023.00034",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51909.2023.00034",
+        "https://api.crossref.org/works/10.1109/ectc51909.2023.00034"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51909.2023.00310",
+      "title": "Extracting Anisotropic Permittivity of PCB Substrate from VNA Measurement on a Rectangular Stripline Resonator Loaded with a Via Array",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/ectc51909.2023.00310",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51909.2023.00310",
+        "https://api.crossref.org/works/10.1109/ectc51909.2023.00310"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51909.2023.00323",
+      "title": "Machine Learning Based PCB/Package Stack-up Optimization for Signal Integrity",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/ectc51909.2023.00323",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51909.2023.00323",
+        "https://api.crossref.org/works/10.1109/ectc51909.2023.00323"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51846.2026.00359",
+      "title": "Introduction to High-Speed LVDS Twisted Pair Transmission Across PCB and Chiplet RDL Interfaces",
+      "year": 2026,
+      "catalog_id": "doi:10.1109/ectc51846.2026.00359",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51846.2026.00359",
+        "https://api.crossref.org/works/10.1109/ectc51846.2026.00359"
+      ]
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51846.2026.00258",
+      "title": "Warpage Prediction of PCB in Multi-Laminating Processes Considering Cure Shrinkage and Anisotropic Visco-Elastic Properties of Prepreg Core",
+      "year": 2026,
+      "catalog_id": "doi:10.1109/ectc51846.2026.00258",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/ectc51846.2026.00258",
+        "https://api.crossref.org/works/10.1109/ectc51846.2026.00258"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.1993.394575",
+      "title": "Evaluation of ground inductance in printed circuit boards",
+      "year": 1993,
+      "catalog_id": "doi:10.1109/epep.1993.394575",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.1993.394575",
+        "https://api.crossref.org/works/10.1109/epep.1993.394575"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.1996.564807",
+      "title": "Signal integrity analysis of simultaneous switching noises and decoupling capacitors in digital packages and PCB systems",
+      "year": 1996,
+      "catalog_id": "doi:10.1109/epep.1996.564807",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.1996.564807",
+        "https://api.crossref.org/works/10.1109/epep.1996.564807"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2000.895496",
+      "title": "An optimization method for placement of decoupling capacitors on printed circuit board",
+      "year": 2000,
+      "catalog_id": "doi:10.1109/epep.2000.895496",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2000.895496",
+        "https://api.crossref.org/works/10.1109/epep.2000.895496"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2007.4387181",
+      "title": "A Domain Decomposition Method for the Finite Element Simulation of Circuit Board Interconnects",
+      "year": 2007,
+      "catalog_id": "doi:10.1109/epep.2007.4387181",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2007.4387181",
+        "https://api.crossref.org/works/10.1109/epep.2007.4387181"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2007.4387117",
+      "title": "Electrical Analysis of Multi-board PCB Systems with Differential Signaling Considering Non-ideal Common Ground Connection",
+      "year": 2007,
+      "catalog_id": "doi:10.1109/epep.2007.4387117",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2007.4387117",
+        "https://api.crossref.org/works/10.1109/epep.2007.4387117"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2007.4387143",
+      "title": "Jitter Amplification Considerations for PCB Clock Channel Design",
+      "year": 2007,
+      "catalog_id": "doi:10.1109/epep.2007.4387143",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2007.4387143",
+        "https://api.crossref.org/works/10.1109/epep.2007.4387143"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2008.4675902",
+      "title": "Analysis of noise coupling from printed circuit board to shielding enclosure",
+      "year": 2008,
+      "catalog_id": "doi:10.1109/epep.2008.4675902",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2008.4675902",
+        "https://api.crossref.org/works/10.1109/epep.2008.4675902"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epep.2008.4675907",
+      "title": "Including the impact of connecting vias in the performance metric evaluation for board-level optimization of decoupling capacitors",
+      "year": 2008,
+      "catalog_id": "doi:10.1109/epep.2008.4675907",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epep.2008.4675907",
+        "https://api.crossref.org/works/10.1109/epep.2008.4675907"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2009.5338435",
+      "title": "An approach for quantifying the conductor and dielectric losses in PCB transmission lines",
+      "year": 2009,
+      "catalog_id": "doi:10.1109/epeps.2009.5338435",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2009.5338435",
+        "https://api.crossref.org/works/10.1109/epeps.2009.5338435"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2009.5338430",
+      "title": "Design of shorting vias in alternative PCB planes for suppressing ground-bounce induced electromagnetic emission",
+      "year": 2009,
+      "catalog_id": "doi:10.1109/epeps.2009.5338430",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2009.5338430",
+        "https://api.crossref.org/works/10.1109/epeps.2009.5338430"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2009.5338491",
+      "title": "Extraction of via and trace model from PCB channel S-parameter data by stochastic optimization",
+      "year": 2009,
+      "catalog_id": "doi:10.1109/epeps.2009.5338491",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2009.5338491",
+        "https://api.crossref.org/works/10.1109/epeps.2009.5338491"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2010.5642572",
+      "title": "A compact, low-cost, and wide-band passive equalizer design using multi-layer PCB parasitics",
+      "year": 2010,
+      "catalog_id": "doi:10.1109/epeps.2010.5642572",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2010.5642572",
+        "https://api.crossref.org/works/10.1109/epeps.2010.5642572"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2011.6100245",
+      "title": "Three finite-element time-domain-based numerical algorithms for high-frequency broadband PCB simulations",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/epeps.2011.6100245",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2011.6100245",
+        "https://api.crossref.org/works/10.1109/epeps.2011.6100245"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2011.6100172",
+      "title": "Verification of novel technology for power integrity on 16-channel 3Gbps circuit boards",
+      "year": 2011,
+      "catalog_id": "doi:10.1109/epeps.2011.6100172",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2011.6100172",
+        "https://api.crossref.org/works/10.1109/epeps.2011.6100172"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2012.6457904",
+      "title": "On analytic model of multiple vias for high-speed printed circuit board and electric band-gap structures",
+      "year": 2012,
+      "catalog_id": "doi:10.1109/epeps.2012.6457904",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2012.6457904",
+        "https://api.crossref.org/works/10.1109/epeps.2012.6457904"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2013.6703466",
+      "title": "Modeling methodologies for multi level PCB-package co-simulation & co-design",
+      "year": 2013,
+      "catalog_id": "doi:10.1109/epeps.2013.6703466",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2013.6703466",
+        "https://api.crossref.org/works/10.1109/epeps.2013.6703466"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2015.7347154",
+      "title": "Trace mis-registration margin on PCB how much is enough?",
+      "year": 2015,
+      "catalog_id": "doi:10.1109/epeps.2015.7347154",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2015.7347154",
+        "https://api.crossref.org/works/10.1109/epeps.2015.7347154"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835449",
+      "title": "A dielectric based waveguide integrated in a multilayer PCB for ultra high speed communications",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835449",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835449",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835449"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835431",
+      "title": "A method to assess the radiated susceptibility of printed circuit boards",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835431",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835431",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835431"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835439",
+      "title": "A neural network based method for predicting PCB glass weave induced skew",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835439",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835439",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835439"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835450",
+      "title": "Crosstalk evaluation between ultra high speed multi-layer compatible PCB dielectric waveguides and reduction using split ring resonators",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835450",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835450",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835450"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835453",
+      "title": "Efficient and robust Dyadic Green's Function evaluation algorithm for the analysis of IC packages and printed circuit boards",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835453",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835453",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835453"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2016.7835440",
+      "title": "PCB stack-up design and optimization for next generation speeds",
+      "year": 2016,
+      "catalog_id": "doi:10.1109/epeps.2016.7835440",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2016.7835440",
+        "https://api.crossref.org/works/10.1109/epeps.2016.7835440"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2017.8329757",
+      "title": "Effect of time delay skew on differential insertion loss in weak and strong coupled PCB traces",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/epeps.2017.8329757",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2017.8329757",
+        "https://api.crossref.org/works/10.1109/epeps.2017.8329757"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2017.8329753",
+      "title": "Embeded filtering in PCB integrated ultra high speed dielectric waveguides using photonic band gap structures",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/epeps.2017.8329753",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2017.8329753",
+        "https://api.crossref.org/works/10.1109/epeps.2017.8329753"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2017.8329744",
+      "title": "Interpolating inductance coupling effects for package and PCB simulation",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/epeps.2017.8329744",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2017.8329744",
+        "https://api.crossref.org/works/10.1109/epeps.2017.8329744"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2017.8329731",
+      "title": "The accuracy of port connections between layers in printed circuit board",
+      "year": 2017,
+      "catalog_id": "doi:10.1109/epeps.2017.8329731",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2017.8329731",
+        "https://api.crossref.org/works/10.1109/epeps.2017.8329731"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534304",
+      "title": "3D Electromagnetic Modelling of Connector to PCB Via Transitions",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534304",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534304",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534304"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534241",
+      "title": "A Comprehensive Signal Integrity Study of Differential Pairs Routed within a PCB Via Field",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534241",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534241",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534241"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534259",
+      "title": "Characterization of Printed Circuit Board Interconnect Transmission Lines Using Multiline Thru-Reflect-Line Calibration Up to 110 GHz",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534259",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534259",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534259"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534235",
+      "title": "Efficient and Accurate Multi-Dimensional Layered Media Green's Function Interpolation Algorithm for the Analysis of Printed Circuit Boards",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534235",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534235",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534235"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534295",
+      "title": "Impacts of Anisotropic Permittivity on PCB Trace and Via Modeling",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534295",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534295",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534295"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2018.8534285",
+      "title": "Vertical and Horizontal Transitions of Substrate Integrated Waveguides Within a Multi-Layered PCB for High Speed Signaling Applications",
+      "year": 2018,
+      "catalog_id": "doi:10.1109/epeps.2018.8534285",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps.2018.8534285",
+        "https://api.crossref.org/works/10.1109/epeps.2018.8534285"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps47316.2019.193206",
+      "title": "Design and measurement for high-speed interconnects between chip package, connector and PCB board",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/epeps47316.2019.193206",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps47316.2019.193206",
+        "https://api.crossref.org/works/10.1109/epeps47316.2019.193206"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps47316.2019.193239",
+      "title": "Fast and Accurate Radiation Calculations for Printed Circuit Boards and Packages",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/epeps47316.2019.193239",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps47316.2019.193239",
+        "https://api.crossref.org/works/10.1109/epeps47316.2019.193239"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps47316.2019.193228",
+      "title": "Measurement-assisted extraction of PCB interconnect model parameters with fabrication variations",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/epeps47316.2019.193228",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps47316.2019.193228",
+        "https://api.crossref.org/works/10.1109/epeps47316.2019.193228"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps47316.2019.193216",
+      "title": "Signal Integrity Considerations of PCB Wiring in Tightly Pitched Module Pin Fields of High Speed Channels",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/epeps47316.2019.193216",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps47316.2019.193216",
+        "https://api.crossref.org/works/10.1109/epeps47316.2019.193216"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps47316.2019.193226",
+      "title": "Thermal Impact on High Speed PCB Interconnects",
+      "year": 2019,
+      "catalog_id": "doi:10.1109/epeps47316.2019.193226",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps47316.2019.193226",
+        "https://api.crossref.org/works/10.1109/epeps47316.2019.193226"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps48591.2020.9231382",
+      "title": "Cost-Effective Implementation of Air-Filled Waveguides on Printed Circuit Boards",
+      "year": 2020,
+      "catalog_id": "doi:10.1109/epeps48591.2020.9231382",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps48591.2020.9231382",
+        "https://api.crossref.org/works/10.1109/epeps48591.2020.9231382"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps48591.2020.9231314",
+      "title": "Via Design Optimization for High Speed Differential Interconnects on Circuit Boards",
+      "year": 2020,
+      "catalog_id": "doi:10.1109/epeps48591.2020.9231314",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps48591.2020.9231314",
+        "https://api.crossref.org/works/10.1109/epeps48591.2020.9231314"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps51341.2021.9609177",
+      "title": "Distributed Nonlinear Shielding in Power Delivery Networks on Printed Circuit Boards",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/epeps51341.2021.9609177",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps51341.2021.9609177",
+        "https://api.crossref.org/works/10.1109/epeps51341.2021.9609177"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps51341.2021.9609190",
+      "title": "Evaluation of Support Vector Machines for PCB based Power Delivery Network Classification",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/epeps51341.2021.9609190",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps51341.2021.9609190",
+        "https://api.crossref.org/works/10.1109/epeps51341.2021.9609190"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps51341.2021.9609151",
+      "title": "Far End Crosstalk Mitigation of Differential High Speed Interconnects Within Printed Circuit Board Via Fields",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/epeps51341.2021.9609151",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps51341.2021.9609151",
+        "https://api.crossref.org/works/10.1109/epeps51341.2021.9609151"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps51341.2021.9609174",
+      "title": "Fast and Accurate Modeling of PCB Differential Trace Skew Compensation using ML",
+      "year": 2021,
+      "catalog_id": "doi:10.1109/epeps51341.2021.9609174",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps51341.2021.9609174",
+        "https://api.crossref.org/works/10.1109/epeps51341.2021.9609174"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps58208.2023.10314873",
+      "title": "Analysis of Differential Stripline Routing Approaches within a PCB Via Field for Crosstalk Mitigation",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/epeps58208.2023.10314873",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps58208.2023.10314873",
+        "https://api.crossref.org/works/10.1109/epeps58208.2023.10314873"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps58208.2023.10314905",
+      "title": "PCB-level Jitter Sensitivity Measurement and Hierarchical PDN-Z based PSIJ Estimation for PCIe Gen5 SSD",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/epeps58208.2023.10314905",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps58208.2023.10314905",
+        "https://api.crossref.org/works/10.1109/epeps58208.2023.10314905"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps58208.2023.10314936",
+      "title": "Quantification of Delay and Skew Uncertainty due to Fiber Weave Effect in PCB Interconnects",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/epeps58208.2023.10314936",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps58208.2023.10314936",
+        "https://api.crossref.org/works/10.1109/epeps58208.2023.10314936"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps58208.2023.10314860",
+      "title": "Substrate Integrated Coaxial Line Millimeterwave Components Manufactured in Standard PCB",
+      "year": 2023,
+      "catalog_id": "doi:10.1109/epeps58208.2023.10314860",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps58208.2023.10314860",
+        "https://api.crossref.org/works/10.1109/epeps58208.2023.10314860"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps61853.2024.10754366",
+      "title": "An Efficient SPICE-compatible Model for Fast Co-simulation of Signal and Power Integrity on Multilayer PCB with Arbitrary Shape",
+      "year": 2024,
+      "catalog_id": "doi:10.1109/epeps61853.2024.10754366",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps61853.2024.10754366",
+        "https://api.crossref.org/works/10.1109/epeps61853.2024.10754366"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps61853.2024.10754337",
+      "title": "Limit of the Impact of the via Stub Length on the via Impedance in Printed Circuit Boards",
+      "year": 2024,
+      "catalog_id": "doi:10.1109/epeps61853.2024.10754337",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps61853.2024.10754337",
+        "https://api.crossref.org/works/10.1109/epeps61853.2024.10754337"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps61853.2024.10754092",
+      "title": "Operator Inference for Rigid-Flex Printed Circuit Boards Subject to Large Deformations",
+      "year": 2024,
+      "catalog_id": "doi:10.1109/epeps61853.2024.10754092",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps61853.2024.10754092",
+        "https://api.crossref.org/works/10.1109/epeps61853.2024.10754092"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps61853.2024.10754476",
+      "title": "Simulation Method for Quasi-Static Solver to Effectively Model Parasitic Components Between Package and PCB",
+      "year": 2024,
+      "catalog_id": "doi:10.1109/epeps61853.2024.10754476",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps61853.2024.10754476",
+        "https://api.crossref.org/works/10.1109/epeps61853.2024.10754476"
+      ]
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps63858.2025.11346668",
+      "title": "Separate-Cavity Optimization Method for PCIe Gen6.0 PCB-Connector Pad Design Using Particle Swarm Optimization (PSO) Algorithm",
+      "year": 2025,
+      "catalog_id": "doi:10.1109/epeps63858.2025.11346668",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1109/epeps63858.2025.11346668",
+        "https://api.crossref.org/works/10.1109/epeps63858.2025.11346668"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "venue": "DAC",
+      "title": "1971 CIBOL title and three 1977 PCB titles",
+      "reason": "No verified DOI and no second-source metadata; not admitted."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2015.7159910",
+      "reason": "Board-as-platform record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2010.5490961",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2011.5898521",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2014.6897537",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2014.6897571",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2015.7159767",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00008",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc.2018.00242",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc32696.2021.00214",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "ECTC",
+      "doi": "10.1109/ectc51687.2025.00246",
+      "reason": "Package/board-incidental record; excluded by PCB-specific scope rule."
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps.2010.5642596",
+      "reason": "Wafer-scale/package record, not PCB-specific; omitted to reconcile 53 admitted rows."
+    },
+    {
+      "venue": "EPEPS",
+      "doi": "10.1109/epeps63858.2025.11346793",
+      "reason": "Direct-die package-only record; excluded by PCB-specific scope rule."
+    }
+  ],
+  "limitations": [
+    "Crossref relevance queries are not complete proceedings dumps; old DAC TOCs and some IEEE ECTC/EPEPS pages were unavailable or rate-limited.",
+    "DAC 1971 CIBOL and three DAC 1977 PCB titles lack verified DOI/second-source metadata and remain unresolved.",
+    "ECTC accepted count is reconciled at 46 by excluding the board-as-platform DOI 10.1109/ectc.2015.7159910 and the listed package-incidental records.",
+    "EPEPS accepted count is reconciled at 53 by excluding wafer-scale/package DOI 10.1109/epeps.2010.5642596 and the direct-die package-only 2025 DOI.",
+    "A direct DOI/catalog cross-check found four genuine PCB records missed by the initial partial venue query; they expand the admitted closure to DAC 63, ASP-DAC 11, and ISPD 5 (192 total) while preserving the seven-venue scope.",
+    "Metadata-only cards use only evidence-scoped non-reporting or title-inference statuses: code is either not_found or not_reported_in_accessible_source, while dataset, final-test, and baseline fields are not_reported_in_accessible_source; none of these labels claims that an artifact does not exist.",
+    "The fixed admitted DOI inventory supports metadata regeneration and row-level falsification, but is not a replayable discovery log or a mathematical claim of global bibliographic completeness."
+  ]
+}

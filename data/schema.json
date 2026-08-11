@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/WhoJay0609/awesome-pcb-design-papers/blob/main/data/schema.json",
+  "title": "Awesome PCB Design Papers catalog",
+  "type": "object",
+  "required": ["schema_version", "cutoff_date", "topics", "papers"],
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["source_url", "locator"],
+      "properties": {
+        "source_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "locator": {"type": "string", "minLength": 1}
+      }
+    },
+    "evidence_card": {
+      "type": "object",
+      "required": ["status", "summary", "evidence"],
+      "properties": {
+        "status": {"type": "string", "minLength": 1},
+        "summary": {"type": "string", "minLength": 1},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["checked_on", "sources", "requested_id", "note"],
+      "properties": {
+        "checked_on": {"type": "string", "format": "date"},
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "format": "uri", "pattern": "^https://"}
+        },
+        "requested_id": {"type": "string", "minLength": 1},
+        "note": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"type": "string"},
+    "cutoff_date": {"type": "string", "format": "date"},
+    "topics": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "name_zh", "name_en"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "name_zh": {"type": "string", "minLength": 1},
+          "name_en": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "papers": {
+      "type": "array",
+      "minItems": 100,
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "title", "authors", "year", "venue", "publication_state",
+          "primary_url", "urls", "scope", "topics", "primary_topic",
+          "top_venue", "code", "dataset", "application_scenario",
+          "problem_solved", "evaluation", "baselines", "evidence_level",
+          "verification"
+        ],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "authors": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "year": {"type": "integer", "minimum": 1900, "maximum": 2026},
+          "venue": {"type": "string", "minLength": 1},
+          "publication_state": {"type": "string", "minLength": 1},
+          "primary_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+          "urls": {
+            "type": "object",
+            "required": ["doi", "arxiv", "open_access_pdf", "code", "data"],
+            "properties": {
+              "doi": {"type": "string"},
+              "arxiv": {"type": "string"},
+              "open_access_pdf": {"type": "string"},
+              "code": {"type": "string"},
+              "data": {"type": "string"}
+            }
+          },
+          "scope": {"enum": ["pcb-core", "related-eda"]},
+          "topics": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "primary_topic": {"type": "string", "minLength": 1},
+          "top_venue": {"enum": ["DAC", "ICCAD", "DATE", "ASP-DAC", "ISPD", "ECTC", "EPEPS", null]},
+          "code": {
+            "allOf": [
+              {"$ref": "#/$defs/evidence_card"},
+              {
+                "type": "object",
+                "required": ["url", "checked_on"],
+                "properties": {
+                  "url": {"type": "string"},
+                  "checked_on": {"type": "string", "format": "date"}
+                }
+              }
+            ]
+          },
+          "dataset": {
+            "allOf": [
+              {"$ref": "#/$defs/evidence_card"},
+              {"type": "object", "required": ["names"], "properties": {"names": {"type": "array", "items": {"type": "string"}}}}
+            ]
+          },
+          "application_scenario": {"$ref": "#/$defs/evidence_card"},
+          "problem_solved": {"$ref": "#/$defs/evidence_card"},
+          "evaluation": {
+            "allOf": [
+              {"$ref": "#/$defs/evidence_card"},
+              {"type": "object", "required": ["metrics_mentioned"], "properties": {"metrics_mentioned": {"type": "array", "items": {"type": "string"}}}}
+            ]
+          },
+          "baselines": {
+            "allOf": [
+              {"$ref": "#/$defs/evidence_card"},
+              {"type": "object", "required": ["names"], "properties": {"names": {"type": "array", "items": {"type": "string"}}}}
+            ]
+          },
+          "evidence_level": {"enum": ["metadata-only", "abstract", "full-text", "project-page"]},
+          "verification": {"$ref": "#/$defs/verification"}
+        }
+      }
+    }
+  }
+}

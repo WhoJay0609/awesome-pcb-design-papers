@@ -1,0 +1,2466 @@
+{
+  "checked_at": "2026-08-11T16:41:44Z",
+  "url_count": 351,
+  "acceptable_count": 348,
+  "results": [
+    {
+      "url": "https://arxiv.org/abs/1902.06197",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1902.06197",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.00510",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2602.00510",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23540",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2602.23540",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00270",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2604.00270",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30345",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.30345",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.01188",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.01188",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.03261",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.03261",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04434",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.04434",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.05915",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2607.05915",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1002/cta.70260",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/cta.70260",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1007/s11227-024-06338-9",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/10.1007/s11227-024-06338-9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.eswa.2025.128639",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0957417425022584",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.eswa.2026.131424",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0957417426003374",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.microrel.2024.115473",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0026271424001537",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.microrel.2024.115587",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0026271424002671",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.pedc.2026.100148",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772370426000131",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.vlsi.2024.102270",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167926024001342",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.vlsi.2025.102533",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167926025001907",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.vlsi.2025.102567",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S016792602500224X",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.vlsi.2026.102671",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S016792602600026X",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-021-03544-w",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41586-021-03544-w",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41597-024-03656-8",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41597-024-03656-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41597-026-06818-y",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41597-026-06818-y",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-024-70176-1",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41598-024-70176-1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-024-84635-2",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41598-024-84635-2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-025-06902-0",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41598-025-06902-0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-026-49734-2",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s41598-026-49734-2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1088/1742-6596/3079/1/012071",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=198321a1-34ee-4d47-bd9d-702d7dde7908&ssb=69680260330&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1742-6596%2F3079%2F1%2F012071&ssi=0f9a3559-cnvj-4205-8375-e31a4ef07319&ssk=botmanager_support@radware.com&ssm=15582397085443511106883836668894&ssn=d119207bf4f45b166e63ea4faebb53f03cf584c4b3b8-1697-4eee-906a13&sso=e39d0978-aa76e179d5fce18248c0a9bf0775384dc8e4e1c03f0a54aa&ssp=39232951101786420593178641747168361&ssq=14090066647627431297966476135676368656602&ssr=NTQuMjU1LjIyOS41Nw==&sst=Mozilla/5.0%20awesome-pcb-design-papers-link-check/1.0&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZGRiM2Q2YjEtYjIwZS00ODhlLTgwMzUtZGE3Mzk2YmI4OGZmMS0xNzg2NDY2NDc2Njk0MC0wMDBlZmEwZmUxNWY3NWY5ZjY3MTAiLCJfX3V6bWYiOiI3ZjkwMDA4NGM0YjNiOC0xNjk3LTRlZWUtOTk3OC1hYTc2ZTE3OWQ1ZmMxLTE3ODY0NjY0NzY2OTQwLTAwNDQ2NTIwNzUxYmIyNzA3ZTIxMCIsInJkIjoiaW9wLm9yZyJ9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1108/SSMT-05-2025-0024",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.emerald.com/ssmt/article/38/1/32/1270411/Optimizing-stencil-printing-parameters-for",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2021.3061788",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9361755/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ECCE58356.2025.11259777",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11259777/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/EMCSIPI52291.2025.11169776",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11169776/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/EPEPS51341.2021.9609190",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9609190/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/EPEPS61853.2024.10754476",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10754476/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ISQED57927.2023.10129354",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10129354/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ISQED60706.2024.10528693",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10528693/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/OJPEL.2026.3672717",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11429580/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI54345.2022.9874946",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9874946/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI60975.2024.10539189",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10539189/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI60975.2024.10539196",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10539196/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI60975.2024.10539215",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10539215/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI64682.2025.11014326",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11014326/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI68887.2026.11594744",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11594744/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/SPI68887.2026.11594790",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11594790/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/TCAD.2022.3178643",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9785666/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/TCAD.2025.3567012",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10985887/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/TCPMT.2025.3558532",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10955254/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/TPEL.2019.2915029",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8706634/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/access.2023.3323589",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10274949/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/access.2024.3386921",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10496097/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/access.2025.3629085",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11226997/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/apec51134.2026.11516836",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11516836/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/asp-dac52403.2022.9712480",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9712480/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/asp-dac66049.2026.11420655",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11420655/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.1998.669507",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/669507/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2011.5722239",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5722239/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2011.5722308",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5722308/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2015.7059021",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7059021/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2015.7059038",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7059038/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2015.7059098",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7059098/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/aspdac.2016.7427989",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7427989/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585140",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585140/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585149",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585149/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585150",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585150/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585152",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585152/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585209",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585209/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1978.1585211",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585211/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1979.1600154",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1600154/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1979.1600155",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1600155/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1979.1600156",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1600156/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1979.1600158",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1600158/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1981.1585343",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585343/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1981.1585383",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585383/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1981.1585384",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585384/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1982.1585552",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585552/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1982.1585576",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585576/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1983.1585689",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585689/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1985.1585990",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1585990/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1985.1586007",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1586007/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1986.1586166",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1586166/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1986.1586179",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1586179/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1988.14818",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/14818/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1995.249977",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=217474.217559",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1995.250008",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1586764/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac.1998.724497",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=277044.277144",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac18074.2021.9586086",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9586086/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac18074.2021.9586128",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9586128/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac18074.2021.9586143",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9586143/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac56929.2023.10247728",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10247728/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac63849.2025.11132719",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11132719/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac63849.2025.11133056",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11133056/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/dac63849.2025.11133304",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11133304/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/date.1998.655984",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/655984/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/date.2008.4484891",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4484891/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ecie69549.2026.11565623",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11565623/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2010.5490797",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5490797/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2010.5490909",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5490909/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2010.5490930",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5490930/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898510",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898510/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898552",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898552/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898672",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898672/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898739",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898739/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898750",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898750/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2011.5898755",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5898755/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2013.6575855",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6575855/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2013.6575879",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6575879/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2014.6897341",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6897341/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2014.6897560",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6897560",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2014.6897601",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6897601",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2015.7159675",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7159675/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2015.7159884",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7159884/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2016.196",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7545607/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2016.236",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7545704/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2016.237",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7545739/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2017.146",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7999732/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2017.281",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7999860/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2017.7",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7999945/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2017.75",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7999914/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2018.00117",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8429630/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2018.00208",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8429721/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2018.00241",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8429754/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2018.00271",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8429784/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2018.00344",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8429857/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2019.00121",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8811345/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2019.00149",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8811312/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc.2019.00305",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8811262/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32696.2021.00091",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9501862/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32696.2021.00111",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9501785/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32696.2021.00137",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9501577/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32696.2021.00164",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9501627/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32862.2020.00050",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9159250/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32862.2020.00129",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9159201/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc32862.2020.00272",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9159437/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51846.2026.00258",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11561241/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51846.2026.00359",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11561238/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51906.2022.00276",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9816410/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51906.2022.00354",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9816642/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51906.2022.00363",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9816578/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51909.2023.00034",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10195578/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51909.2023.00310",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10195440/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/ectc51909.2023.00323",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10195708/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/emceurope57790.2023.10274174",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10274174/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.1993.394575",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/394575/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.1996.564807",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/564807/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2000.895496",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/895496/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2007.4387117",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4387117/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2007.4387143",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4387143/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2007.4387181",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4387181/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2008.4675902",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4675902/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epep.2008.4675907",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4675907/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2009.5338430",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5338430/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2009.5338435",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5338435/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2009.5338491",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5338491/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2010.5642572",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5642572/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2011.6100172",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6100172/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2011.6100245",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6100245/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2012.6457904",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6457904/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2013.6703466",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6703466/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2015.7347154",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7347154/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835431",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835431/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835439",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835439/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835440",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835440/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835449",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835449/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835450",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835450/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2016.7835453",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7835453/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2017.8329731",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8329731/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2017.8329744",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8329744/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2017.8329753",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8329753/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2017.8329757",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8329757/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534235",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534235/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534241",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534241/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534259",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534259/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534285",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534285/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534295",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534295/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps.2018.8534304",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8534304/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps47316.2019.193206",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9073409/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps47316.2019.193216",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9073542/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps47316.2019.193226",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9073466/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps47316.2019.193228",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9073598/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps47316.2019.193239",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9073027/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps48591.2020.9231314",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9231314/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps48591.2020.9231382",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9231382/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps51341.2021.9609151",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9609151/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps51341.2021.9609174",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9609174/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps51341.2021.9609177",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9609177/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps58208.2023.10314860",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10314860/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps58208.2023.10314873",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10314873/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps58208.2023.10314905",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10314905/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps58208.2023.10314936",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10314936/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps61853.2024.10754092",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10754092/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps61853.2024.10754337",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10754337/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps61853.2024.10754366",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10754366/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/epeps63858.2025.11346668",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11346668/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/eptc62800.2024.10909749",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10909749/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/eurosime69483.2026.11511949",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11511949/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2003.159717",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1257808/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2004.1382689",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1382689/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2010.5654190",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/5654190/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2011.6105346",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6105346/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2013.6691193",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/6691193/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad.2015.7372563",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7372563/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iccad66269.2025.11240981",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11240981/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/icccas62034.2024.10652680",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10652680/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/icccas62034.2024.10652855",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10652855/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/icdcm67837.2026.11594514",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11594514/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iconstem60960.2024.10568665",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10568665/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/impact67645.2025.11281664",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11281664/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iseda62518.2024.10617495",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10617495/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/iseda62518.2024.10617906",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10617906/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/isse65583.2025.11120996",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11120996/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/la-cci62337.2024.10814812",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10814812/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2018.2859220",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8418790/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2023.3340869",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10349696/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2024.3383347",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10485372/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2024.3486241",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10734385/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2025.3580511",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11039086/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2025.3596537",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11115112/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcad.2025.3618936",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11195800/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tce.2026.3719339",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11640833/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tcpmt.2026.3680077",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11473304/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/therminic62015.2024.10732465",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10732465/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tii.2025.3642805",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11311179/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2024.3450918",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10654381/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tpel.2025.3640103",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11277259/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tr.2025.3529303",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10870443/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1109/tsipi.2024.3391212",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10505859/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1115/1.4071646",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://asmedigitalcollection.asme.org/electronicpackaging/article/148/2/021005/1232443/Influence-of-Boundary-Conditions-and-Component",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1115/1.483134",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://asmedigitalcollection.asme.org/electronicpackaging/article/122/1/3/446628/Predicted-Fundamental-Vibration-Frequency-of-a",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1117/12.3027170",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13152/3027170/Multi-modal-printed-circuit-board-netlist-extraction-with-x-ray/10.1117/12.3027170.full",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1117/12.3117159",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14300/3117159/Optimization-of-high-speed-link-PCB-design-based-on-signal/10.1117/12.3117159.full",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1142/s0129156425405777",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.worldscientific.com/doi/10.1142/S0129156425405777",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/123186.123321",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=123186.123321",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/127601.127629",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=127601.127629",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/127601.127734",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=127601.127734",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/1629911.1630000",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1629911.1630000",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/1629911.1630002",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1629911.1630002",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/1735023.1735033",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1735023.1735033",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/1837274.1837326",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1837274.1837326",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/240518.240620",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=240518.240620",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/2593069.2593133",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/2593069.2593133",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/267665.267675",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=267665.267675",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/277044.277164",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=277044.277164",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/317825.317939",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=317825.317939",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3240765.3240843",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3240765.3240843",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3316781.3317803",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3316781.3317803",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3316781.3326334",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3316781.3326334",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3394885.3431568",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3394885.3431568",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3489517.3530545",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3489517.3530545",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3489517.3530670",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3489517.3530670",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3526113.3545684",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3526113.3545684",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3569052.3578907",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3569052.3578907",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3588032",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3588032",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3626184.3635285",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3626184.3635285",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3637528.3671895",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3637528.3671895",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3649329.3655915",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3649329.3655915",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3649329.3657353",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3649329.3657353",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3649329.3658484",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3649329.3658484",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3649329.3663494",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3649329.3663494",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3649329.3663495",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3649329.3663495",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3658617.3697736",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3658617.3697736",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3676536.3676648",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3676536.3676648",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3695253",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3695253",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3698364.3705346",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3698364.3705346",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/37888.38003",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=37888.38003",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/37888.38004",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=37888.38004",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/37888.38011",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=37888.38011",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3795522",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3795522",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3795795",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3795795",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/3811922",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3811922",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/74382.74459",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=74382.74459",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800139.804536",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800139.804536",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800139.804580",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800139.804580",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800146.804801",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800146.804801",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800146.804802",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800146.804802",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800146.804810",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800146.804810",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800146.804811",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800146.804811",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800153.804932",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800153.804932",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800153.804933",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800153.804933",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800160.805127",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800160.805127",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800160.805141",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800160.805141",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800167.805390",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800167.805390",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800265.810745",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800265.810745",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1145/800270.810872",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://portal.acm.org/citation.cfm?doid=800270.810872",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.11591/eei.v13i4.7601",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://beei.org/index.php/EEI/article/view/7601",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1166/jno.2022.3292",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.ingentaconnect.com/content/10.1166/jno.2022.3292",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1609/aaai.v37i7.26030",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26030",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.1609/aaai.v39i1.32007",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32007",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.2139/ssrn.4907861",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.ssrn.com/abstract=4907861",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.2172/2565141",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.osti.gov/servlets/purl/2565141/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.22271/27084493.2025.v5.i1a.62",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.microcircuitsjournal.com/archives/2025.v5.i1.A.62",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/aces66556.2025.11052593",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11052593/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date.2018.8342132",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8342132/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date48585.2020.9116200",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9116200/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date56975.2023.10137062",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10137062/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date64628.2025.10993225",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/10993225/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date69613.2026.11539307",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11539307/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/date69613.2026.11539310",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11539310/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.23919/icep-hbs69241.2026.11550476",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11550476/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.25103/jestr.192.24",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.jestr.org/downloads/Volume19Issue2/fulltext241922026.pdf",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.31224/7226",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://engrxiv.org/preprint/view/7226/version/9373",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.32865/2346/108969",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ttu-ir.tdl.org/items/8c5e3683-dd62-43ef-a9ba-5e21927c92f2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/electronics13061090",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2079-9292/13/6/1090",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/electronics13071255",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2079-9292/13/7/1255",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/electronics15030504",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2079-9292/15/3/504",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/electronics15040833",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2079-9292/15/4/833",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/electronics15163500",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2079-9292/15/16/3500",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/jmmp8030117",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2504-4494/8/3/117",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/pr14020227",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2227-9717/14/2/227",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.3390/su162310417",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.mdpi.com/2071-1050/16/23/10417",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.36227/techrxiv.175825866.66964328/v1",
+      "status": "access-controlled",
+      "http_status": 403,
+      "final_url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175825866.66964328/v1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.46620/ursiatrasc24/btat8750",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.ursi.org/proceedings/procAT24/papers/1676.pdf",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.5194/ars-21-123-2024",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://ars.copernicus.org/articles/21/123/2024/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.5220/0013856700004052",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.scitepress.org/Link.aspx?doi=10.5220/0013856700004052",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.5762/kais.2024.25.7.409",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.dbpia.co.kr:443/journal/articleDetail?nodeId=NODE11858947",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.24970329",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/DsPCBSD_/24970329",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.30020125.v2",
+      "status": "reachable",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/BenchPCNP_Benchmark_Dataset_for_Printed_Circuit_Board_Netlist_Processing/30020125/2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doi.org/10.7315/cde.2026.051",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.dbpia.co.kr:443/journal/articleDetail?nodeId=NODE12592001",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://eprint.iacr.org/2020/366",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://eprint.iacr.org/2020/366",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/Firesuiry/Unet-Astar-For-PCB-Routing",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Firesuiry/Unet-Astar-For-PCB-Routing",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/HZou9/PCBSchemaGen_v2",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/HZou9/PCBSchemaGen_v2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/NVlabs/Cypress",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/NVlabs/Cypress",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/NVlabs/RTLFixer",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/NVlabs/RTLFixer",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/NVlabs/VerilogCoder",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/NVlabs/VerilogCoder",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/The-OpenROAD-Project/OpenROAD",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/The-OpenROAD-Project/RePlAce",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/The-OpenROAD-Project/RePlAce",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/Thinklab-SJTU/EDA-AI",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/Thinklab-SJTU/EDA-AI",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/circuitnet/CircuitNet",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/circuitnet/CircuitNet",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/digailab/PCB-Bench",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/digailab/PCB-Bench",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/google-research/circuit_training",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/google-research/circuit_training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/hustvl/circuitformer",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/hustvl/circuitformer",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/ismh16/PCBA-Dataset",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ismh16/PCBA-Dataset",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/ksettaluri6/AutoCkt",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/ksettaluri6/AutoCkt",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/laiyao1/chipformer",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/laiyao1/chipformer",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/limbo018/DREAMPlace",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/limbo018/DREAMPlace",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/microsoft/SchGen",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/microsoft/SchGen",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/sorarain/RoutePlacer",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/sorarain/RoutePlacer",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/tangsanli5201/DeepPCB",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/tangsanli5201/DeepPCB",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/wuhy68/ChatEDA",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/wuhy68/ChatEDA",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/yinqimakeitfun/dreamer-Autorouting/tree/main",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://github.com/yinqimakeitfun/dreamer-Autorouting/tree/main",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://gitlab.com/s3a/s3a",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://gitlab.com/s3a/s3a",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://omnisch.com/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://omnisch.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Q5QLu7XTWx",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DQ5QLu7XTWx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/file/6697bb267dc517379bc8aa326e844f8d-Paper-Conference.pdf",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://papers.neurips.cc/paper_files/paper/2023/file/6697bb267dc517379bc8aa326e844f8d-Paper-Conference.pdf",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://physicaldb.ece.ufl.edu/index.php/fics-pcb-image-collection-fpic/",
+      "status": "network-error",
+      "http_status": null,
+      "final_url": "",
+      "method": "GET",
+      "error_type": "URLError"
+    },
+    {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/464917b6103e074e1f9df7a2bf3bf6ba-Abstract-Conference.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/464917b6103e074e1f9df7a2bf3bf6ba-Abstract-Conference.html",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v202/lai23c.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://proceedings.mlr.press/v202/lai23c.html",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/andreaszippelius/hellastudy-of-leds2",
+      "status": "http-error",
+      "http_status": 404,
+      "final_url": "https://www.kaggle.com/datasets/andreaszippelius/hellastudy-of-leds2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.omnieda.com/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.omnieda.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.tet.tuhh.de/si-pi-database-de/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.tet.tuhh.de/si-pi-database-de/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.trust-hub.org/data",
+      "status": "network-error",
+      "http_status": null,
+      "final_url": "",
+      "method": "GET",
+      "error_type": "URLError"
+    }
+  ]
+}
