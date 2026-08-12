@@ -1,23 +1,27 @@
 # DFM and assembly optimization
 
-14 papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.
+[Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
+
+14 papers are assigned to this primary topic; 42 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+
+## Catalog
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
-| 2026 | [AI-Driven PCB Assembly Defect Detection Using Hybrid Deep Learning Architectures](#ai-driven-pcb-assembly-defect-detection-using-hybrid-deep-learning-architectures) | International Conference on Agents and Artificial Intelligence | not_found | abstract |
-| 2026 | [Improved Deep Learning-Driven PCB Defect Detection for Enhanced Manufacturing Quality](#improved-deep-learning-driven-pcb-defect-detection-for-enhanced-manufacturing-quality) | Journal of Engineering Science and Technology Review | not_found | metadata-only |
-| 2026 | [Intelligent Disassembly System for PCB Components Integrating Multimodal Large Language Model and Multi-Agent Framework](#intelligent-disassembly-system-for-pcb-components-integrating-multimodal-large-language-model-and-multi-agent-framework) | Processes | not_found | abstract |
-| 2025 | [DCD-Net: Dense Component Detection Network for Printed Circuit Board Assembly Inspection](#dcd-net-dense-component-detection-network-for-printed-circuit-board-assembly-inspection) | IEEE Access | announced_or_mentioned_unverified | abstract |
-| 2025 | [Optimizing Stencil Printing Parameters for Multiple Quality Characteristics and Diverse Packages Using a Hybrid Neural Network and Linear Programming Approach](#optimizing-stencil-printing-parameters-for-multiple-quality-characteristics-and-diverse-packages-using-a-hybrid-neural-network-and-linear-programming-approach) | Soldering & Surface Mount Technology | not_found | full-text |
-| 2024 | [PCB Defect Classification with Data Augmentation-Based Ensemble Method for Sustainable Smart Manufacturing](#pcb-defect-classification-with-data-augmentation-based-ensemble-method-for-sustainable-smart-manufacturing) | Sustainability | not_found | abstract |
-| 2024 | [Printed circuit board and printed circuit board assembly methods for testing and visual inspection: a review](#printed-circuit-board-and-printed-circuit-board-assembly-methods-for-testing-and-visual-inspection-a-review) | Bulletin of Electrical Engineering and Informatics | not_found | abstract |
-| 2024 | [Review of Methods for PCB Panel Depanelization and Methods for Correct Assembly of Electronic Components on PCB Panels](#review-of-methods-for-pcb-panel-depanelization-and-methods-for-correct-assembly-of-electronic-components-on-pcb-panels) | Electronics | not_found | abstract |
-| 2024 | [SolDef_AI: An Open Source PCB Dataset for Mask R-CNN Defect Detection in Soldering Processes of Electronic Components](#soldefai-an-open-source-pcb-dataset-for-mask-r-cnn-defect-detection-in-soldering-processes-of-electronic-components) | Journal of Manufacturing and Materials Processing | announced_or_mentioned_unverified | abstract |
-| 2014 | [A low-cost PCB fabrication process](#a-low-cost-pcb-fabrication-process) | 2014 IEEE 64th Electronic Components and Technology Conference (ECTC) · **ECTC** | not_reported_in_accessible_source | metadata-only |
-| 2011 | [Deterministic test for the reproduction and detection of board-level functional failures](#deterministic-test-for-the-reproduction-and-detection-of-board-level-functional-failures) | 16th Asia and South Pacific Design Automation Conference (ASP-DAC 2011) · **ASP-DAC** | not_reported_in_accessible_source | metadata-only |
-| 2010 | [Effects of PCB design variations on bend and ATC performance of lead-free solder joints](#effects-of-pcb-design-variations-on-bend-and-atc-performance-of-lead-free-solder-joints) | 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · **ECTC** | not_reported_in_accessible_source | metadata-only |
-| 1989 | [MIOS: a flexible system for PCB manufacturing](#mios-a-flexible-system-for-pcb-manufacturing) | Proceedings of the 1989 26th ACM/IEEE conference on Design automation conference  - DAC '89 · **DAC** | not_reported_in_accessible_source | metadata-only |
-| 1983 | [Integrated Computer Aided Design, Documentation and Manufacturing System for PCB Electronics](#integrated-computer-aided-design-documentation-and-manufacturing-system-for-pcb-electronics) | Design Automation Conference, Proceedings · **DAC** | not_found | metadata-only |
+| 2026 | [AI-Driven PCB Assembly Defect Detection Using Hybrid Deep Learning Architectures](#ai-driven-pcb-assembly-defect-detection-using-hybrid-deep-learning-architectures) | International Conference on Agents and Artificial Intelligence | not found | abstract |
+| 2026 | [Improved Deep Learning-Driven PCB Defect Detection for Enhanced Manufacturing Quality](#improved-deep-learning-driven-pcb-defect-detection-for-enhanced-manufacturing-quality) | Journal of Engineering Science and Technology Review | not found | metadata-only |
+| 2026 | [Intelligent Disassembly System for PCB Components Integrating Multimodal Large Language Model and Multi-Agent Framework](#intelligent-disassembly-system-for-pcb-components-integrating-multimodal-large-language-model-and-multi-agent-framework) | Processes | not found | abstract |
+| 2025 | [DCD-Net: Dense Component Detection Network for Printed Circuit Board Assembly Inspection](#dcd-net-dense-component-detection-network-for-printed-circuit-board-assembly-inspection) | IEEE Access | announced/unverified | abstract |
+| 2025 | [Optimizing Stencil Printing Parameters for Multiple Quality Characteristics and Diverse Packages Using a Hybrid Neural Network and Linear Programming Approach](#optimizing-stencil-printing-parameters-for-multiple-quality-characteristics-and-diverse-packages-using-a-hybrid-neural-network-and-linear-programming-approach) | Soldering & Surface Mount Technology | not found | full-text |
+| 2024 | [PCB Defect Classification with Data Augmentation-Based Ensemble Method for Sustainable Smart Manufacturing](#pcb-defect-classification-with-data-augmentation-based-ensemble-method-for-sustainable-smart-manufacturing) | Sustainability | not found | abstract |
+| 2024 | [Printed circuit board and printed circuit board assembly methods for testing and visual inspection: a review](#printed-circuit-board-and-printed-circuit-board-assembly-methods-for-testing-and-visual-inspection-a-review) | Bulletin of Electrical Engineering and Informatics | not found | abstract |
+| 2024 | [Review of Methods for PCB Panel Depanelization and Methods for Correct Assembly of Electronic Components on PCB Panels](#review-of-methods-for-pcb-panel-depanelization-and-methods-for-correct-assembly-of-electronic-components-on-pcb-panels) | Electronics | not found | abstract |
+| 2024 | [SolDef_AI: An Open Source PCB Dataset for Mask R-CNN Defect Detection in Soldering Processes of Electronic Components](#soldefai-an-open-source-pcb-dataset-for-mask-r-cnn-defect-detection-in-soldering-processes-of-electronic-components) | Journal of Manufacturing and Materials Processing | announced/unverified | abstract |
+| 2014 | [A low-cost PCB fabrication process](#a-low-cost-pcb-fabrication-process) | 2014 IEEE 64th Electronic Components and Technology Conference (ECTC) · **ECTC** | not reported | metadata-only |
+| 2011 | [Deterministic test for the reproduction and detection of board-level functional failures](#deterministic-test-for-the-reproduction-and-detection-of-board-level-functional-failures) | 16th Asia and South Pacific Design Automation Conference (ASP-DAC 2011) · **ASP-DAC** | not reported | metadata-only |
+| 2010 | [Effects of PCB design variations on bend and ATC performance of lead-free solder joints](#effects-of-pcb-design-variations-on-bend-and-atc-performance-of-lead-free-solder-joints) | 2010 Proceedings 60th Electronic Components and Technology Conference (ECTC) · **ECTC** | not reported | metadata-only |
+| 1989 | [MIOS: a flexible system for PCB manufacturing](#mios-a-flexible-system-for-pcb-manufacturing) | Proceedings of the 1989 26th ACM/IEEE conference on Design automation conference  - DAC '89 · **DAC** | not reported | metadata-only |
+| 1983 | [Integrated Computer Aided Design, Documentation and Manufacturing System for PCB Electronics](#integrated-computer-aided-design-documentation-and-manufacturing-system-for-pcb-electronics) | Design Automation Conference, Proceedings · **DAC** | not found | metadata-only |
 
 ## Paper cards
 
@@ -31,7 +35,7 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### Improved Deep Learning-Driven PCB Defect Detection for Enhanced Manufacturing Quality
 
@@ -43,7 +47,7 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata do not report the specific problem statement.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
 
 ### Intelligent Disassembly System for PCB Components Integrating Multimodal Large Language Model and Multi-Agent Framework
 
@@ -55,7 +59,7 @@
 - **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### DCD-Net: Dense Component Detection Network for Printed Circuit Board Assembly Inspection
 
@@ -67,7 +71,7 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy, precision, mAP.
 - **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### Optimizing Stencil Printing Parameters for Multiple Quality Characteristics and Diverse Packages Using a Hybrid Neural Network and Linear Programming Approach
 
@@ -79,7 +83,7 @@
 - **Problem addressed:** `reported`: Uses a neural network model and linear programming to jointly optimize printing parameters for multiple package types.
 - **Final evaluation:** `reported`: Reports an increase in yield from 99.35% to 99.5% and about 150 fewer defects per month. Metrics: yield, monthly defects.
 - **Baselines:** `named`: existing production settings
-- **Evidence boundary:** `full-text`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `full-text`; checked on 2026-08-11.
 
 ### PCB Defect Classification with Data Augmentation-Based Ensemble Method for Sustainable Smart Manufacturing
 
@@ -91,7 +95,7 @@
 - **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### Printed circuit board and printed circuit board assembly methods for testing and visual inspection: a review
 
@@ -103,7 +107,7 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### Review of Methods for PCB Panel Depanelization and Methods for Correct Assembly of Electronic Components on PCB Panels
 
@@ -115,7 +119,7 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report this field. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### SolDef_AI: An Open Source PCB Dataset for Mask R-CNN Defect Detection in Soldering Processes of Electronic Components
 
@@ -127,7 +131,7 @@
 - **Problem addressed:** `reported_in_abstract`: The abstract describes the PCB design problem.
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
-- **Evidence boundary:** `abstract`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
 ### A low-cost PCB fabrication process
 
@@ -139,7 +143,7 @@
 - **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
 
 ### Deterministic test for the reproduction and detection of board-level functional failures
 
@@ -151,7 +155,7 @@
 - **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
 
 ### Effects of PCB design variations on bend and ATC performance of lead-free solder joints
 
@@ -163,7 +167,7 @@
 - **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
 
 ### MIOS: a flexible system for PCB manufacturing
 
@@ -175,7 +179,7 @@
 - **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
 
 ### Integrated Computer Aided Design, Documentation and Manufacturing System for PCB Electronics
 
@@ -187,4 +191,4 @@
 - **Problem addressed:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report the specific problem statement.
 - **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
-- **Evidence boundary:** `metadata-only`; checked on 2026-08-11. Not reported does not mean absent.
+- **Evidence boundary:** `metadata-only`; checked on 2026-08-11.
