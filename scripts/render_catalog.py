@@ -11,6 +11,39 @@ from collections import Counter
 from pathlib import Path
 
 
+PUBLIC_CODE_STATUSES = frozenset(
+    {"open", "partial_open", "open_archived", "utility_open"}
+)
+ACCESSIBLE_DATA_STATUSES = frozenset(
+    {
+        "open",
+        "partial_open",
+        "open_with_upstream_terms",
+        "public_benchmark",
+        "public_benchmarks",
+    }
+)
+
+RECENT_START_YEAR = 2024
+
+SCOPE_LABELS = {
+    "pcb-core": "PCB core",
+    "related-eda": "Related EDA",
+}
+
+STATUS_LABELS = {
+    "not_reported_in_accessible_source": "not reported",
+    "announced_or_mentioned_unverified": "announced/unverified",
+    "announced_unverified": "announced/unverified",
+    "reported_link_unreachable": "link unreachable",
+    "not_found": "not found",
+    "open_archived": "open (archived)",
+    "open_with_upstream_terms": "open (upstream terms)",
+    "public_benchmark": "public benchmark",
+    "public_benchmarks": "public benchmarks",
+}
+
+
 def anchor(text: str) -> str:
     return re.sub(r"[^a-z0-9-]+", "", re.sub(r"\s+", "-", text.casefold()))
 
@@ -19,10 +52,42 @@ def md_escape(value: str) -> str:
     return value.replace("|", "\\|").replace("\n", " ")
 
 
-def status_text(block: dict) -> str:
+def humanize_status(status: str) -> str:
+    return STATUS_LABELS.get(status, status.replace("_", " "))
+
+
+def humanize_scope(scope: str) -> str:
+    return SCOPE_LABELS.get(scope, scope.replace("-", " ").title())
+
+
+def recent_year_range(core: list[dict], cutoff_date: str, start_year: int = RECENT_START_YEAR) -> tuple[int, int]:
+    cutoff_year = int(cutoff_date[:4])
+    max_core_year = max((paper["year"] for paper in core), default=start_year)
+    return start_year, max(start_year, cutoff_year, max_core_year)
+
+
+def status_text(block: dict, *, url: str | None = None, compact: bool = False) -> str:
     status = block.get("status", "not_reported")
-    url = block.get("url", "")
-    return f"[{status}]({url})" if url else status
+    label = humanize_status(status) if compact else status
+    artifact_url = url if url is not None else block.get("url", "")
+    return f"[{label}]({artifact_url})" if artifact_url else label
+
+
+def dataset_detail_text(paper: dict) -> str:
+    dataset = paper["dataset"]
+    dataset_names = dataset.get("names") or []
+    description = ", ".join(dataset_names) if dataset_names else dataset["summary"]
+    data_url = paper.get("urls", {}).get("data", "")
+    if not data_url:
+        return f"`{dataset['status']}`: {description}"
+    linked_description = ", ".join(f"[{name}]({data_url})" for name in dataset_names)
+    if not linked_description:
+        linked_description = f"[{description}]({data_url})"
+    return f"[{dataset['status']}]({data_url}): {linked_description}"
+
+
+def compact_artifact_text(block: dict, url: str = "") -> str:
+    return status_text(block, url=url, compact=True)
 
 
 def relative_link(path: Path, readme: Path) -> str:
@@ -34,8 +99,8 @@ def latest_priority(paper: dict) -> tuple:
     evidence_score = {"project-page": 4, "full-text": 4, "abstract": 2, "metadata-only": 0}.get(
         paper.get("evidence_level"), 1
     )
-    reusable = int(paper["code"].get("status") in {"open", "partial_open", "utility_open"})
-    reusable += int(paper["dataset"].get("status") == "open")
+    reusable = int(paper["code"].get("status") in PUBLIC_CODE_STATUSES)
+    reusable += int(paper["dataset"].get("status") in ACCESSIBLE_DATA_STATUSES)
     return (
         -paper["year"],
         -int(bool(paper.get("top_venue"))),
@@ -56,8 +121,6 @@ def operational_coverage_text(top_counts: Counter) -> str:
 
 
 def paper_card(paper: dict) -> str:
-    dataset_names = paper["dataset"].get("names") or []
-    dataset = ", ".join(dataset_names) if dataset_names else paper["dataset"]["summary"]
     baselines = ", ".join(paper["baselines"].get("names") or []) or paper["baselines"]["summary"]
     metrics = ", ".join(paper["evaluation"].get("metrics_mentioned") or []) or "not explicitly listed in the accessible sources"
     tags = ", ".join(f"`{topic}`" for topic in paper["topics"])
@@ -71,23 +134,46 @@ def paper_card(paper: dict) -> str:
             f"- **Metadata:** {paper['year']} · {paper['venue']} · {authors or 'authors not reported'} · [paper]({paper['primary_url']})",
             f"- **Scope and topics:** `{paper['scope']}` · {tags}",
             f"- **Code:** {status_text(paper['code'])}: {paper['code']['summary']}",
-            f"- **Dataset or data source:** `{paper['dataset']['status']}`: {dataset}",
+            f"- **Dataset or data source:** {dataset_detail_text(paper)}",
             f"- **Application scenario:** {paper['application_scenario']['summary']}",
             f"- **Problem addressed:** `{paper['problem_solved']['status']}`: {paper['problem_solved']['summary']}",
             f"- **Final evaluation:** `{paper['evaluation']['status']}`: {paper['evaluation']['summary']} Metrics: {metrics}.",
             f"- **Baselines:** `{paper['baselines']['status']}`: {baselines}",
-            f"- **Evidence boundary:** `{paper['evidence_level']}`; checked on {paper['verification']['checked_on']}. Not reported does not mean absent.",
+            f"- **Evidence boundary:** `{paper['evidence_level']}`; checked on {paper['verification']['checked_on']}.",
             "",
         ]
     )
 
 
-def render_topic(topic: dict, papers: list[dict]) -> str:
+def render_topic(
+    topic: dict,
+    papers: list[dict],
+    tagged_count: int | None = None,
+    *,
+    readme_link: str = "../../README.md",
+) -> str:
     papers = sorted(papers, key=lambda paper: (-paper["year"], paper["title"].casefold()))
+    is_related_page = topic["name"] == "Related EDA references"
+    if is_related_page:
+        introduction = (
+            f"{len(papers)} related EDA references are listed here. Detailed fields come from `data/papers.json`; "
+            "`not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent."
+        )
+    else:
+        tagged_count = len(papers) if tagged_count is None else tagged_count
+        introduction = (
+            f"{len(papers)} papers are assigned to this primary topic; {tagged_count} PCB-core papers carry it as a primary or additional tag. "
+            "Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. "
+            "Not reported does not mean absent."
+        )
     lines = [
         f"# {topic['name']}",
         "",
-        f"{len(papers)} papers are assigned to this primary topic. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field.",
+        f"[Back to README]({readme_link}) · [Catalog table](#catalog) · [Paper cards](#paper-cards)",
+        "",
+        introduction,
+        "",
+        "## Catalog",
         "",
         "| Year | Paper | Venue | Code | Evidence |",
         "|---:|---|---|---|---|",
@@ -96,11 +182,59 @@ def render_topic(topic: dict, papers: list[dict]) -> str:
         top = f" · **{paper['top_venue']}**" if paper.get("top_venue") else ""
         lines.append(
             f"| {paper['year']} | [{md_escape(paper['title'])}](#{anchor(paper['title'])}) | "
-            f"{md_escape(paper['venue'])}{top} | {paper['code']['status']} | {paper['evidence_level']} |"
+            f"{md_escape(paper['venue'])}{top} | {compact_artifact_text(paper['code'])} | {humanize_status(paper['evidence_level'])} |"
         )
     lines.extend(["", "## Paper cards", ""])
     for paper in papers:
         lines.append(paper_card(paper))
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def open_artifact_papers(papers: list[dict]) -> list[dict]:
+    admitted = [
+        paper
+        for paper in papers
+        if paper["code"].get("status") in PUBLIC_CODE_STATUSES
+        or paper["dataset"].get("status") in ACCESSIBLE_DATA_STATUSES
+    ]
+    rows = []
+    seen: set[str] = set()
+    for paper in sorted(admitted, key=lambda item: (-item["year"], item["title"].casefold())):
+        key = str(paper.get("id") or f"{paper['year']}::{paper['title']}")
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(paper)
+    return rows
+
+
+def render_open_artifacts(
+    papers: list[dict],
+    topic_map: dict[str, dict],
+    *,
+    readme_link: str = "../README.md",
+) -> str:
+    rows = open_artifact_papers(papers)
+    lines = [
+        "# Open code and data",
+        "",
+        f"[Back to README]({readme_link})",
+        "",
+        "This page includes both PCB-core and related-EDA catalog records with publicly reusable code and/or "
+        "reader-accessible data statuses. It is a generated view of the catalog, not a completeness claim.",
+        "",
+        "| Year | Paper | Scope | Primary topic | Code | Data | Evidence |",
+        "|---:|---|---|---|---|---|---|",
+    ]
+    for paper in rows:
+        topic = topic_map.get(paper["primary_topic"], {}).get("name", paper["primary_topic"])
+        lines.append(
+            f"| {paper['year']} | [{md_escape(paper['title'])}]({paper['primary_url']}) | {humanize_scope(paper['scope'])} | "
+            f"{md_escape(topic)} | "
+            f"{compact_artifact_text(paper['code'], paper.get('urls', {}).get('code', ''))} | "
+            f"{compact_artifact_text(paper['dataset'], paper.get('urls', {}).get('data', ''))} | "
+            f"{humanize_status(paper['evidence_level'])} |"
+        )
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -136,22 +270,56 @@ def main() -> int:
         if not topic_papers:
             continue
         path = args.topics_dir / f"{topic_id}.md"
-        path.write_text(render_topic(topic, topic_papers), encoding="utf-8")
-        nav_rows.append((topic_id, topic, len(topic_papers), path))
+        tagged_count = sum(topic_id in paper.get("topics", []) for paper in core)
+        path.write_text(
+            render_topic(
+                topic,
+                topic_papers,
+                tagged_count,
+                readme_link=relative_link(args.readme, path),
+            ),
+            encoding="utf-8",
+        )
+        nav_rows.append((topic_id, topic, len(topic_papers), tagged_count, path))
     related_link = relative_link(related_path, args.readme)
     if related:
         related_topic = {"name": "Related EDA references"}
-        related_path.write_text(render_topic(related_topic, related), encoding="utf-8")
+        related_path.write_text(
+            render_topic(
+                related_topic,
+                related,
+                readme_link=relative_link(args.readme, related_path),
+            ),
+            encoding="utf-8",
+        )
+
+    open_artifacts_path = args.topics_dir.parent / "open-artifacts.md"
+    open_artifacts_path.write_text(
+        render_open_artifacts(
+            papers,
+            topic_map,
+            readme_link=relative_link(args.readme, open_artifacts_path),
+        ),
+        encoding="utf-8",
+    )
 
     pcb_analysis = analysis["scopes"]["pcb-core"]
     top_keywords = list(pcb_analysis["keyword_document_frequency"].items())[:12]
     top_counts = Counter(paper["top_venue"] for paper in core if paper.get("top_venue"))
+    recent_start_year, recent_end_year = recent_year_range(core, payload["cutoff_date"])
+    recent_year_label = f"{recent_start_year}-{recent_end_year}"
+    recent_core_count = sum(
+        recent_start_year <= paper["year"] <= recent_end_year for paper in core
+    )
     latest = []
     for topic_id in topic_map:
         candidates = [
             paper
             for paper in core
-            if paper["year"] >= 2024 and paper["primary_topic"] == topic_id
+            if (
+                recent_start_year <= paper["year"] <= recent_end_year
+                and paper["primary_topic"] == topic_id
+            )
         ]
         latest.extend(sorted(candidates, key=latest_priority)[:2])
     latest = sorted(latest, key=latest_priority)
@@ -170,29 +338,50 @@ def main() -> int:
         "- **Related EDA references:** Transferable methods for chips, packages, chiplets, and LLM or agentic EDA are counted separately and are not presented as PCB papers.",
         "- **Excluded:** Application papers that use a PCB only as an experimental carrier, electronic-waste or pollution studies, patents, book chapters, errata, and repeated model variants without an independent task or data contribution.",
         "",
+        "## Start here",
+        "",
+        f"Begin with the [open code and data view]({relative_link(open_artifacts_path, args.readme)}), then [browse by topic](#browse-by-topic), [inspect top-venue coverage](#operational-top-venue-coverage), or [read the evidence and status semantics](#evidence-and-status-semantics).",
+        "",
         "## Browse by topic",
         "",
-        "| Topic | Papers |",
-        "|---|---:|",
+        "| Topic | Primary papers | All tagged papers |",
+        "|---|---:|---:|",
     ]
-    for topic_id, topic, count, topic_path in nav_rows:
+    for topic_id, topic, primary_count, tagged_count, topic_path in nav_rows:
         readme.append(
-            f"| [{topic['name']}]({relative_link(topic_path, args.readme)}) | {count} |"
+            f"| [{topic['name']}]({relative_link(topic_path, args.readme)}) | {primary_count} | {tagged_count} |"
         )
     if related:
-        readme.append(f"| [Related EDA references]({related_link}) | {len(related)} |")
+        readme.append(f"| [Related EDA references]({related_link}) | {len(related)} | {len(related)} |")
     readme.extend(
         [
             "",
-            "## Latest PCB-core papers (2024-2026)",
+            f"## Selected recent PCB-core papers ({recent_year_label})",
             "",
+            f"The complete {recent_year_label} PCB-core corpus contains {recent_core_count} papers. This selected view applies the rule: from {recent_start_year} onward, up to two per primary topic, ranked by year, top-venue, evidence depth, and reusable artifacts.",
+            "",
+            "| Year | Paper | Primary topic | Code | Data | Evidence |",
+            "|---:|---|---|---|---|---|",
         ]
     )
     for paper in latest:
-        venue = f" · **{paper['top_venue']}**" if paper.get("top_venue") else ""
         readme.append(
-            f"- **{paper['year']}** · [{paper['title']}]({paper['primary_url']}): {paper['venue']}{venue}"
+            f"| {paper['year']} | [{md_escape(paper['title'])}]({paper['primary_url']}) | "
+            f"{md_escape(topic_map[paper['primary_topic']]['name'])} | "
+            f"{compact_artifact_text(paper['code'], paper.get('urls', {}).get('code', ''))} | "
+            f"{compact_artifact_text(paper['dataset'], paper.get('urls', {}).get('data', ''))} | "
+            f"{humanize_status(paper['evidence_level'])} |"
         )
+    metadata_top_counts = Counter(
+        paper["top_venue"]
+        for paper in core
+        if paper.get("top_venue") and paper.get("evidence_level") == "metadata-only"
+    )
+    evidence_top_counts = Counter(
+        paper["top_venue"]
+        for paper in core
+        if paper.get("top_venue") and paper.get("evidence_level") != "metadata-only"
+    )
     readme.extend(
         [
             "",
@@ -200,12 +389,15 @@ def main() -> int:
             "",
             operational_coverage_text(top_counts),
             "",
-            "| Venue | Included PCB papers |",
-            "|---|---:|",
+            "| Venue | Included | Metadata-only | Evidence-enriched |",
+            "|---|---:|---:|---:|",
         ]
     )
     for venue in ("DAC", "ICCAD", "DATE", "ASP-DAC", "ISPD", "ECTC", "EPEPS"):
-        readme.append(f"| {venue} | {top_counts.get(venue, 0)} |")
+        readme.append(
+            f"| {venue} | {top_counts.get(venue, 0)} | {metadata_top_counts.get(venue, 0)} | "
+            f"{evidence_top_counts.get(venue, 0)} |"
+        )
     readme.extend(
         [
             "",
