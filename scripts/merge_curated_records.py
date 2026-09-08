@@ -140,7 +140,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalog", type=Path, default=Path("data/papers.json"))
     parser.add_argument("--records", type=Path, required=True)
-    parser.add_argument("--checked-on", default="2026-08-11")
+    parser.add_argument("--checked-on", default="2026-09-08")
     args = parser.parse_args()
     catalog = json.loads(args.catalog.read_text(encoding="utf-8"))
     manual = json.loads(args.records.read_text(encoding="utf-8"))

@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
 
-26 papers are assigned to this primary topic; 43 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+29 papers are assigned to this primary topic; 46 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
 
 ## Catalog
 
@@ -10,8 +10,11 @@
 |---:|---|---|---|---|
 | 2026 | [Analytical Thermal Modeling and Arrangement Optimization Design Method for Hybrid Capacitor Banks Considering Thermal Transient and PCB Mounting Modes](#analytical-thermal-modeling-and-arrangement-optimization-design-method-for-hybrid-capacitor-banks-considering-thermal-transient-and-pcb-mounting-modes) | IEEE transactions on power electronics | not found | abstract |
 | 2026 | [CNN-Based Prediction of Thermo-Mechanical Properties of PCB and Interposer Conductive Layers with WGAN-Augmented Data](#cnn-based-prediction-of-thermo-mechanical-properties-of-pcb-and-interposer-conductive-layers-with-wgan-augmented-data) | International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Micro-Electronics and Micro-Systems | not found | abstract |
+| 2026 | [Deep learning for predicting partition-level homogenized properties for printed circuit board thermo-mechanical simulation: Edge-density-guided training-set design and cyclic training](#deep-learning-for-predicting-partition-level-homogenized-properties-for-printed-circuit-board-thermo-mechanical-simulation-edge-density-guided-training-set-design-and-cyclic-training) | Engineering Applications of Artificial Intelligence | not reported | metadata-only |
 | 2026 | [Design and Simulation-Based Validation of an Embedded Acquisition Architecture for In Situ PCB Integrity Monitoring in Biomedical Devices](#design-and-simulation-based-validation-of-an-embedded-acquisition-architecture-for-in-situ-pcb-integrity-monitoring-in-biomedical-devices) | Electronics | not found | abstract |
 | 2026 | [Design and Thermal Optimization of a PCB-Embedded SiC Half-Bridge Power Module](#design-and-thermal-optimization-of-a-pcb-embedded-sic-half-bridge-power-module) | IEEE International Conference on DC Microgrids | not found | abstract |
+| 2026 | [Humidity-driven corrosion effects on PCB design analysed using a digital twin approach](#humidity-driven-corrosion-effects-on-pcb-design-analysed-using-a-digital-twin-approach) | Corrosion Engineering, Science and Technology | not found | abstract |
+| 2026 | [Integration of a Hybrid POD-CGaNet Model and NSGA-II for Efficient PCB Thermal Analysis and Multiobjective Heatsink Optimization](#integration-of-a-hybrid-pod-cganet-model-and-nsga-ii-for-efficient-pcb-thermal-analysis-and-multiobjective-heatsink-optimization) | IEEE Transactions on Power Electronics | not reported | metadata-only |
 | 2026 | [PCB Vibration Co-Design: Sensitivity of Steinberg Fatigue Screening to PCB Component Modeling Fidelity in Base-Excited Vibration](#pcb-vibration-co-design-sensitivity-of-steinberg-fatigue-screening-to-pcb-component-modeling-fidelity-in-base-excited-vibration) | 55th International Conference on Environmental Systems | not found | abstract |
 | 2026 | [Thermal Analysis of Component Placement in High-Power Electronics and LED Boards](#thermal-analysis-of-component-placement-in-high-power-electronics-and-led-boards) | Power Electronic Devices and Components | not found | full-text |
 | 2026 | [Thermal Management and Experimental Validation of a Copper-Inlay PCB for SiC MOSFETs in High-Power EV Fast Chargers](#thermal-management-and-experimental-validation-of-a-copper-inlay-pcb-for-sic-mosfets-in-high-power-ev-fast-chargers) | IEEE Open Journal of Power Electronics | not found | full-text |
@@ -61,6 +64,18 @@
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
+### Deep learning for predicting partition-level homogenized properties for printed circuit board thermo-mechanical simulation: Edge-density-guided training-set design and cyclic training
+
+- **Metadata:** 2026 · Engineering Applications of Artificial Intelligence · Guoshun Wan, Meng Shao, Qi Dong, Mengxuan Cheng, Hao Zheng, Xiaohui Zhao, Qingtian Zeng, Yuxi Jia · [paper](https://doi.org/10.1016/j.engappai.2026.116061)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-09-08.
+
 ### Design and Simulation-Based Validation of an Embedded Acquisition Architecture for In Situ PCB Integrity Monitoring in Biomedical Devices
 
 - **Metadata:** 2026 · Electronics · F. Laganà · [paper](https://doi.org/10.3390/electronics15040833)
@@ -84,6 +99,30 @@
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: not explicitly listed in the accessible sources.
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
+
+### Humidity-driven corrosion effects on PCB design analysed using a digital twin approach
+
+- **Metadata:** 2026 · Corrosion Engineering, Science and Technology · Anish Rao Lakkaraju, Sajjad Bahrebar, Rajan Ambat · [paper](https://doi.org/10.1177/1478422x261484058)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`, `si-pi-emc`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `simulation`: COMSOL two-electrode PCB digital twin
+- **Application scenario:** Uses a digital twin to study how PCB layout, creepage, water-film electrolyte, and voltage affect humidity-driven leakage and electrochemical migration.
+- **Problem addressed:** `reported_in_abstract`: High- and low-voltage electronics need layout rules that reduce humidity-driven leak current and electrochemical migration on PCBA surfaces.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports a two-simulation methodology on a 3D two-electrode PCB; no named public benchmark is stated. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-09-08.
+
+### Integration of a Hybrid POD-CGaNet Model and NSGA-II for Efficient PCB Thermal Analysis and Multiobjective Heatsink Optimization
+
+- **Metadata:** 2026 · IEEE Transactions on Power Electronics · Jiaze Kong, Bangli Du, Yu Zuo, Xiaobing Shen, Diego Acevedo-Bueno, Ruth V. Sabariego, Wilmar Martinez · [paper](https://doi.org/10.1109/tpel.2026.3684629)
+- **Scope and topics:** `pcb-core` · `thermal-reliability`, `dfm-manufacturing`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-09-08.
 
 ### PCB Vibration Co-Design: Sensitivity of Steinberg Fatigue Screening to PCB Component Modeling Fidelity in Base-Excited Vibration
 

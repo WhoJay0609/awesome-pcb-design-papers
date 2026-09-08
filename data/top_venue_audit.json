@@ -1,10 +1,10 @@
 {
-  "cutoff_date": "2026-08-11",
+  "cutoff_date": "2026-09-08",
   "definition": "Admitted means a DOI-bearing, PCB-specific paper in exactly the seven operational venues; PCB/PWB/board-level routing, placement, layout, SI/PI/EMC, manufacturing, reliability, or testability must be an explicit paper object. Pure IC/VLSI, package-only, chemical/recycling, and board-as-hardware records are excluded. DOI aliases are normalized by canonical DOI and normalized title.",
   "venue_searches": [
     {
       "venue": "DAC",
-      "accepted_count": 63,
+      "accepted_count": 64,
       "query_terms": [
         "PCB",
         "printed circuit board",
@@ -900,6 +900,18 @@
       "verification_sources": [
         "https://doi.org/10.1109/dac63849.2025.11132719",
         "https://api.crossref.org/works/10.1109/dac63849.2025.11132719"
+      ]
+    },
+    {
+      "venue": "DAC",
+      "doi": "10.1145/3770743.3803892",
+      "title": "ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation",
+      "year": 2026,
+      "catalog_id": "doi:10.1145/3770743.3803892",
+      "catalog_status": "included",
+      "verification_sources": [
+        "https://doi.org/10.1145/3770743.3803892",
+        "https://api.crossref.org/works/10.1145/3770743.3803892"
       ]
     },
     {
@@ -2535,7 +2547,7 @@
     "DAC 1971 CIBOL and three DAC 1977 PCB titles lack verified DOI/second-source metadata and remain unresolved.",
     "ECTC accepted count is reconciled at 46 by excluding the board-as-platform DOI 10.1109/ectc.2015.7159910 and the listed package-incidental records.",
     "EPEPS accepted count is reconciled at 53 by excluding wafer-scale/package DOI 10.1109/epeps.2010.5642596 and the direct-die package-only 2025 DOI.",
-    "A direct DOI/catalog cross-check found four genuine PCB records missed by the initial partial venue query; they expand the admitted closure to DAC 63, ASP-DAC 11, and ISPD 5 (192 total) while preserving the seven-venue scope.",
+    "A 2026-09-08 harvest added the DAC 2026 DOI 10.1145/3770743.3803892 (ModuPlace), expanding the admitted closure to DAC 64, ASP-DAC 11, and ISPD 5 (193 total) while preserving the seven-venue scope.",
     "Metadata-only cards use only evidence-scoped non-reporting or title-inference statuses: code is either not_found or not_reported_in_accessible_source, while dataset, final-test, and baseline fields are not_reported_in_accessible_source; none of these labels claims that an artifact does not exist.",
     "The fixed admitted DOI inventory supports metadata regeneration and row-level falsification, but is not a replayable discovery log or a mathematical claim of global bibliographic completeness."
   ]

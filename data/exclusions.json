@@ -1,21 +1,106 @@
 {
-  "cutoff_date": "2026-08-11",
+  "cutoff_date": "2026-09-08",
   "policy": "Exclude low-evidence records and near-duplicate detector variants that do not add a distinct PCB-design task, dataset, or evaluation contribution. Exclusion is not a judgment about scientific validity.",
   "records": [
-    {"id": "doi:10.64726/43n61r62", "reason": "Low-authority venue and no independently verifiable design contribution."},
-    {"id": "doi:10.21203/rs.3.rs-9084744/v1", "reason": "Unreviewed preprint with insufficient accessible experiment evidence."},
-    {"id": "doi:10.15662/ijeetr.2026.0802476", "reason": "Insufficient primary-source evidence for the claimed manufacturing/control pipeline."},
-    {"id": "doi:10.47392/irjaem.2026.0152", "reason": "Generic defect detector without a distinct dataset or design-automation contribution."},
-    {"id": "doi:10.31893/multiscience.2025ss0128", "reason": "Generic vision variant without a distinct PCB-design contribution."},
-    {"id": "doi:10.21203/rs.3.rs-9129454/v1", "reason": "Unreviewed near-duplicate detector variant."},
-    {"id": "doi:10.1109/icpege67691.2026.11451754", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.3390/app15116238", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.1371/journal.pone.0323684", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.1109/access.2025.3564734", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.1038/s41598-024-74368-7", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.3390/electronics13081490", "reason": "Near-duplicate detector module variant; no distinct dataset contribution."},
-    {"id": "doi:10.1038/s41598-024-57491-3", "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."},
-    {"id": "doi:10.1109/mipro65660.2025.11132005", "reason": "Tool-use/tutorial record without a research evaluation contribution."},
-    {"id": "doi:10.1109/icima64861.2025.11074010", "reason": "Application-specific design example without a reusable automation method or benchmark."}
+    {
+      "id": "doi:10.64726/43n61r62",
+      "reason": "Low-authority venue and no independently verifiable design contribution."
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-9084744/v1",
+      "reason": "Unreviewed preprint with insufficient accessible experiment evidence."
+    },
+    {
+      "id": "doi:10.15662/ijeetr.2026.0802476",
+      "reason": "Insufficient primary-source evidence for the claimed manufacturing/control pipeline."
+    },
+    {
+      "id": "doi:10.47392/irjaem.2026.0152",
+      "reason": "Generic defect detector without a distinct dataset or design-automation contribution."
+    },
+    {
+      "id": "doi:10.31893/multiscience.2025ss0128",
+      "reason": "Generic vision variant without a distinct PCB-design contribution."
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-9129454/v1",
+      "reason": "Unreviewed near-duplicate detector variant."
+    },
+    {
+      "id": "doi:10.1109/icpege67691.2026.11451754",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.3390/app15116238",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0323684",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1109/access.2025.3564734",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1038/s41598-024-74368-7",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.3390/electronics13081490",
+      "reason": "Near-duplicate detector module variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1038/s41598-024-57491-3",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1109/mipro65660.2025.11132005",
+      "reason": "Tool-use/tutorial record without a research evaluation contribution."
+    },
+    {
+      "id": "doi:10.1109/icima64861.2025.11074010",
+      "reason": "Application-specific design example without a reusable automation method or benchmark."
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-10685349/v1",
+      "reason": "Unreviewed near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-10024488/v1",
+      "reason": "Unreviewed detector variant without a distinct PCB-design task or public dataset contribution."
+    },
+    {
+      "id": "doi:10.1117/12.3120722",
+      "reason": "Near-duplicate improved-YOLO detector variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.1016/j.dsp.2026.106215",
+      "reason": "Near-duplicate detector module variant; no distinct dataset contribution."
+    },
+    {
+      "id": "doi:10.3233/faia260728",
+      "reason": "YOLO-family scaling study on public HRIPCB without a distinct PCB-design task or new dataset."
+    },
+    {
+      "id": "doi:10.23919/ien.2026.0022",
+      "reason": "Application-specific inverter PCB example without a reusable automation method or benchmark."
+    },
+    {
+      "id": "doi:10.1016/j.applthermaleng.2026.132670",
+      "reason": "PCB used as a thermal carrier for chip cooling; excluded by PCB-as-object-of-design rule."
+    },
+    {
+      "id": "doi:10.3390/electronics15173926",
+      "reason": "Package/ABF-substrate microsystem record; not a PCB-design-automation paper."
+    },
+    {
+      "id": "arxiv:2608.13767",
+      "reason": "Analog IC layout agent paper; kept out of related-EDA because that layer is a representative set, not an exhaustive EDA survey."
+    },
+    {
+      "id": "arxiv:2608.02955",
+      "reason": "Educational human-AI debugging study on breadboards and PCBs without a reusable design-automation method or benchmark."
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "title": "Awesome PCB Design Papers",
-  "cutoff_date": "2026-08-11",
+  "cutoff_date": "2026-09-08",
   "scope_note": "PCB-core papers are the catalog authority. Non-PCB automated EDA papers, when admitted, use scope=related-eda and are analyzed separately.",
   "topics": [
     {
@@ -42,6 +42,968 @@
     }
   ],
   "papers": [
+    {
+      "id": "doi:10.1145/3770743.3803892",
+      "title": "ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation",
+      "authors": [
+        "Yaohui Han",
+        "Beichen Li",
+        "Mingyang Zhao",
+        "Rongliang Fu",
+        "Qunsong Ye",
+        "Tinghuan Chen",
+        "Bei Yu",
+        "Tsung-Yi Ho"
+      ],
+      "year": 2026,
+      "venue": "2026 63rd ACM/IEEE Design Automation Conference (DAC)",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://dl.acm.org/doi/10.1145/3770743.3803892",
+      "urls": {
+        "doi": "https://doi.org/10.1145/3770743.3803892",
+        "arxiv": "",
+        "open_access_pdf": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "placement",
+        "routing",
+        "si-pi-emc",
+        "benchmarks-tools",
+        "ai-eda"
+      ],
+      "primary_topic": "placement",
+      "top_venue": "DAC",
+      "code": {
+        "status": "not_found",
+        "summary": "The author PDF names baseline repositories and tools but does not publish a ModuPlace source URL.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "full text"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "reported",
+        "summary": "Eleven OpenROAD and industrial PCB cases (P1-P11) plus 426 expert constraint graphs used for SFT.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "full text"
+        },
+        "names": [
+          "OpenROAD PCB cases",
+          "industrial PCB cases P1-P11"
+        ]
+      },
+      "application_scenario": {
+        "status": "reported",
+        "summary": "LLM-assisted modular PCB placement that builds a hierarchical modular tree and preference-optimized constraint graphs before detailed placement.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "full text"
+        }
+      },
+      "problem_solved": {
+        "status": "reported",
+        "summary": "Existing placers optimize HPWL or density without modular foresight, so layouts can be unroutable or electromagnetically weak.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "full text"
+        }
+      },
+      "evaluation": {
+        "status": "reported",
+        "summary": "Routes all placements with PcbRouter and Freerouting and reports post-route wirelength, via count, insertion loss, and crosstalk on 11 boards.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "Section 4"
+        },
+        "metrics_mentioned": [
+          "wirelength",
+          "via count",
+          "insertion loss",
+          "crosstalk"
+        ]
+      },
+      "baselines": {
+        "status": "named",
+        "summary": "Compares against open academic placers, a commercial RL placer, and an LLM/RL agent, plus several un-specialized LLMs.",
+        "evidence": {
+          "source_url": "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "locator": "Section 4"
+        },
+        "names": [
+          "SA-PCB",
+          "NS-Place",
+          "DeepPCB",
+          "PCBAgent",
+          "Qwen-2.5",
+          "Qwen-3",
+          "InternLM-2.5",
+          "DeepSeek-R1",
+          "Claude-3.5-Sonnet",
+          "GPT-4o"
+        ]
+      },
+      "evidence_level": "full-text",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1145/3770743.3803892",
+          "https://dl.acm.org/doi/10.1145/3770743.3803892",
+          "https://yhhan.com/PDFs/ModuPlace_paper.pdf",
+          "https://api.crossref.org/works/10.1145/3770743.3803892"
+        ],
+        "requested_id": "doi:10.1145/3770743.3803892",
+        "note": "Curated from the author-hosted DAC 2026 PDF. The ACM Digital Library record exists; the doi.org resolver had not yet registered the DOI on 2026-09-08. No abstract text is stored."
+      }
+    },
+    {
+      "id": "doi:10.1109/tcad.2026.3675948",
+      "title": "ISPCBPlace: A Gradient-Based Placement Method for Irregular-Shaped PCBs under Complex Design Constraints",
+      "authors": [
+        "Lei Cai",
+        "Jixin Zhang",
+        "Ke Cheng",
+        "Haiyun Li",
+        "Zhiwei Ye",
+        "Mingyu Liu"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1109/tcad.2026.3675948",
+      "urls": {
+        "doi": "https://doi.org/10.1109/tcad.2026.3675948",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "placement",
+        "routing"
+      ],
+      "primary_topic": "placement",
+      "top_venue": null,
+      "code": {
+        "status": "not_found",
+        "summary": "No verified public code repository was found.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "abstract and linked metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract mentions real-world industrial PCB cases; no public dataset name is given.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "classified_from_title_and_abstract",
+        "summary": "Gradient-based global placement for irregular, high-density PCBs that also considers surface-layer routability.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "title and abstract"
+        }
+      },
+      "problem_solved": {
+        "status": "reported_in_abstract",
+        "summary": "Places devices of very different sizes and irregular shapes in limited board area while meeting industrial constraints.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "abstract"
+        }
+      },
+      "evaluation": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract reports industrial-case experiments and a wire-length comparison with prior methods and manual designs.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "abstract"
+        },
+        "metrics_mentioned": [
+          "wire length"
+        ]
+      },
+      "baselines": {
+        "status": "reported_but_unnamed_in_abstract",
+        "summary": "The abstract mentions state-of-the-art methods and manual designs but does not name the placer baselines.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tcad.2026.3675948",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "evidence_level": "abstract",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1109/tcad.2026.3675948",
+          "https://api.crossref.org/works/10.1109/tcad.2026.3675948"
+        ],
+        "requested_id": "doi:10.1109/tcad.2026.3675948",
+        "note": "Publisher/DOI is the primary record. The IEEE abstract was used for evidence fields; no abstract text is stored."
+      }
+    },
+    {
+      "id": "doi:10.1007/s10836-026-06258-x",
+      "title": "ARC-Det: Adaptive Range-Aware Context Modeling for Printed Circuit Board Defect Detection",
+      "authors": [
+        "Xianjun Du",
+        "Jie Wang"
+      ],
+      "year": 2026,
+      "venue": "Journal of Electronic Testing",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1007/s10836-026-06258-x",
+      "urls": {
+        "doi": "https://doi.org/10.1007/s10836-026-06258-x",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "testing-inspection",
+        "ai-eda"
+      ],
+      "primary_topic": "testing-inspection",
+      "top_venue": null,
+      "code": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a verifiable code repository.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "Crossref metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a dataset or data source.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "inferred_from_title",
+        "summary": "The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "title and venue metadata"
+        }
+      },
+      "problem_solved": {
+        "status": "inferred_from_title",
+        "summary": "The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "title and venue metadata"
+        }
+      },
+      "evaluation": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "Crossref metadata"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not list a baseline.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1007/s10836-026-06258-x",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "evidence_level": "metadata-only",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1007/s10836-026-06258-x",
+          "https://api.crossref.org/works/10.1007/s10836-026-06258-x"
+        ],
+        "requested_id": "doi:10.1007/s10836-026-06258-x",
+        "note": "Exact title, authors, year, and venue container were retrieved from Crossref; no abstract was stored."
+      }
+    },
+    {
+      "id": "doi:10.1016/j.softx.2026.102959",
+      "title": "PRISM: An open-source desktop workflow for semi-automatic PCB connectivity and schematic reconstruction from double-sided board images",
+      "authors": [
+        "Kamil Maliński",
+        "Krzysztof Okarma"
+      ],
+      "year": 2026,
+      "venue": "SoftwareX",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1016/j.softx.2026.102959",
+      "urls": {
+        "doi": "https://doi.org/10.1016/j.softx.2026.102959",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "schematic-design",
+        "testing-inspection",
+        "benchmarks-tools"
+      ],
+      "primary_topic": "schematic-design",
+      "top_venue": null,
+      "code": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a verifiable code repository.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "Crossref metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a dataset or data source.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "inferred_from_title",
+        "summary": "The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "title and venue metadata"
+        }
+      },
+      "problem_solved": {
+        "status": "inferred_from_title",
+        "summary": "The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "title and venue metadata"
+        }
+      },
+      "evaluation": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "Crossref metadata"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not list a baseline.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.softx.2026.102959",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "evidence_level": "metadata-only",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1016/j.softx.2026.102959",
+          "https://api.crossref.org/works/10.1016/j.softx.2026.102959"
+        ],
+        "requested_id": "doi:10.1016/j.softx.2026.102959",
+        "note": "Exact title, authors, year, and venue container were retrieved from Crossref; no abstract was stored."
+      }
+    },
+    {
+      "id": "doi:10.1109/tpel.2026.3684629",
+      "title": "Integration of a Hybrid POD-CGaNet Model and NSGA-II for Efficient PCB Thermal Analysis and Multiobjective Heatsink Optimization",
+      "authors": [
+        "Jiaze Kong",
+        "Bangli Du",
+        "Yu Zuo",
+        "Xiaobing Shen",
+        "Diego Acevedo-Bueno",
+        "Ruth V. Sabariego",
+        "Wilmar Martinez"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Power Electronics",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1109/tpel.2026.3684629",
+      "urls": {
+        "doi": "https://doi.org/10.1109/tpel.2026.3684629",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "thermal-reliability",
+        "dfm-manufacturing"
+      ],
+      "primary_topic": "thermal-reliability",
+      "top_venue": null,
+      "code": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a verifiable code repository.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "Crossref metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a dataset or data source.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "inferred_from_title",
+        "summary": "The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "title and venue metadata"
+        }
+      },
+      "problem_solved": {
+        "status": "inferred_from_title",
+        "summary": "The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "title and venue metadata"
+        }
+      },
+      "evaluation": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "Crossref metadata"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not list a baseline.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1109/tpel.2026.3684629",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "evidence_level": "metadata-only",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1109/tpel.2026.3684629",
+          "https://api.crossref.org/works/10.1109/tpel.2026.3684629"
+        ],
+        "requested_id": "doi:10.1109/tpel.2026.3684629",
+        "note": "Exact title, authors, year, and venue container were retrieved from Crossref; no abstract was stored."
+      }
+    },
+    {
+      "id": "doi:10.1177/1478422x261484058",
+      "title": "Humidity-driven corrosion effects on PCB design analysed using a digital twin approach",
+      "authors": [
+        "Anish Rao Lakkaraju",
+        "Sajjad Bahrebar",
+        "Rajan Ambat"
+      ],
+      "year": 2026,
+      "venue": "Corrosion Engineering, Science and Technology",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1177/1478422x261484058",
+      "urls": {
+        "doi": "https://doi.org/10.1177/1478422x261484058",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "thermal-reliability",
+        "dfm-manufacturing",
+        "si-pi-emc"
+      ],
+      "primary_topic": "thermal-reliability",
+      "top_venue": null,
+      "code": {
+        "status": "not_found",
+        "summary": "No verified public code repository was found.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "abstract and linked metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "simulation",
+        "summary": "COMSOL secondary-current-distribution simulations of a three-dimensional two-electrode PCB under water-film and voltage variations.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "abstract"
+        },
+        "names": [
+          "COMSOL two-electrode PCB digital twin"
+        ]
+      },
+      "application_scenario": {
+        "status": "classified_from_title_and_abstract",
+        "summary": "Uses a digital twin to study how PCB layout, creepage, water-film electrolyte, and voltage affect humidity-driven leakage and electrochemical migration.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "title and abstract"
+        }
+      },
+      "problem_solved": {
+        "status": "reported_in_abstract",
+        "summary": "High- and low-voltage electronics need layout rules that reduce humidity-driven leak current and electrochemical migration on PCBA surfaces.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "abstract"
+        }
+      },
+      "evaluation": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract reports a two-simulation methodology on a 3D two-electrode PCB; no named public benchmark is stated.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "abstract"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible metadata or abstract does not list a baseline.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1177/1478422x261484058",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "evidence_level": "abstract",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1177/1478422x261484058",
+          "https://api.crossref.org/works/10.1177/1478422x261484058"
+        ],
+        "requested_id": "doi:10.1177/1478422x261484058",
+        "note": "Publisher/DOI is the primary record. Crossref provided the abstract used for evidence fields; no abstract text is stored."
+      }
+    },
+    {
+      "id": "doi:10.1016/j.engappai.2026.116061",
+      "title": "Deep learning for predicting partition-level homogenized properties for printed circuit board thermo-mechanical simulation: Edge-density-guided training-set design and cyclic training",
+      "authors": [
+        "Guoshun Wan",
+        "Meng Shao",
+        "Qi Dong",
+        "Mengxuan Cheng",
+        "Hao Zheng",
+        "Xiaohui Zhao",
+        "Qingtian Zeng",
+        "Yuxi Jia"
+      ],
+      "year": 2026,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "publication_state": "peer-reviewed",
+      "primary_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+      "urls": {
+        "doi": "https://doi.org/10.1016/j.engappai.2026.116061",
+        "arxiv": "",
+        "open_access_pdf": "",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "thermal-reliability",
+        "benchmarks-tools",
+        "ai-eda"
+      ],
+      "primary_topic": "thermal-reliability",
+      "top_venue": null,
+      "code": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a verifiable code repository.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "Crossref metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report a dataset or data source.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "inferred_from_title",
+        "summary": "The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "title and venue metadata"
+        }
+      },
+      "problem_solved": {
+        "status": "inferred_from_title",
+        "summary": "The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "title and venue metadata"
+        }
+      },
+      "evaluation": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "Crossref metadata"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible DOI and Crossref metadata do not list a baseline.",
+        "evidence": {
+          "source_url": "https://doi.org/10.1016/j.engappai.2026.116061",
+          "locator": "Crossref metadata"
+        },
+        "names": []
+      },
+      "evidence_level": "metadata-only",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://doi.org/10.1016/j.engappai.2026.116061",
+          "https://api.crossref.org/works/10.1016/j.engappai.2026.116061"
+        ],
+        "requested_id": "doi:10.1016/j.engappai.2026.116061",
+        "note": "Exact title, authors, year, and venue container were retrieved from Crossref; no abstract was stored."
+      }
+    },
+    {
+      "id": "arxiv:2608.31006",
+      "title": "From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow",
+      "authors": [
+        "Markus Heinrichs",
+        "Oscar Moschner",
+        "Simon Tewes",
+        "Volker Wienstroer",
+        "Aydin Sezgin",
+        "Rainer Kronberger"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "publication_state": "preprint",
+      "primary_url": "https://arxiv.org/abs/2608.31006",
+      "urls": {
+        "doi": "https://doi.org/10.48550/arXiv.2608.31006",
+        "arxiv": "https://arxiv.org/abs/2608.31006",
+        "open_access_pdf": "https://arxiv.org/pdf/2608.31006",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "schematic-design",
+        "si-pi-emc",
+        "benchmarks-tools",
+        "ai-eda"
+      ],
+      "primary_topic": "schematic-design",
+      "top_venue": null,
+      "code": {
+        "status": "not_found",
+        "summary": "No verified public code repository was found.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "abstract and linked metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible metadata or abstract does not report a public dataset.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "classified_from_title_and_abstract",
+        "summary": "An LLM agent designs a manufacturing-ready GNSS L1 antenna PCB by driving CST Studio Suite, Keysight ADS, and KiCad through scripting interfaces.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "title and abstract"
+        }
+      },
+      "problem_solved": {
+        "status": "reported_in_abstract",
+        "summary": "Shows that agentic coding environments can carry a professional RF board from specification through layout with limited engineer review.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "abstract"
+        }
+      },
+      "evaluation": {
+        "status": "preprint_claim",
+        "summary": "The preprint reports one completed GNSS L1 antenna PCB workflow; it is a case study, not a controlled benchmark.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "abstract"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "descriptive",
+        "summary": "Descriptive comparison of the engineer role before and after agentic tool use; no named algorithmic baseline.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.31006",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "evidence_level": "abstract",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://arxiv.org/abs/2608.31006",
+          "https://doi.org/10.48550/arXiv.2608.31006"
+        ],
+        "requested_id": "arxiv:2608.31006",
+        "note": "Curated from the arXiv abstract. No abstract text is stored."
+      }
+    },
+    {
+      "id": "arxiv:2608.22937",
+      "title": "Quality Inspection of Printed Circuit Board Pin Insertion via Semantic Segmentation and Board-Level Feature Extraction",
+      "authors": [
+        "Nils Rabeneck",
+        "André Kiunke",
+        "Nicole Hoess",
+        "Wolfgang Mauerer"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "publication_state": "preprint",
+      "primary_url": "https://arxiv.org/abs/2608.22937",
+      "urls": {
+        "doi": "https://doi.org/10.48550/arXiv.2608.22937",
+        "arxiv": "https://arxiv.org/abs/2608.22937",
+        "open_access_pdf": "https://arxiv.org/pdf/2608.22937",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "testing-inspection",
+        "dfm-manufacturing",
+        "ai-eda"
+      ],
+      "primary_topic": "testing-inspection",
+      "top_venue": null,
+      "code": {
+        "status": "not_found",
+        "summary": "No verified public code repository was found.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "abstract and linked metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The abstract describes pin-insertion images and board-level contour features but does not name a public dataset.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "application_scenario": {
+        "status": "classified_from_title_and_abstract",
+        "summary": "Detects incorrectly inserted pins on assembled PCBs by combining U-Net segmentation with board-level contour features and logistic regression.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "title and abstract"
+        }
+      },
+      "problem_solved": {
+        "status": "reported_in_abstract",
+        "summary": "Misaligned pin insertion is hard to inspect automatically during or after PCB assembly.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "abstract"
+        }
+      },
+      "evaluation": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract reports a board-level pass/fail classifier trained on contour features derived from segmentation masks.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "abstract"
+        },
+        "metrics_mentioned": []
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible metadata or abstract does not list a baseline.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2608.22937",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "evidence_level": "abstract",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://arxiv.org/abs/2608.22937",
+          "https://doi.org/10.48550/arXiv.2608.22937"
+        ],
+        "requested_id": "arxiv:2608.22937",
+        "note": "Curated from the arXiv abstract. No abstract text is stored."
+      }
+    },
+    {
+      "id": "arxiv:2607.19767",
+      "title": "Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation",
+      "authors": [
+        "Yichen Shi",
+        "Yuzhi Liu",
+        "Zhuofu Tao",
+        "Li Huang",
+        "Yuhao Gao",
+        "Ting-Jung Lin",
+        "Lei He"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "publication_state": "preprint",
+      "primary_url": "https://arxiv.org/abs/2607.19767",
+      "urls": {
+        "doi": "https://doi.org/10.48550/arXiv.2607.19767",
+        "arxiv": "https://arxiv.org/abs/2607.19767",
+        "open_access_pdf": "https://arxiv.org/pdf/2607.19767",
+        "code": "",
+        "data": ""
+      },
+      "scope": "pcb-core",
+      "topics": [
+        "schematic-design",
+        "benchmarks-tools",
+        "ai-eda"
+      ],
+      "primary_topic": "schematic-design",
+      "top_venue": null,
+      "code": {
+        "status": "not_found",
+        "summary": "No verified public code repository was found.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "abstract and linked metadata"
+        },
+        "url": "",
+        "checked_on": "2026-09-08"
+      },
+      "dataset": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract reports SFnet, a growing symbol and footprint database that currently contains 1000 components.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "abstract"
+        },
+        "names": [
+          "SFnet"
+        ]
+      },
+      "application_scenario": {
+        "status": "classified_from_title_and_abstract",
+        "summary": "An MLLM agent flow (SFgen) recognizes and generates schematic symbols and PCB footprints to populate a reusable component library.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "title and abstract"
+        }
+      },
+      "problem_solved": {
+        "status": "reported_in_abstract",
+        "summary": "Manual symbol and footprint authoring is slow and error-prone, and automated PCB schematic generation needs a recognizable library.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "abstract"
+        }
+      },
+      "evaluation": {
+        "status": "reported_in_abstract",
+        "summary": "The abstract reports 86% symbol-generation accuracy and 80% footprint-generation accuracy.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "abstract"
+        },
+        "metrics_mentioned": [
+          "accuracy"
+        ]
+      },
+      "baselines": {
+        "status": "not_reported_in_accessible_source",
+        "summary": "The accessible metadata or abstract does not list a baseline.",
+        "evidence": {
+          "source_url": "https://arxiv.org/abs/2607.19767",
+          "locator": "abstract"
+        },
+        "names": []
+      },
+      "evidence_level": "abstract",
+      "verification": {
+        "checked_on": "2026-09-08",
+        "sources": [
+          "https://arxiv.org/abs/2607.19767",
+          "https://doi.org/10.48550/arXiv.2607.19767"
+        ],
+        "requested_id": "arxiv:2607.19767",
+        "note": "Posted 2026-07-22 and missed by the previous harvest. Curated from the arXiv abstract; no abstract text is stored."
+      }
+    },
     {
       "id": "doi:10.1038/s41597-026-06818-y",
       "title": "A Graph-based Benchmark Dataset for Printed Circuit Netlist Partitioning",

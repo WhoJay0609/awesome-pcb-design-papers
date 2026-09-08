@@ -2,7 +2,7 @@
 
 > A source-checked, evidence-card catalog for PCB design automation and transferable EDA research.
 
-**Cutoff date:** 2026-08-11 · **PCB core:** 305 papers · **Related EDA:** 16 papers · **Topics:** 8
+**Cutoff date:** 2026-09-08 · **PCB core:** 315 papers · **Related EDA:** 16 papers · **Topics:** 8
 
 The repository follows the familiar Awesome-list layout. Each paper also has fields for code status, datasets or data sources, application scenario, problem addressed, final evaluation, baselines, and the evidence boundary.
 
@@ -20,29 +20,29 @@ Begin with the [open code and data view](docs/open-artifacts.md), then [browse b
 
 | Topic | Primary papers | All tagged papers |
 |---|---:|---:|
-| [Placement and legalization](docs/topics/placement.md) | 35 | 43 |
-| [Routing and constraint handling](docs/topics/routing.md) | 92 | 107 |
-| [Schematic and design-chain automation](docs/topics/schematic-design.md) | 14 | 20 |
-| [SI, PI, and EMC](docs/topics/si-pi-emc.md) | 70 | 90 |
-| [Thermal and reliability co-design](docs/topics/thermal-reliability.md) | 26 | 43 |
-| [DFM and assembly optimization](docs/topics/dfm-manufacturing.md) | 14 | 42 |
-| [Testing and inspection](docs/topics/testing-inspection.md) | 18 | 48 |
-| [Benchmarks, datasets, and tools](docs/topics/benchmarks-tools.md) | 36 | 111 |
+| [Placement and legalization](docs/topics/placement.md) | 37 | 45 |
+| [Routing and constraint handling](docs/topics/routing.md) | 92 | 109 |
+| [Schematic and design-chain automation](docs/topics/schematic-design.md) | 17 | 23 |
+| [SI, PI, and EMC](docs/topics/si-pi-emc.md) | 70 | 93 |
+| [Thermal and reliability co-design](docs/topics/thermal-reliability.md) | 29 | 46 |
+| [DFM and assembly optimization](docs/topics/dfm-manufacturing.md) | 14 | 45 |
+| [Testing and inspection](docs/topics/testing-inspection.md) | 20 | 51 |
+| [Benchmarks, datasets, and tools](docs/topics/benchmarks-tools.md) | 36 | 116 |
 | [Related EDA references](docs/related-eda.md) | 16 | 16 |
 
 ## Selected recent PCB-core papers (2024-2026)
 
-The complete 2024-2026 PCB-core corpus contains 121 papers. This selected view applies the rule: from 2024 onward, up to two per primary topic, ranked by year, top-venue, evidence depth, and reusable artifacts.
+The complete 2024-2026 PCB-core corpus contains 131 papers. This selected view applies the rule: from 2024 onward, up to two per primary topic, ranked by year, top-venue, evidence depth, and reusable artifacts.
 
 | Year | Paper | Primary topic | Code | Data | Evidence |
 |---:|---|---|---|---|---|
+| 2026 | [ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation](https://dl.acm.org/doi/10.1145/3770743.3803892) | Placement and legalization | not found | reported | full-text |
 | 2026 | [PCB-Migrator: Automated PCB PnR Migration](https://doi.org/10.23919/date69613.2026.11539307) | Schematic and design-chain automation | not found | not reported | abstract |
 | 2026 | [Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation](https://doi.org/10.23919/date69613.2026.11539310) | Schematic and design-chain automation | not found | reported in abstract | abstract |
 | 2026 | [DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method](https://doi.org/10.1109/asp-dac66049.2026.11420655) | Placement and legalization | not reported | not reported | metadata-only |
 | 2026 | [Introduction to High-Speed LVDS Twisted Pair Transmission Across PCB and Chiplet RDL Interfaces](https://doi.org/10.1109/ectc51846.2026.00359) | SI, PI, and EMC | not reported | not reported | metadata-only |
 | 2026 | [Warpage Prediction of PCB in Multi-Laminating Processes Considering Cure Shrinkage and Anisotropic Visco-Elastic Properties of Prepreg Core](https://doi.org/10.1109/ectc51846.2026.00258) | Thermal and reliability co-design | not reported | not reported | metadata-only |
 | 2026 | [A Graph-based Benchmark Dataset for Printed Circuit Netlist Partitioning](https://doi.org/10.1038/s41597-026-06818-y) | Benchmarks, datasets, and tools | [open](https://doi.org/10.6084/m9.figshare.30020125.v2) | [open](https://doi.org/10.6084/m9.figshare.30020125.v2) | project-page |
-| 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | Placement and legalization | [partial open](https://www.omnieda.com/) | [partial open](https://www.omnieda.com/) | project-page |
 | 2026 | [PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing](https://openreview.net/forum?id=Q5QLu7XTWx) | Benchmarks, datasets, and tools | [open](https://github.com/digailab/PCB-Bench) | [open](https://github.com/digailab/PCB-Bench) | project-page |
 | 2026 | [Automation of PCB Autorouting via World-Model Reinforcement Learning and FreeRouting Integration](https://doi.org/10.1016/j.eswa.2026.131424) | Routing and constraint handling | [open](https://github.com/yinqimakeitfun/dreamer-Autorouting/tree/main) | reported | project-page |
 | 2026 | [Complete Flow for PCB Design Consideration and Power/Signal Integrity Analysis Based on Broadband Model of Parasitic Elements](https://doi.org/10.1002/cta.70260) | SI, PI, and EMC | not found | measurement testbench | full-text |
@@ -55,11 +55,11 @@ The complete 2024-2026 PCB-core corpus contains 121 papers. This selected view a
 
 ## Operational top-venue coverage
 
-In this repository, complete top-venue coverage means a closed, auditable set: **DAC, ICCAD, DATE, ASP-DAC, ISPD, ECTC, EPEPS**. This is an operational definition, not a judgment about conference rankings. Each of the 192 admitted DOIs is bound to a catalog row. The inventory aims to account for every matching paper in that set, but inaccessible or rate-limited proceedings prevent a mathematical completeness claim. Related EDA is included only as a representative reference set.
+In this repository, complete top-venue coverage means a closed, auditable set: **DAC, ICCAD, DATE, ASP-DAC, ISPD, ECTC, EPEPS**. This is an operational definition, not a judgment about conference rankings. Each of the 193 admitted DOIs is bound to a catalog row. The inventory aims to account for every matching paper in that set, but inaccessible or rate-limited proceedings prevent a mathematical completeness claim. Related EDA is included only as a representative reference set.
 
 | Venue | Included | Metadata-only | Evidence-enriched |
 |---|---:|---:|---:|
-| DAC | 63 | 57 | 6 |
+| DAC | 64 | 57 | 7 |
 | ICCAD | 7 | 7 | 0 |
 | DATE | 7 | 3 | 4 |
 | ASP-DAC | 11 | 9 | 2 |
@@ -77,7 +77,7 @@ Keyword counts use a controlled regular-expression vocabulary over every title. 
 
 ![PCB topic distribution](assets/pcb_core_topic_distribution.svg)
 
-Top controlled keywords: `routing` (66), `placement` (36), `optimization` (35), `testing-inspection` (32), `manufacturing` (26), `reliability` (25), `thermal` (20), `co-design` (18), `signal-integrity` (18), `benchmark-dataset` (12), `emc-emi` (10), `llm-agent` (9).
+Top controlled keywords: `routing` (66), `placement` (38), `optimization` (37), `testing-inspection` (34), `manufacturing` (28), `reliability` (25), `thermal` (22), `co-design` (18), `signal-integrity` (18), `llm-agent` (12), `benchmark-dataset` (12), `emc-emi` (10).
 
 Reproduce with:
 

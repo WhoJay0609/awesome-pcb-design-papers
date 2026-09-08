@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
 
-35 papers are assigned to this primary topic; 43 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+37 papers are assigned to this primary topic; 45 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
 
 ## Catalog
 
@@ -13,8 +13,10 @@
 | 2026 | [DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method](#drlplace-a-deep-reinforcement-learning-based-irregular-and-high-density-printed-circuit-board-placement-method) | 2026 31st Asia and South Pacific Design Automation Conference (ASP-DAC) · **ASP-DAC** | not reported | metadata-only |
 | 2026 | [HiePlace: Efficient Hierarchical PCB Placement](#hieplace-efficient-hierarchical-pcb-placement) | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | not found | abstract |
 | 2026 | [Influence of Boundary Conditions and Component Placement on Lifetime of PCB Assemblies under Vibration Loading: XGBoost and SGB Analysis with SHAP Interpretation](#influence-of-boundary-conditions-and-component-placement-on-lifetime-of-pcb-assemblies-under-vibration-loading-xgboost-and-sgb-analysis-with-shap-interpretation) | Journal of Electronic Packaging | not found | abstract |
+| 2026 | [ISPCBPlace: A Gradient-Based Placement Method for Irregular-Shaped PCBs under Complex Design Constraints](#ispcbplace-a-gradient-based-placement-method-for-irregular-shaped-pcbs-under-complex-design-constraints) | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | not found | abstract |
 | 2026 | [MARS-Place: Multi-stage alignment-refined strategy for PCB placement and routing optimization](#mars-place-multi-stage-alignment-refined-strategy-for-pcb-placement-and-routing-optimization) | Integr. | not found | metadata-only |
 | 2026 | [Modern Automatic PCB Placement With Complex Constraints](#modern-automatic-pcb-placement-with-complex-constraints) | IEEE TCAD 45(5) | not found | abstract |
+| 2026 | [ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation](#moduplace-llm-assisted-modular-pcb-placement-via-preference-optimized-constraint-graph-generation) | 2026 63rd ACM/IEEE Design Automation Conference (DAC) · **DAC** | not found | full-text |
 | 2026 | [Multiobjective Hybrid Evolutionary Multitasking Algorithm for PCB Assembly Optimization in Beam-Head Placement Machines](#multiobjective-hybrid-evolutionary-multitasking-algorithm-for-pcb-assembly-optimization-in-beam-head-placement-machines) | IEEE Transactions on Industrial Informatics | not found | abstract |
 | 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](#omnilayout-a-schematic-coupled-multimodal-benchmark-for-constraint-aware-geometric-reasoning-in-pcb-layout) | arXiv | partial open | project-page |
 | 2025 | [A deep reinforcement learning framework for optimized dummy pad placement in PCB electroplating](#a-deep-reinforcement-learning-framework-for-optimized-dummy-pad-placement-in-pcb-electroplating) | Expert systems with applications | not found | metadata-only |
@@ -106,6 +108,18 @@
 - **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
+### ISPCBPlace: A Gradient-Based Placement Method for Irregular-Shaped PCBs under Complex Design Constraints
+
+- **Metadata:** 2026 · IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems · Lei Cai, Jixin Zhang, Ke Cheng, Haiyun Li, Zhiwei Ye, Mingyu Liu · [paper](https://doi.org/10.1109/tcad.2026.3675948)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: The abstract mentions real-world industrial PCB cases; no public dataset name is given.
+- **Application scenario:** Gradient-based global placement for irregular, high-density PCBs that also considers surface-layer routability.
+- **Problem addressed:** `reported_in_abstract`: Places devices of very different sizes and irregular shapes in limited board area while meeting industrial constraints.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports industrial-case experiments and a wire-length comparison with prior methods and manual designs. Metrics: wire length.
+- **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions state-of-the-art methods and manual designs but does not name the placer baselines.
+- **Evidence boundary:** `abstract`; checked on 2026-09-08.
+
 ### MARS-Place: Multi-stage alignment-refined strategy for PCB placement and routing optimization
 
 - **Metadata:** 2026 · Integr. · Peng Wei, Yunhao Hu, Zhuomin Chai, Hongyu Zhao, Wei Liu · [paper](https://doi.org/10.1016/j.vlsi.2026.102671)
@@ -129,6 +143,18 @@
 - **Final evaluation:** `reported`: The conference version reports better results on 12 boards than the ISPD 2015 contest winners and recent methods. Metrics: detailed-routing result, overall score.
 - **Baselines:** `reported_but_unnamed`: ISPD 2015 contest winners
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
+
+### ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation
+
+- **Metadata:** 2026 · 2026 63rd ACM/IEEE Design Automation Conference (DAC) · Yaohui Han, Beichen Li, Mingyang Zhao, Rongliang Fu, Qunsong Ye, Tinghuan Chen, Bei Yu, Tsung-Yi Ho · [paper](https://dl.acm.org/doi/10.1145/3770743.3803892)
+- **Scope and topics:** `pcb-core` · `placement`, `routing`, `si-pi-emc`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: The author PDF names baseline repositories and tools but does not publish a ModuPlace source URL.
+- **Dataset or data source:** `reported`: OpenROAD PCB cases, industrial PCB cases P1-P11
+- **Application scenario:** LLM-assisted modular PCB placement that builds a hierarchical modular tree and preference-optimized constraint graphs before detailed placement.
+- **Problem addressed:** `reported`: Existing placers optimize HPWL or density without modular foresight, so layouts can be unroutable or electromagnetically weak.
+- **Final evaluation:** `reported`: Routes all placements with PcbRouter and Freerouting and reports post-route wirelength, via count, insertion loss, and crosstalk on 11 boards. Metrics: wirelength, via count, insertion loss, crosstalk.
+- **Baselines:** `named`: SA-PCB, NS-Place, DeepPCB, PCBAgent, Qwen-2.5, Qwen-3, InternLM-2.5, DeepSeek-R1, Claude-3.5-Sonnet, GPT-4o
+- **Evidence boundary:** `full-text`; checked on 2026-09-08.
 
 ### Multiobjective Hybrid Evolutionary Multitasking Algorithm for PCB Assembly Optimization in Beam-Head Placement Machines
 
