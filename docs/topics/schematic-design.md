@@ -2,19 +2,22 @@
 
 [Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
 
-14 papers are assigned to this primary topic; 20 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+17 papers are assigned to this primary topic; 23 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
 
 ## Catalog
 
 | Year | Paper | Venue | Code | Evidence |
 |---:|---|---|---|---|
+| 2026 | [From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow](#from-prompt-to-prototype-towards-a-frontier-llm-driven-rf-engineering-workflow) | arXiv | not found | abstract |
 | 2026 | [OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning](#omnisch-a-multimodal-pcb-schematic-benchmark-for-structured-diagram-visual-reasoning) | arXiv | not found | project-page |
 | 2026 | [PCB-Migrator: Automated PCB PnR Migration](#pcb-migrator-automated-pcb-pnr-migration) | Design, Automation and Test in Europe · **DATE** | not found | abstract |
 | 2026 | [PCB-QA: A Task-Specific Question Answering Framework for Text-Centric Chip Datasheet Queries in PCB Design](#pcb-qa-a-task-specific-question-answering-framework-for-text-centric-chip-datasheet-queries-in-pcb-design) | ACM Transactions on Design Automation of Electronic Systems | not found | abstract |
 | 2026 | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](#pcbgpt-automatic-pcb-schematic-synthesis-from-natural-language-requirements) | arXiv | not found | full-text |
 | 2026 | [PCBSchemaGen: Reward-Guided LLM Code Synthesis for Printed Circuit Boards (PCB) Schematic Design with Structured Verification](#pcbschemagen-reward-guided-llm-code-synthesis-for-printed-circuit-boards-pcb-schematic-design-with-structured-verification) | arXiv | open | project-page |
+| 2026 | [PRISM: An open-source desktop workflow for semi-automatic PCB connectivity and schematic reconstruction from double-sided board images](#prism-an-open-source-desktop-workflow-for-semi-automatic-pcb-connectivity-and-schematic-reconstruction-from-double-sided-board-images) | SoftwareX | not reported | metadata-only |
 | 2026 | [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](#schgen-pcb-schematic-generation-with-semantic-grounded-code-representations) | arXiv | open | project-page |
 | 2026 | [Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation](#smart-pclib-a-llm-based-multi-agent-framework-for-automated-pcb-component-library-generation) | Design, Automation and Test in Europe · **DATE** | not found | abstract |
+| 2026 | [Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation](#symbol-and-footprint-database-for-electronic-components-by-agentic-recognition-and-generation) | arXiv | not found | abstract |
 | 2025 | [PCBSmith: An Effective Schematic Generator for Testing PCB Design Tool Chain](#pcbsmith-an-effective-schematic-generator-for-testing-pcb-design-tool-chain) | IEEE Transactions on Reliability | not found | abstract |
 | 2024 | [AEM-PCB Reverser: Circuit Schematic Generation in PCB Reverse Engineering Using Reinforcement Learning Based on Aesthetic Evaluation Metric](#aem-pcb-reverser-circuit-schematic-generation-in-pcb-reverse-engineering-using-reinforcement-learning-based-on-aesthetic-evaluation-metric) | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | not found | abstract |
 | 2024 | [Impact of Line Length and Component Selection on RF Performance for a PCB-based Ferromagnetic Nonlinear Transmission Line](#impact-of-line-length-and-component-selection-on-rf-performance-for-a-pcb-based-ferromagnetic-nonlinear-transmission-line) | IEEE International Power Modulator and High Voltage Conference | not found | metadata-only |
@@ -24,6 +27,18 @@
 | 1978 | [An Integrated System for Interactive Editing of Schematics, Logic Simulation and PCB Layout Design](#an-integrated-system-for-interactive-editing-of-schematics-logic-simulation-and-pcb-layout-design) | Design Automation Conference · **DAC** | not found | metadata-only |
 
 ## Paper cards
+
+### From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow
+
+- **Metadata:** 2026 · arXiv · Markus Heinrichs, Oscar Moschner, Simon Tewes, Volker Wienstroer, Aydin Sezgin, Rainer Kronberger · [paper](https://arxiv.org/abs/2608.31006)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `si-pi-emc`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not report a public dataset.
+- **Application scenario:** An LLM agent designs a manufacturing-ready GNSS L1 antenna PCB by driving CST Studio Suite, Keysight ADS, and KiCad through scripting interfaces.
+- **Problem addressed:** `reported_in_abstract`: Shows that agentic coding environments can carry a professional RF board from specification through layout with limited engineer review.
+- **Final evaluation:** `preprint_claim`: The preprint reports one completed GNSS L1 antenna PCB workflow; it is a case study, not a controlled benchmark. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `descriptive`: Descriptive comparison of the engineer role before and after agentic tool use; no named algorithmic baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-09-08.
 
 ### OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning
 
@@ -85,6 +100,18 @@
 - **Baselines:** `named`: Circuitron-style prompting
 - **Evidence boundary:** `project-page`; checked on 2026-08-11.
 
+### PRISM: An open-source desktop workflow for semi-automatic PCB connectivity and schematic reconstruction from double-sided board images
+
+- **Metadata:** 2026 · SoftwareX · Kamil Maliński, Krzysztof Okarma · [paper](https://doi.org/10.1016/j.softx.2026.102959)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `testing-inspection`, `benchmarks-tools`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-09-08.
+
 ### SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations
 
 - **Metadata:** 2026 · arXiv · Qinpei Luo, Ruichun Ma, Xinyu Zhang, Lili Qiu · [paper](https://arxiv.org/abs/2605.30345)
@@ -108,6 +135,18 @@
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
 - **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
+
+### Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation
+
+- **Metadata:** 2026 · arXiv · Yichen Shi, Yuzhi Liu, Zhuofu Tao, Li Huang, Yuhao Gao, Ting-Jung Lin, Lei He · [paper](https://arxiv.org/abs/2607.19767)
+- **Scope and topics:** `pcb-core` · `schematic-design`, `benchmarks-tools`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `reported_in_abstract`: SFnet
+- **Application scenario:** An MLLM agent flow (SFgen) recognizes and generates schematic symbols and PCB footprints to populate a reusable component library.
+- **Problem addressed:** `reported_in_abstract`: Manual symbol and footprint authoring is slow and error-prone, and automated PCB schematic generation needs a recognizable library.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports 86% symbol-generation accuracy and 80% footprint-generation accuracy. Metrics: accuracy.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-09-08.
 
 ### PCBSmith: An Effective Schematic Generator for Testing PCB Design Tool Chain
 

@@ -1,9 +1,9 @@
 topic,paper_count
 benchmarks-tools,36
 dfm-manufacturing,14
-placement,35
+placement,37
 routing,92
-schematic-design,14
+schematic-design,17
 si-pi-emc,70
-testing-inspection,18
-thermal-reliability,26
+testing-inspection,20
+thermal-reliability,29

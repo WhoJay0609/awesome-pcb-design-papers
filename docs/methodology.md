@@ -7,7 +7,7 @@ The catalog has two deliberately separate layers:
 1. `pcb-core`: the printed circuit board is the object being designed, placed, routed, modeled, manufactured, tested, or inspected.
 2. `related-eda`: non-PCB automation whose method can transfer to PCB work. These records are representative references, not an exhaustive EDA survey.
 
-The retrieval cutoff is **2026-08-11**. The catalog includes peer-reviewed papers and clearly labeled preprints. Patents, book chapters, corrections, data fragments, PCB recycling/pollutant work, and papers where a PCB is merely incidental hardware are excluded.
+The retrieval cutoff is **2026-09-08**. The catalog includes peer-reviewed papers and clearly labeled preprints. Patents, book chapters, corrections, data fragments, PCB recycling/pollutant work, and papers where a PCB is merely incidental hardware are excluded.
 
 ## Search and discovery
 
@@ -75,6 +75,6 @@ Full abstracts are not redistributed. The catalog stores original short summarie
 - Papers can avoid PCB/PWB terms in their titles and abstracts.
 - Code can be released after the catalog's verification date.
 - "Latest" is a moving boundary. The cutoff makes the time boundary explicit, but it does not make the catalog permanently current.
-- The URL-check snapshot treats publisher `401/403` responses as access-controlled rather than dead links. On 2026-08-11, 348 of 351 unique paper/code/data URLs were reachable or access-controlled. Two dataset hosts returned network errors, and one author-reported Kaggle URL returned HTTP 404. The catalog retains these links as provenance and marks the Kaggle dataset `reported_link_unreachable` rather than open.
+- The URL-check snapshot treats publisher `401/403` responses as access-controlled rather than dead links. The 2026-08-11 snapshot found 348 of 351 unique paper/code/data URLs reachable or access-controlled, with two dataset-host network errors and one author-reported Kaggle URL returning HTTP 404. The 2026-09-08 harvest rechecked newly admitted URLs and merged them into that snapshot. The catalog retains previously unreachable provenance links and marks the Kaggle dataset `reported_link_unreachable` rather than open.
 
 Corrections with a primary source are welcome.

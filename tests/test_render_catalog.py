@@ -166,7 +166,7 @@ class RenderCatalogReaderTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             rendered = readme.read_text(encoding="utf-8")
             self.assertIn("## Selected recent PCB-core papers (2024-2027)", rendered)
-            self.assertIn("complete 2024-2027 PCB-core corpus contains 122 papers", rendered)
+            self.assertIn("complete 2024-2027 PCB-core corpus contains 132 papers", rendered)
 
     def test_generated_readme_exposes_reader_tables_and_counts(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -194,12 +194,12 @@ class RenderCatalogReaderTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             rendered = readme.read_text(encoding="utf-8")
             self.assertIn("## Selected recent PCB-core papers (2024-2026)", rendered)
-            self.assertIn("complete 2024-2026 PCB-core corpus contains 121 papers", rendered)
+            self.assertIn("complete 2024-2026 PCB-core corpus contains 131 papers", rendered)
             self.assertIn("up to two per primary topic", rendered)
             self.assertIn("| Topic | Primary papers | All tagged papers |", rendered)
-            self.assertIn("| [Placement and legalization](docs/topics/placement.md) | 35 | 43 |", rendered)
+            self.assertIn("| [Placement and legalization](docs/topics/placement.md) | 37 | 45 |", rendered)
             self.assertIn("| Venue | Included | Metadata-only | Evidence-enriched |", rendered)
-            self.assertIn("| DAC | 63 | 57 | 6 |", rendered)
+            self.assertIn("| DAC | 64 | 57 | 7 |", rendered)
             self.assertIn("[open code and data view](docs/open-artifacts.md)", rendered)
             artifact_page = (output / "docs" / "open-artifacts.md").read_text(encoding="utf-8")
             self.assertEqual(artifact_page.count("| 2026 |"), 7)

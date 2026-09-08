@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
 
-18 papers are assigned to this primary topic; 48 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+20 papers are assigned to this primary topic; 51 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
 
 ## Catalog
 
@@ -10,8 +10,10 @@
 |---:|---|---|---|---|
 | 2026 | [A Lightweight Model for PCB Surface Defect Detection](#a-lightweight-model-for-pcb-surface-defect-detection) | Electronics | not found | abstract |
 | 2026 | [A multi-cognitive PCB defect detection model integrating Mamba](#a-multi-cognitive-pcb-defect-detection-model-integrating-mamba) | Scientific Reports | not found | abstract |
+| 2026 | [ARC-Det: Adaptive Range-Aware Context Modeling for Printed Circuit Board Defect Detection](#arc-det-adaptive-range-aware-context-modeling-for-printed-circuit-board-defect-detection) | Journal of Electronic Testing | not reported | metadata-only |
 | 2026 | [MEE-DETR: Multi-Scale Edge-Aware Enhanced Transformer for PCB Defect Detection](#mee-detr-multi-scale-edge-aware-enhanced-transformer-for-pcb-defect-detection) | Electronics | not found | abstract |
 | 2026 | [MSAD-Net: A PCB Small-Defect Detection Framework Based on Mask-Driven and Spatially Adaptive Downsampling](#msad-net-a-pcb-small-defect-detection-framework-based-on-mask-driven-and-spatially-adaptive-downsampling) | IEEE Transactions on Components, Packaging, and Manufacturing Technology | not found | abstract |
+| 2026 | [Quality Inspection of Printed Circuit Board Pin Insertion via Semantic Segmentation and Board-Level Feature Extraction](#quality-inspection-of-printed-circuit-board-pin-insertion-via-semantic-segmentation-and-board-level-feature-extraction) | arXiv | not found | abstract |
 | 2025 | [Automated 3D Semantic Segmentation of PCB X-ray CT Images and Netlist Extraction](#automated-3d-semantic-segmentation-of-pcb-x-ray-ct-images-and-netlist-extraction) | Scientific Reports 15 | not found | full-text |
 | 2025 | [Flying-Probe Testing: A Trajectory Planner and a Benchmark Suite](#flying-probe-testing-a-trajectory-planner-and-a-benchmark-suite) | IEEE TCAD 44(12) | not found | abstract |
 | 2024 | [Applying Machine Learning to Construct a Printed Circuit Board Gold Finger Defect Detection System](#applying-machine-learning-to-construct-a-printed-circuit-board-gold-finger-defect-detection-system) | Electronics | not found | abstract |
@@ -53,6 +55,18 @@
 - **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
 
+### ARC-Det: Adaptive Range-Aware Context Modeling for Printed Circuit Board Defect Detection
+
+- **Metadata:** 2026 · Journal of Electronic Testing · Xianjun Du, Jie Wang · [paper](https://doi.org/10.1007/s10836-026-06258-x)
+- **Scope and topics:** `pcb-core` · `testing-inspection`, `ai-eda`
+- **Code:** not_reported_in_accessible_source: The accessible DOI and Crossref metadata do not report a verifiable code repository.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report a dataset or data source.
+- **Application scenario:** The title concerns PCB or board-level design, interconnects, package-to-board SI/PI, or manufacturing and testing. This classification is inferred from the title and the DOI record; it is not treated as an experimental finding.
+- **Problem addressed:** `inferred_from_title`: The paper addresses the PCB or board-level task described by its title. The precise problem boundary requires the full paper.
+- **Final evaluation:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not report final tests, metrics, or numerical results. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible DOI and Crossref metadata do not list a baseline.
+- **Evidence boundary:** `metadata-only`; checked on 2026-09-08.
+
 ### MEE-DETR: Multi-Scale Edge-Aware Enhanced Transformer for PCB Defect Detection
 
 - **Metadata:** 2026 · Electronics · Xiaoyu Ma, Xiaolan Xie, Yuhui Song · [paper](https://doi.org/10.3390/electronics15030504)
@@ -76,6 +90,18 @@
 - **Final evaluation:** `reported_in_abstract`: The abstract reports an experiment or evaluation; the metric field lists only items explicitly mentioned in the abstract. Metrics: accuracy.
 - **Baselines:** `reported_but_unnamed_in_abstract`: The abstract mentions a comparison but does not name the baseline.
 - **Evidence boundary:** `abstract`; checked on 2026-08-11.
+
+### Quality Inspection of Printed Circuit Board Pin Insertion via Semantic Segmentation and Board-Level Feature Extraction
+
+- **Metadata:** 2026 · arXiv · Nils Rabeneck, André Kiunke, Nicole Hoess, Wolfgang Mauerer · [paper](https://arxiv.org/abs/2608.22937)
+- **Scope and topics:** `pcb-core` · `testing-inspection`, `dfm-manufacturing`, `ai-eda`
+- **Code:** not_found: No verified public code repository was found.
+- **Dataset or data source:** `not_reported_in_accessible_source`: The abstract describes pin-insertion images and board-level contour features but does not name a public dataset.
+- **Application scenario:** Detects incorrectly inserted pins on assembled PCBs by combining U-Net segmentation with board-level contour features and logistic regression.
+- **Problem addressed:** `reported_in_abstract`: Misaligned pin insertion is hard to inspect automatically during or after PCB assembly.
+- **Final evaluation:** `reported_in_abstract`: The abstract reports a board-level pass/fail classifier trained on contour features derived from segmentation masks. Metrics: not explicitly listed in the accessible sources.
+- **Baselines:** `not_reported_in_accessible_source`: The accessible metadata or abstract does not list a baseline.
+- **Evidence boundary:** `abstract`; checked on 2026-09-08.
 
 ### Automated 3D Semantic Segmentation of PCB X-ray CT Images and Netlist Extraction
 

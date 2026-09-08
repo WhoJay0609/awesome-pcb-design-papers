@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Catalog table](#catalog) · [Paper cards](#paper-cards)
 
-14 papers are assigned to this primary topic; 42 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
+14 papers are assigned to this primary topic; 45 PCB-core papers carry it as a primary or additional tag. Detailed fields come from `data/papers.json`; `not_reported` means that the accessible evidence does not state the field. Not reported does not mean absent.
 
 ## Catalog
 
